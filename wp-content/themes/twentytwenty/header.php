@@ -81,6 +81,14 @@
 
 				</div><!-- .header-titles-wrapper -->
 
+				<form role="search" aria-label="Search for:" method="get" class="search-form" action="http://wordpress.project/">
+						<label for="search-form-1">
+						<span class="screen-reader-text">Search for:</span>
+							<input type="search" id="search-form-1" class="search-field" placeholder="Search …" value="" name="s">
+						</label>
+					<input type="submit" class="search-submit" value="Search">
+						</form>
+
 				<div class="header-navigation-wrapper">
 
 					<?php
