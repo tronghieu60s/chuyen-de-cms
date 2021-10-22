@@ -32,6 +32,7 @@ if (!is_single()) :
 							<?php the_title('<h4><a href="' . esc_url(get_permalink()) . '">', '</a></h4>'); ?>
 							<p>
 								<?php echo strip_tags(substr($post->post_content, 0, 300));	?>
+								<a href="<?= esc_url(get_permalink()) ?>">[...]</a>
 							</p>
 						</div>
 					</div>
