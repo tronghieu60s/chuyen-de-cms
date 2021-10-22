@@ -17,6 +17,7 @@
 
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 		<link rel="profile" href="https://gmpg.org/xfn/11">
 
@@ -164,13 +165,18 @@
 							<?php
 						}
 						?>
-
+							<div class="toggle-wrapper search-toggle-wrapper">
+								<button class="toggle search-toggle">
+									<span class="toggle-inner">
+									<i class="fa fa-user-circle-o" aria-hidden="true"></i>
+									<span class="toggle-text"><?php _ex( 'Account', 'toggle text', 'twentytwenty' ); ?></span>
+								</span>
+							</button>
+				</div><!-- .header-navigation-wrapper -->
 						</div><!-- .header-toggles -->
 						<?php
 					}
 					?>
-
-				</div><!-- .header-navigation-wrapper -->
 
 			</div><!-- .header-inner -->
 
