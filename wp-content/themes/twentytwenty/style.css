@@ -6637,6 +6637,7 @@ section .section-title {
 #footer ul.social li:hover a i {
   font-size: 30px;
   margin-top: -10px;
+  
 }
 #footer ul.social li a,
 #footer ul.quick-links li a {
@@ -6793,13 +6794,7 @@ a {
   font-weight: 510;
   font-size: 18px;
 }
-.headlines .headlinesdate {
-  font-size: 0.8em;
-  width: 15%;
-  min-width: 55px;
-  display: table-cell;
-  vertical-align: middle;
-}
+
 .headlinesdate .headlinesday {
   border-bottom: 1px solid #fff;
 }
@@ -6808,9 +6803,13 @@ a {
   float: left;
   margin-left: 3px;
 }
- .headlinesday,
 .headlinesdate .headlinesday {
   border-bottom: 1px solid #000;
+  font-size: 21px;
+}
+.headlinesdate .headlinesmonth {
+  font-size: 21px;
+  margin-top: -5px;
 }
 
 .title {
