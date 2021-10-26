@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The default template for displaying content
  *
@@ -10,6 +11,8 @@
  * @subpackage Twenty_Twenty
  * @since Twenty Twenty 1.0
  */
+
+$post = get_post();
 
 ?>
 
@@ -82,40 +85,38 @@ if (!is_single()) :
 				)
 			);
 
-		edit_post_link();
+			edit_post_link();
 
-		// Single bottom post meta.
-		twentytwenty_the_post_meta( get_the_ID(), 'single-bottom' );
+			// Single bottom post meta.
+			twentytwenty_the_post_meta(get_the_ID(), 'single-bottom');
 
-		if ( post_type_supports( get_post_type( get_the_ID() ), 'author' ) && is_single() ) {
+			if (post_type_supports(get_post_type(get_the_ID()), 'author') && is_single()) {
 
-			get_template_part( 'template-parts/entry-author-bio' );
+				get_template_part('template-parts/entry-author-bio');
+			}
+			?>
 
+		</div><!-- .section-inner -->
+
+		<?php
+
+		if (is_single()) {
+
+			get_template_part('template-parts/navigation');
 		}
-		?>
 
-	</div><!-- .section-inner -->
-
-	<?php
-
-	if ( is_single() ) {
-
-		get_template_part( 'template-parts/navigation' );
-
-	}
-
-	/*
+		/*
 	 * Output comments wrapper if it's a post, or if comments are open,
 	 * or if there's a comment number – and check for password.
 	 */
-	if ( ( is_single() || is_page() ) && ( comments_open() || get_comments_number() ) && ! post_password_required() ) {
+		if ((is_single() || is_page()) && (comments_open() || get_comments_number()) && !post_password_required()) {
 		?>
 
-		<div class="comments-wrapper section-inner">
+			<div class="comments-wrapper section-inner">
 
-			<?php comments_template(); ?>
+				<?php comments_template(); ?>
 
-		</div><!-- .comments-wrapper -->
+			</div><!-- .comments-wrapper -->
 
 		<?php
 		}
