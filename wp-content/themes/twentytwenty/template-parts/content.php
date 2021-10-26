@@ -52,25 +52,26 @@ if (!is_single()) :
 <?php else : ?>
 
 	<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-		<div class="col-md-8">
-			<?php
+		<div class="detail-content">
+			<div class="col-md-8">
+				<?php
+				get_template_part('template-parts/entry-header');
 
-			get_template_part('template-parts/entry-header');
+				if (!is_search()) {
+					get_template_part('template-parts/featured-image');
+				}
 
-			if (!is_search()) {
-				get_template_part('template-parts/featured-image');
-			}
-
-			?>
-			<div class="row maincontent">
-				<div class="col-md-12">
-					<?php
-					if (is_search() || !is_singular() && 'summary' === get_theme_mod('blog_content', 'full')) {
-						the_excerpt();
-					} else {
-						the_content(__('Continue reading', 'twentytwenty'));
-					}
-					?>
+				?>
+				<div class="row maincontent">
+					<div class="col-md-12">
+						<?php
+						if (is_search() || !is_singular() && 'summary' === get_theme_mod('blog_content', 'full')) {
+							the_excerpt();
+						} else {
+							the_content(__('Continue reading', 'twentytwenty'));
+						}
+						?>
+					</div>
 				</div>
 			</div>
 		</div>
