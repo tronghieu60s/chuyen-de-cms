@@ -1246,6 +1246,10 @@ button.toggle {
 .search-form .search-field,
 .search-form .search-submit {
   margin: 0 0 0.8rem 0.8rem;
+  color: #545b62;
+    background-color: white;
+    border-style: solid;
+    border-width: 0.1rem;
 }
 
 .search-form label {
@@ -1329,13 +1333,8 @@ ul.social-icons li {
 /* -------------------------------------------------------------------------- */
 
 #site-header {
-<<<<<<< HEAD
 	background: #f7f7f7;
 	position: relative;
-=======
-  background: #fff;
-  position: relative;
->>>>>>> master
 }
 
 .header-inner {
@@ -1363,12 +1362,8 @@ body:not(.enable-search-modal) .header-titles-wrapper {
 .site-title,
 .site-logo,
 .site-description {
-<<<<<<< HEAD
 	margin: 0;
 
-=======
-  margin: 0;
->>>>>>> master
 }
 
 
@@ -1457,12 +1452,8 @@ body:not(.enable-search-modal) .site-logo img {
 /* Header Navigation ------------------------- */
 
 .header-navigation-wrapper {
-<<<<<<< HEAD
 	display: none;
 	margin-left: auto;
-=======
-  display: none;
->>>>>>> master
 }
 
 /* Header Toggles ---------------------------- */
@@ -6181,7 +6172,6 @@ a.to-the-top > * {
     margin: 0 0 0 auto;
   }
 
-<<<<<<< HEAD
 	/* Blocks -------------------------------- */
 
 	/* BLOCK: COLUMNS */
@@ -6589,9 +6579,6 @@ a.to-the-top > * {
 	.alignfull > .wp-caption-text {
 		width: calc(100% - 10rem);
 	}
-=======
-  /* Site Footer --------------------------- */
->>>>>>> master
 
   /* FOOTER TOP */
 
@@ -7307,6 +7294,14 @@ a {
 form{
 	display: flex;
 }
-.search-submit{
-	color: black;
+.toggle-wrapper{
+  font-size: 35px;
+}
+.dropdown{
+  display: flex;
+  margin-left: 20px;
+}
+
+element.style {
+  color: aqua;
 }

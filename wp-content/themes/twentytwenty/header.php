@@ -22,12 +22,14 @@
 		<link rel="profile" href="https://gmpg.org/xfn/11">
 
 		<?php wp_head(); ?>
-
 		<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	</head>
 
 	<body <?php body_class(); ?>>
@@ -178,14 +180,21 @@
 							<?php
 						}
 						?>
-							<div class="toggle-wrapper search-toggle-wrapper">
-								<button class="toggle search-toggle">
-									<span class="toggle-inner">
-									<i class="fa fa-user-circle-o" aria-hidden="true"></i>
-									<span class="toggle-text"><?php _ex( 'Account', 'toggle text', 'twentytwenty' ); ?></span>
-								</span>
-							</button>
-				</div><!-- .header-navigation-wrapper -->
+							<div class="toggle-wrapper">
+								<button class="toggle">
+								<i class="fa fa-user-circle-o" aria-hidden="true"></i>
+								</button>
+								<div class="dropdown">
+									<button class="btn btn-light dropdown-toggle"  style="font-size: 15px" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<strong>Account</strong>
+									</button>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+										<a class="dropdown-item" href="#">Admin</a>
+										<a class="dropdown-item" href="#">Login</a>
+										<a class="dropdown-item" href="#">Log Out</a>
+									</div>
+								</div>
+							</div><!-- .header-navigation-wrapper -->
 						</div><!-- .header-toggles -->
 						<?php
 					}
