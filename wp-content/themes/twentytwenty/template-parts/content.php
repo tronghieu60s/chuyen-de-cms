@@ -52,33 +52,29 @@ if (!is_single()) :
 <?php else : ?>
 
 	<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-
-		<?php
-
-		get_template_part('template-parts/entry-header');
-
-		if (!is_search()) {
-			get_template_part('template-parts/featured-image');
-		}
-
-		?>
-
-		<div class="post-inner <?php echo is_page_template('templates/template-full-width.php') ? '' : 'thin'; ?> ">
-
-			<div class="entry-content">
-
+		<div class="detail-content">
+			<div class="col-md-8">
 				<?php
-				if (is_search() || !is_singular() && 'summary' === get_theme_mod('blog_content', 'full')) {
-					the_excerpt();
-				} else {
-					the_content(__('Continue reading', 'twentytwenty'));
+				get_template_part('template-parts/entry-header');
+
+				if (!is_search()) {
+					get_template_part('template-parts/featured-image');
 				}
+
 				?>
-
-			</div><!-- .entry-content -->
-
-		</div><!-- .post-inner -->
-
+				<div class="row maincontent">
+					<div class="col-md-12">
+						<?php
+						if (is_search() || !is_singular() && 'summary' === get_theme_mod('blog_content', 'full')) {
+							the_excerpt();
+						} else {
+							the_content(__('Continue reading', 'twentytwenty'));
+						}
+						?>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="section-inner">
 			<?php
 			wp_link_pages(
@@ -126,7 +122,6 @@ if (!is_single()) :
 		<?php
 		}
 		?>
-
 	</article><!-- .post -->
 
 <?php endif; ?>
