@@ -4853,6 +4853,10 @@ a.to-the-top > * {
   input[type="reset"],
   input[type="submit"] {
     font-size: 1.7rem;
+<<<<<<< HEAD
+    display: none;
+=======
+>>>>>>> origin/master
   }
 
   /* MEDIA */
