@@ -66,14 +66,26 @@
 					<?php } ?>
 
 					<div class="header-titles">
-
-						<?php
+							<nav class="navbar navbar-expand-sm navbar-light bg-light">
+							<?php
 							// Site title or logo.
 							twentytwenty_site_logo();
 
 							// Site description.
-							twentytwenty_site_description();
-						?>
+							// twentytwenty_site_description();
+							?>
+								<button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+									aria-expanded="false" aria-label="Toggle navigation">
+									<span class="navbar-toggler-icon"></span>
+								</button>
+								<div class="collapse navbar-collapse" id="collapsibleNavId">
+									<ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="margin-left: 0px">
+										<li class="nav-item active">
+											<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+										</li>
+									</ul>
+								</div>
+							</nav>
 
 					</div><!-- .header-titles -->
 
@@ -93,7 +105,7 @@
 						<span class="screen-reader-text">Search for:</span>
 							<input type="search" id="search-form-1" class="search-field" placeholder="Search …" value="" name="s">
 						</label>
-					<input type="submit" class="search-submit" value="Search">
+					<input type="submit" class="search-submit" value="Submit">
 						</form>
 
 				<div class="header-navigation-wrapper">
@@ -189,9 +201,9 @@
 									<strong>Account</strong>
 									</button>
 									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-										<a class="dropdown-item" href="#">Admin</a>
-										<a class="dropdown-item" href="#">Login</a>
-										<a class="dropdown-item" href="#">Log Out</a>
+										<a class="dropdown-item" href="http://wordpress.project/wp-admin/profile.php">Admin</a>
+										<a class="dropdown-item" href="http://wordpress.project/wp-login.php?redirect_to=http%3A%2F%2Fwordpress.project%2Fwp-admin%2F&reauth=1">Login</a>
+										<a class="dropdown-item" href="http://wordpress.project/wp-login.php?action=logout&amp;_wpnonce=8b20a49452">Log Out</a>
 									</div>
 								</div>
 							</div><!-- .header-navigation-wrapper -->

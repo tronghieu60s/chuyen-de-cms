@@ -1363,7 +1363,6 @@ body:not(.enable-search-modal) .header-titles-wrapper {
 .site-logo,
 .site-description {
 	margin: 0;
-
 }
 
 
@@ -7301,7 +7300,7 @@ form{
   display: flex;
   margin-left: 20px;
 }
-
-element.style {
-  color: aqua;
+ul li a {
+  color: #888A9B !important;
+  text-decoration: none !important;
 }
