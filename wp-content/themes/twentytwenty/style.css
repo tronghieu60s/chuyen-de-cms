@@ -4859,7 +4859,6 @@ a.to-the-top > * {
   input[type="reset"],
   input[type="submit"] {
     font-size: 1.7rem;
-    display: none;
   }
 
   /* MEDIA */
