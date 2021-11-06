@@ -40,7 +40,7 @@
 
 		<header id="site-header" class="header-footer-group" role="banner">
 
-			<div class="header-inner section-inner">
+			<div class="header-inner section-inner" style="padding-top: 0px;padding-bottom: 0px;">
 
 				<div class="header-titles-wrapper" style=" margin-right: 10px;">
 
