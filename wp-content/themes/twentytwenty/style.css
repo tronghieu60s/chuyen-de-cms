@@ -2705,7 +2705,7 @@ h2.entry-title {
 }
 
 .pagination-single a {
-  align-items: baseline;
+  /* align-items: baseline; */
   display: flex;
   font-weight: 600;
   letter-spacing: -0.0275em;
@@ -2714,7 +2714,7 @@ h2.entry-title {
 }
 
 .pagination-single a + a {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 }
 
 .pagination-single a .arrow {
@@ -4859,6 +4859,7 @@ a.to-the-top > * {
   input[type="reset"],
   input[type="submit"] {
     font-size: 1.7rem;
+    display: none;
   }
 
   /* MEDIA */
@@ -5176,7 +5177,7 @@ a.to-the-top > * {
 
   .pagination-single {
     font-size: 2.4rem;
-    margin-top: 8rem;
+    /* margin-top: 8rem; */
   }
 
   .pagination-single-inner {
@@ -5197,7 +5198,7 @@ a.to-the-top > * {
   }
 
   .pagination-single a + a {
-    margin: 0 0 0 4rem;
+    /* margin: 0 0 0 4rem; */
   }
 
   .pagination-single a .arrow {
@@ -5205,8 +5206,8 @@ a.to-the-top > * {
   }
 
   .pagination-single .next-post {
-    flex-direction: row-reverse;
-    text-align: right;
+    /* flex-direction: row-reverse; */
+    /* text-align: right; */
   }
 
   .pagination-single .next-post .arrow {
@@ -7210,22 +7211,22 @@ a {
   border-bottom: 1px solid #fff;
 }
 .headlinesdate .headlinesyear {
-  line-height: 3.5em;
+  line-height: 3em;
   float: left;
   margin-left: 3px;
 }
 .headlinesdate .headlinesday {
   border-bottom: 1px solid #000;
-  font-size: 21px;
+  /* font-size: 21px; */
 }
-.headlinesdate .headlinesmonth {
+/* .headlinesdate .headlinesmonth {
   font-size: 21px;
   margin-top: -5px;
-}
+} */
 
 .title {
   border: none;
-  margin-top: 45px;
+  margin-top: 15px;
 }
 
 .title .headlinesdate {

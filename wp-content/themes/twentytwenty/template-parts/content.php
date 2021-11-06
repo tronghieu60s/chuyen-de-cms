@@ -20,59 +20,67 @@ $post = get_post();
 <?php
 if (!is_single()) :
 ?>
-	<div class="col-md-8">
-		<div class="list_new_view">
-			<div class="row">
-				<?php if (is_search()) : ?>
-					<div class="col-md-3">
-						<div class="top_news_block_thumb">
-							<img src="<?= get_the_post_thumbnail_url($post) ?>">
+	<div class="row">
+		<div class="col"></div>
+		<div class="col-md-6">
+			<div class="list_new_view">
+				<div class="row">
+					<?php if (is_search()) : ?>
+						<div class="col-md-4">
+							<div class="top_news_block_thumb">
+								<img src="<?= get_the_post_thumbnail_url($post) ?>">
+							</div>
 						</div>
-					</div>
-				<?php endif; ?>
-				<div class="col-md-7 top_news_block_desc">
-					<div class="row">
-						<div class="col-md-3 col-xs-3 topnewstime">
-							<span class="topnewsdate"><?php echo date('d', strtotime($post->post_date)) ?></span><br>
-							<span class="topnewsmonth">Tháng <?php echo date('m', strtotime($post->post_date)) ?></span><br>
-						</div>
-						<div class="col-md-9 col-xs-9 shortdesc">
-							<?php the_title('<h4><a href="' . esc_url(get_permalink()) . '">', '</a></h4>'); ?>
-							<p>
-								<?php echo strip_tags(substr($post->post_content, 0, 300));	?>
-								<a href="<?= esc_url(get_permalink()) ?>">[...]</a>
-							</p>
+					<?php endif; ?>
+					<div class="col-md-7 top_news_block_desc">
+						<div class="row">
+							<div class="col-md-3 col-xs-3 topnewstime">
+								<span class="topnewsdate"><?php echo date('d', strtotime($post->post_date)) ?></span><br>
+								<span class="topnewsmonth">Tháng <?php echo date('m', strtotime($post->post_date)) ?></span><br>
+							</div>
+							<div class="col-md-9 col-xs-9 shortdesc">
+								<?php the_title('<h4><a href="' . esc_url(get_permalink()) . '">', '</a></h4>'); ?>
+								<p>
+									<?php echo strip_tags(substr($post->post_content, 0, 300));	?>
+									<a href="<?= esc_url(get_permalink()) ?>">[...]</a>
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div class="col"></div>
 	</div>
 
 <?php else : ?>
 
 	<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 		<div class="detail-content">
-			<div class="col-md-8">
-				<?php
-				get_template_part('template-parts/entry-header');
+			<div class="row">
+				<div class="col"></div>
+				<div class="col-md-8">
+					<?php
+					get_template_part('template-parts/entry-header');
 
-				if (!is_search()) {
-					get_template_part('template-parts/featured-image');
-				}
+					if (!is_search()) {
+						get_template_part('template-parts/featured-image');
+					}
 
-				?>
-				<div class="row maincontent">
-					<div class="col-md-12">
-						<?php
-						if (is_search() || !is_singular() && 'summary' === get_theme_mod('blog_content', 'full')) {
-							the_excerpt();
-						} else {
-							the_content(__('Continue reading', 'twentytwenty'));
-						}
-						?>
+					?>
+					<div class="row maincontent">
+						<div class="col-md-12">
+							<?php
+							if (is_search() || !is_singular() && 'summary' === get_theme_mod('blog_content', 'full')) {
+								the_excerpt();
+							} else {
+								the_content(__('Continue reading', 'twentytwenty'));
+							}
+							?>
+						</div>
 					</div>
 				</div>
+				<div class="col"></div>
 			</div>
 		</div>
 		<div class="section-inner">
