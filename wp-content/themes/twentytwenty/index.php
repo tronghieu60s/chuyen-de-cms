@@ -93,8 +93,6 @@ get_header();
 		}
 	} elseif ( is_search() ) {
 		?>
-
-		<div class="no-search-results-form section-inner thin">
 			<div class="container">
     		<br/>
 			<div class="row justify-content-center">
@@ -105,14 +103,15 @@ get_header();
 									<?php twentytwenty_the_theme_svg( 'search' ); ?>
                                     </div>
                                     <!--end of col-->
-                                    <div class="col-auto">
-									<?php
-										get_search_form(
-										array(
-										'aria_label' => __( 'search again', 'twentytwenty' ),
-										)
-			);
-			?>
+                                    <div class="col">
+									<form role="search" aria-label="Search for:" method="get" class="search-form" action="http://wordpress.project/">
+										<label for="search-form-1">
+										<span class="screen-reader-text">Search for:</span>
+										<input type="search" id="search-form-1" class="form-control form-control-lg form-control-borderless " placeholder="Search topics or keywords" value="" name="s" style="margin-bottom: -7px;margin-left: 0px;  width: 585px;">
+										</label>
+										<button type="submit" class="searchIndex" value="Submit" style="padding-top: 3px;padding-left: 15px;padding-bottom: 5px;padding-right: 15px;height: 40px">Search</button>
+                                    </div>
+									</form>
                                     </div>
                                     <!--end of col-->
                                 </div>
@@ -121,8 +120,6 @@ get_header();
                         <!--end of col-->
                     </div>
 			</div>
-
-		</div><!-- .no-search-results -->
 
 		<?php
 	}
