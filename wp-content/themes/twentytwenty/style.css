@@ -4859,7 +4859,6 @@ a.to-the-top > * {
   input[type="reset"],
   input[type="submit"] {
     font-size: 1.7rem;
-    display: none;
   }
 
   /* MEDIA */
@@ -7291,7 +7290,6 @@ a {
   background: url(../twentytwenty/templates/bg_pattern.png);
   padding: 1px 10px;
 }
-<<<<<<< HEAD
 form{
 	display: flex;
 }
@@ -7334,6 +7332,3 @@ form{
   outline: none;
   box-shadow: none;
 }
-=======
-
->>>>>>> master
