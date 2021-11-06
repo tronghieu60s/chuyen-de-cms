@@ -1,3 +1,4 @@
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <?php
 /**
  * The main template file
@@ -94,14 +95,32 @@ get_header();
 		?>
 
 		<div class="no-search-results-form section-inner thin">
-
-			<?php
-			get_search_form(
-				array(
-					'aria_label' => __( 'search again', 'twentytwenty' ),
-				)
+			<div class="container">
+    		<br/>
+			<div class="row justify-content-center">
+                        <div class="col-12 col-md-10 col-lg-8">
+                            <form class="card card-sm">
+                                <div class="card-body row no-gutters align-items-center">
+                                    <div class="col-auto">
+									<?php twentytwenty_the_theme_svg( 'search' ); ?>
+                                    </div>
+                                    <!--end of col-->
+                                    <div class="col-auto">
+									<?php
+										get_search_form(
+										array(
+										'aria_label' => __( 'search again', 'twentytwenty' ),
+										)
 			);
 			?>
+                                    </div>
+                                    <!--end of col-->
+                                </div>
+                            </form>
+                        </div>
+                        <!--end of col-->
+                    </div>
+			</div>
 
 		</div><!-- .no-search-results -->
 
