@@ -7332,3 +7332,12 @@ form{
   outline: none;
   box-shadow: none;
 }
+<<<<<<< HEAD
+=======
+.searchIndex {
+  border-radius: 4px !important;
+  height: 33px;
+  padding: auto;
+  background-color: #28a745;
+}
+>>>>>>> feature/4.Search
