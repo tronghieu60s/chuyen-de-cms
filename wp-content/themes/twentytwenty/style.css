@@ -7300,7 +7300,35 @@ form{
   display: flex;
   margin-left: 20px;
 }
-ul li a {
+.primary-menu-wrapper ul li a {
   color: #888A9B !important;
   text-decoration: none !important;
+}
+.search-field{
+  border-radius: 4px !important;
+  width: 280px;
+    height: 50%;
+  }
+.search-submit {
+  border-radius: 4px !important;
+  height: 33px;
+  padding: auto;
+}
+.HomeHeader{
+  border:solid #e6e7f3  !important;
+  background-color: #e6e7f3 ;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.form-control-borderless {
+  border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
