@@ -7322,6 +7322,7 @@ form{
   padding-left: 25px;
   padding-right: 25px;
 }
+<<<<<<< HEAD
 
 .form-control-borderless {
   border: none;
@@ -7334,6 +7335,8 @@ form{
 }
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> feature/4.Search
 .searchIndex {
   border-radius: 4px !important;
   height: 33px;
