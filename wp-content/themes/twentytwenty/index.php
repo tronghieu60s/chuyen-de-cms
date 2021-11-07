@@ -107,9 +107,9 @@ get_header();
 									<form role="search" aria-label="Search for:" method="get" class="search-form" action="http://wordpress.project/">
 										<label for="search-form-1">
 										<span class="screen-reader-text">Search for:</span>
-										<input type="search" id="search-form-1" class="form-control form-control-lg form-control-borderless " placeholder="Search topics or keywords" value="" name="s" style="margin-bottom: -7px;margin-left: 0px;  width: 585px;">
+										<input type="search" id="search-form-1" class="form-Search" placeholder="Search topics or keywords" value="" name="s" style="margin-bottom: -7px;margin-left: 0px;  width: 585px;border: none;">
 										</label>
-										<button type="submit" class="searchIndex" value="Submit" style="padding-top: 3px;padding-left: 15px;padding-bottom: 5px;padding-right: 15px;height: 40px">Search</button>
+										<button type="submit" class="searchIndex" value="Submit" style="padding-top: 3px;padding-left: 15px;padding-bottom: 5px;padding-right: 15px;height: 40px;">Search</button>
                                     </div>
 									</form>
                                     </div>
