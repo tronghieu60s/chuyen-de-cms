@@ -1,3 +1,4 @@
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <?php
 /**
  * The main template file
@@ -92,18 +93,33 @@ get_header();
 		}
 	} elseif ( is_search() ) {
 		?>
-
-		<div class="no-search-results-form section-inner thin">
-
-			<?php
-			get_search_form(
-				array(
-					'aria_label' => __( 'search again', 'twentytwenty' ),
-				)
-			);
-			?>
-
-		</div><!-- .no-search-results -->
+			<div class="container">
+    		<br/>
+			<div class="row justify-content-center">
+                        <div class="col-12 col-md-10 col-lg-8">
+                            <form class="card card-sm">
+                                <div class="card-body row no-gutters align-items-center">
+                                    <div class="col-auto">
+									<?php twentytwenty_the_theme_svg( 'search' ); ?>
+                                    </div>
+                                    <!--end of col-->
+                                    <div class="col">
+									<form role="search" aria-label="Search for:" method="get" class="search-form" action="http://wordpress.project/">
+										<label for="search-form-1">
+										<span class="screen-reader-text">Search for:</span>
+										<input type="search" id="search-form-1" class="form-Search" placeholder="Search topics or keywords" value="" name="s" style="margin-bottom: -7px;margin-left: 0px;  width: 585px;border: none;">
+										</label>
+										<button type="submit" class="searchIndex" value="Submit" style="padding-top: 3px;padding-left: 15px;padding-bottom: 5px;padding-right: 15px;height: 40px;">Search</button>
+                                    </div>
+									</form>
+                                    </div>
+                                    <!--end of col-->
+                                </div>
+                            </form>
+                        </div>
+                        <!--end of col-->
+                    </div>
+			</div>
 
 		<?php
 	}
