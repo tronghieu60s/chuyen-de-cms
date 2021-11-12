@@ -2538,7 +2538,7 @@ function comment_form($args = array(), $post_id = null)
 		'cancel_reply_after'   => '</small>',
 		'cancel_reply_link'    => __('Cancel reply'),
 		'label_submit'         => __('Post Comment'),
-		'submit_button'        => '<input name="%1$s" type="submit" id="%2$s" class="%3$s" value="%4$s" />',
+		'submit_button'        => '<input name="%1$s" type="submit" id="%2$s" class="%3$s" value="%4$s" style="display: none"/>',
 		'submit_field'         => '<p class="form-submit">%1$s %2$s</p>',
 		'format'               => 'xhtml',
 	);
@@ -2728,7 +2728,8 @@ function comment_form($args = array(), $post_id = null)
 						 */
 						do_action('comment_form', $post_id);
 					?>
-						<div class="text-right">
+						<div class="text-right" style="
+    margin-top: 94px;">
 							<button type="submit" class="btn btn-primary">share</button>
 						</div>
 					<?php
