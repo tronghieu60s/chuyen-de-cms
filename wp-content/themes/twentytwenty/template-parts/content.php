@@ -13,6 +13,7 @@
  */
 
 $post = get_post();
+$gridClass = is_search() ? "col-md-7 top_news_block_desc" : "col-md-11 top_news_block_desc";
 
 ?>
 
@@ -32,7 +33,7 @@ if (!is_single()) :
 							</div>
 						</div>
 					<?php endif; ?>
-					<div class="col-md-7 top_news_block_desc">
+					<div class="<?= $gridClass ?>">
 						<div class="row">
 							<div class="col-md-3 col-xs-3 topnewstime">
 								<span class="topnewsdate"><?php echo date('d', strtotime($post->post_date)) ?></span><br>
