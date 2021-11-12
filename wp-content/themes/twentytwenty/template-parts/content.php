@@ -14,6 +14,7 @@
 
 $post = get_post();
 $gridClass = is_search() ? "col-md-7 top_news_block_desc" : "col-md-11 top_news_block_desc";
+$sliceString = is_search() ? 150 : 300;
 
 ?>
 
@@ -42,7 +43,7 @@ if (!is_single()) :
 							<div class="col-md-9 col-xs-9 shortdesc">
 								<?php the_title('<h4><a href="' . esc_url(get_permalink()) . '">', '</a></h4>'); ?>
 								<p>
-									<?php echo strip_tags(substr($post->post_content, 0, 300));	?>
+									<?php echo strip_tags(substr($post->post_content, 0, $sliceString));	?>
 									<a href="<?= esc_url(get_permalink()) ?>">[...]</a>
 								</p>
 							</div>
