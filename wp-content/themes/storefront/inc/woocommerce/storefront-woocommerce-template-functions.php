@@ -88,10 +88,10 @@ if ( ! function_exists( 'storefront_cart_link' ) ) {
 			return;
 		}
 		?>
-			<a class="cart-contents" href="<?php echo esc_url( wc_get_cart_url() ); ?>" title="<?php esc_attr_e( 'View your shopping cart', 'storefront' ); ?>">
+			<!-- <a class="cart-contents" href="<?php echo esc_url( wc_get_cart_url() ); ?>" title="<?php esc_attr_e( 'View your shopping cart', 'storefront' ); ?>">
 				<?php /* translators: %d: number of items in cart */ ?>
 				<?php echo wp_kses_post( WC()->cart->get_cart_subtotal() ); ?> <span class="count"><?php echo wp_kses_data( sprintf( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count(), 'storefront' ), WC()->cart->get_cart_contents_count() ) ); ?></span>
-			</a>
+			</a> -->
 		<?php
 	}
 }
@@ -108,7 +108,12 @@ if ( ! function_exists( 'storefront_product_search' ) ) {
 		if ( storefront_is_woocommerce_activated() ) {
 			?>
 			<div class="site-search">
-				<?php the_widget( 'WC_Widget_Product_Search', 'title=' ); ?>
+			<form role="search" method="get" class="woocommerce-product-search" action="http://wordpress.project/" style="display: flex;>
+			<label class=" screen-reader-text for="woocommerce-product-search-field-0">
+					<input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="Tìm Kiếm Theo Từ Khóa" value="" name="s">
+						<button type="submit" value="Search"><i class="fa fa-search" aria-hidden="true"></i></button>
+					<input type="hidden" name="post_type" value="product">
+			</form>
 			</div>
 			<?php
 		}
