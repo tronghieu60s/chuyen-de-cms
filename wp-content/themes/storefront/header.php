@@ -16,6 +16,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
+<link rel="stylesheet" href="/wp-content/themes/storefront/style-custom.css">
 </head>
 
 <body <?php body_class(); ?>>
