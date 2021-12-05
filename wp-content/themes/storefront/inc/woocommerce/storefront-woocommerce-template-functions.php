@@ -113,6 +113,9 @@ if ( ! function_exists( 'storefront_product_search' ) ) {
 					<input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="Tìm Kiếm Theo Từ Khóa" value="" name="s">
 						<button type="submit" value="Search"><i class="fa fa-search" aria-hidden="true"></i></button>
 					<input type="hidden" name="post_type" value="product">
+					<a href=""><i class="fa fa-search" aria-hidden="true"></i></a>
+					<a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+					<a href=""><i class="fa fa-search" aria-hidden="true"></i></a>
 			</form>
 			</div>
 			<?php
