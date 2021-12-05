@@ -819,8 +819,6 @@ if ( ! class_exists( 'Storefront_Customizer' ) ) :
 			}
 
 			button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .button:hover, .widget a.button:hover {
-				background-color: ' . storefront_adjust_color_brightness( $storefront_theme_mods['button_background_color'], $darken_factor ) . ';
-				border-color: ' . storefront_adjust_color_brightness( $storefront_theme_mods['button_background_color'], $darken_factor ) . ';
 				color: ' . $storefront_theme_mods['button_text_color'] . ';
 			}
 

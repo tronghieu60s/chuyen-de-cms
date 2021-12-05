@@ -192,7 +192,7 @@ if ( ! function_exists( 'storefront_site_branding' ) ) {
 	 */
 	function storefront_site_branding() {
 		?>
-		<div class="site-branding" style="width: 50px">
+		<div class="site-branding" style="width: 50px;margin-bottom: 5px;">
 			<!-- <?php storefront_site_title_or_logo(); ?> -->
 			<a class="block-anchor fr-link--active" href="http://wordpress.project/" style="" aria-current="page">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 40" width="90" height="40">
@@ -277,7 +277,7 @@ if ( ! function_exists( 'storefront_secondary_navigation' ) ) {
 	function storefront_secondary_navigation() {
 		if ( has_nav_menu( 'secondary' ) ) {
 			?>
-			<nav class="secondary-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Secondary Navigation', 'storefront' ); ?>" style="width: 300px">
+			<nav class="secondary-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Secondary Navigation', 'storefront' ); ?>" style="width: 300px;margin-bottom: 5px;">
 				<?php
 					wp_nav_menu(
 						array(

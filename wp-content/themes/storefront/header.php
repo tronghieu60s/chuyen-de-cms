@@ -14,6 +14,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 <?php wp_head(); ?>
 </head>
@@ -32,7 +33,7 @@
     color: black">
 		<span>Trợ giúp</span></a></div><div class="nav-item" data-test="store-locator-link">
 			<button type="button" class = "HT"><span>Hệ thống cửa hàng</span></button></div><div class="nav-item language-selector"><div class="fr-language-selector"><span lang="en-CA"><button type="button"><span class="Eng">English</span></button><span> | </span></span><span lang="fr-CA"><button type="button"><span class="active-language">Tiếng Việt</span></button><span></span></span></div></div></div></div></div>
-	<header id="masthead" class="site-header" role="banner" style="<?php storefront_header_styles(); ?>">
+	<header id="masthead" class="site-header" role="banner" style="<?php storefront_header_styles(); ?>; padding-top: 20px;">
 		<?php
 		/**
 		 * Functions hooked into storefront_header action
