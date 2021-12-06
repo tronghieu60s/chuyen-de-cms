@@ -38,3 +38,99 @@ Stack trace:
 #16 {main}
   thrown in D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\inc\storefront-template-functions.php on line 415
 
+2021-12-06T16:06:49+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\content.php:9
+Stack trace:
+#0 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(772): require()
+#1 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(716): load_template('D:\\Thaydoi\\1\\ch...', false, Array)
+#2 D:\Thaydoi\1\chuyen-de-cms\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\loop.php(21): get_template_part('content', '')
+#4 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(772): require('D:\\Thaydoi\\1\\ch...')
+#5 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(716): load_template('D:\\Thaydoi\\1\\ch...', false, Array)
+#6 D:\Thaydoi\1\chuyen-de-cms\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#7 D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\index.php(22): get_template_part('loop')
+#8 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template-loader.php(106): include('D:\\Thaydoi\\1\\ch...')
+#9 D:\Thaydoi\1\chuyen-de-cms\wp-blog-header.php(19): require_once('D:\\Thaydoi\\1\\ch...')
+#10 D:\Thaydoi\1\chuyen-de-cms\index.php(17): require('D:\\Thaydoi\\1\\ch...')
+#11 {main}
+  thrown in D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\content.php on line 9
+
+2021-12-06T16:07:00+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\content.php:9
+Stack trace:
+#0 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(772): require()
+#1 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(716): load_template('D:\\Thaydoi\\1\\ch...', false, Array)
+#2 D:\Thaydoi\1\chuyen-de-cms\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\loop.php(21): get_template_part('content', '')
+#4 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(772): require('D:\\Thaydoi\\1\\ch...')
+#5 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(716): load_template('D:\\Thaydoi\\1\\ch...', false, Array)
+#6 D:\Thaydoi\1\chuyen-de-cms\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#7 D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\index.php(22): get_template_part('loop')
+#8 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template-loader.php(106): include('D:\\Thaydoi\\1\\ch...')
+#9 D:\Thaydoi\1\chuyen-de-cms\wp-blog-header.php(19): require_once('D:\\Thaydoi\\1\\ch...')
+#10 D:\Thaydoi\1\chuyen-de-cms\index.php(17): require('D:\\Thaydoi\\1\\ch...')
+#11 {main}
+  thrown in D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\content.php on line 9
+
+2021-12-06T16:07:29+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\content.php:10
+Stack trace:
+#0 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(772): require()
+#1 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(716): load_template('D:\\Thaydoi\\1\\ch...', false, Array)
+#2 D:\Thaydoi\1\chuyen-de-cms\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\loop.php(21): get_template_part('content', '')
+#4 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(772): require('D:\\Thaydoi\\1\\ch...')
+#5 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(716): load_template('D:\\Thaydoi\\1\\ch...', false, Array)
+#6 D:\Thaydoi\1\chuyen-de-cms\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#7 D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\index.php(22): get_template_part('loop')
+#8 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template-loader.php(106): include('D:\\Thaydoi\\1\\ch...')
+#9 D:\Thaydoi\1\chuyen-de-cms\wp-blog-header.php(19): require_once('D:\\Thaydoi\\1\\ch...')
+#10 D:\Thaydoi\1\chuyen-de-cms\index.php(17): require('D:\\Thaydoi\\1\\ch...')
+#11 {main}
+  thrown in D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\content.php on line 10
+
+2021-12-06T16:11:46+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\content.php:10
+Stack trace:
+#0 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(772): require()
+#1 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(716): load_template('D:\\Thaydoi\\1\\ch...', false, Array)
+#2 D:\Thaydoi\1\chuyen-de-cms\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\loop.php(21): get_template_part('content', '')
+#4 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(772): require('D:\\Thaydoi\\1\\ch...')
+#5 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(716): load_template('D:\\Thaydoi\\1\\ch...', false, Array)
+#6 D:\Thaydoi\1\chuyen-de-cms\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#7 D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\index.php(22): get_template_part('loop')
+#8 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template-loader.php(106): include('D:\\Thaydoi\\1\\ch...')
+#9 D:\Thaydoi\1\chuyen-de-cms\wp-blog-header.php(19): require_once('D:\\Thaydoi\\1\\ch...')
+#10 D:\Thaydoi\1\chuyen-de-cms\index.php(17): require('D:\\Thaydoi\\1\\ch...')
+#11 {main}
+  thrown in D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\content.php on line 10
+
+2021-12-06T16:11:57+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\content.php:9
+Stack trace:
+#0 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(772): require()
+#1 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(716): load_template('D:\\Thaydoi\\1\\ch...', false, Array)
+#2 D:\Thaydoi\1\chuyen-de-cms\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\loop.php(21): get_template_part('content', '')
+#4 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(772): require('D:\\Thaydoi\\1\\ch...')
+#5 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(716): load_template('D:\\Thaydoi\\1\\ch...', false, Array)
+#6 D:\Thaydoi\1\chuyen-de-cms\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#7 D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\index.php(22): get_template_part('loop')
+#8 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template-loader.php(106): include('D:\\Thaydoi\\1\\ch...')
+#9 D:\Thaydoi\1\chuyen-de-cms\wp-blog-header.php(19): require_once('D:\\Thaydoi\\1\\ch...')
+#10 D:\Thaydoi\1\chuyen-de-cms\index.php(17): require('D:\\Thaydoi\\1\\ch...')
+#11 {main}
+  thrown in D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\content.php on line 9
+
+2021-12-06T16:13:36+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\content.php:9
+Stack trace:
+#0 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(772): require()
+#1 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(716): load_template('D:\\Thaydoi\\1\\ch...', false, Array)
+#2 D:\Thaydoi\1\chuyen-de-cms\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\loop.php(21): get_template_part('content', '')
+#4 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(772): require('D:\\Thaydoi\\1\\ch...')
+#5 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(716): load_template('D:\\Thaydoi\\1\\ch...', false, Array)
+#6 D:\Thaydoi\1\chuyen-de-cms\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#7 D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\index.php(22): get_template_part('loop')
+#8 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template-loader.php(106): include('D:\\Thaydoi\\1\\ch...')
+#9 D:\Thaydoi\1\chuyen-de-cms\wp-blog-header.php(19): require_once('D:\\Thaydoi\\1\\ch...')
+#10 D:\Thaydoi\1\chuyen-de-cms\index.php(17): require('D:\\Thaydoi\\1\\ch...')
+#11 {main}
+  thrown in D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\content.php on line 9
+

@@ -845,9 +845,6 @@ table tbody h2 a {
 #respond #cancel-comment-reply-link:hover {
   transform: scale(1.3);
 }
-.hentry {
-  margin: 0 0 4.235801032em;
-}
 .hentry .wp-post-image {
   margin-bottom: 1.618em;
   margin-left: auto;
