@@ -27,7 +27,7 @@
 
 <div id="page" class="hfeed site">
 	<?php do_action( 'storefront_before_header' ); ?>
-	<div class="fr-header-wrapper a11y-focus-section"><div class="fr-header contained js-fr-header fr-header-nav"><div data-test="tickerRoot"></div>
+	<div class="fr-header-wrapper a11y-focus-section"><div class="fr-header contained js-fr-header fr-header-nav" style="background-color: #eeeeee;"><div data-test="tickerRoot"></div>
 	<div class="fr-header js-fr-header fr-header-nav cursor-pointer">
 		<div class="nav-item"><a href="https://faq-vn.uniqlo.com/pkb_Home_UQ_VN?l=vi" target="_self" class="" data-category="header" data-action="open" data-label="contact" style="
     color: black">
