@@ -32,7 +32,7 @@
 		<div class="nav-item"><a href="https://faq-vn.uniqlo.com/pkb_Home_UQ_VN?l=vi" target="_self" class="" data-category="header" data-action="open" data-label="contact" style="
     color: black">
 		<span>Trợ giúp</span></a></div><div class="nav-item" data-test="store-locator-link">
-			<button type="button" class = "HT"><span>Hệ thống cửa hàng</span></button></div><div class="nav-item language-selector"><div class="fr-language-selector"><span lang="en-CA"><button type="button"><span class="Eng">English</span></button><span> | </span></span><span lang="fr-CA"><button type="button"><span class="active-language">Tiếng Việt</span></button><span></span></span></div></div></div></div></div>
+			<button type="button" class = "HT"><span>Hệ thống cửa hàng</span></button></div><div class="nav-item language-selector"><div class="fr-language-selector"><span lang="en-CA"><button type="button" style="padding-right: 0px;"><span class="Eng">English</span></button><span> | </span></span><span lang="fr-CA"><button type="button" style="padding-left: 0px;"><span class="active-language">Tiếng Việt</span></button><span></span></span></div></div></div></div></div>
 	<header id="masthead" class="site-header" role="banner" style="<?php storefront_header_styles(); ?>; padding-top: 20px;">
 		<?php
 		/**
