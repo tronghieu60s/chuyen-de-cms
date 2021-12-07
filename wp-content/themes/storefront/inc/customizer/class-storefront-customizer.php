@@ -845,7 +845,7 @@ if ( ! class_exists( 'Storefront_Customizer' ) ) :
 
 			.site-footer {
 				background-color: ' . $storefront_theme_mods['footer_background_color'] . ';
-				color: ' . $storefront_theme_mods['footer_text_color'] . ';
+				color: black;
 			}
 
 			.site-footer a:not(.button):not(.components-button) {
