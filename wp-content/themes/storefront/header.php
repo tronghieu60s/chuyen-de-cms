@@ -17,6 +17,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 <?php wp_head(); ?>
+<link rel="stylesheet" href="/wp-content/themes/storefront/style-custom.css">
 </head>
 
 <body <?php body_class(); ?>>
