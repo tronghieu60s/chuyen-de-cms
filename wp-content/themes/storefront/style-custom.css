@@ -130,6 +130,10 @@ h4.fr-head.withinfo .info-label::after {
   padding: 0px 24px 0px 0px;
 }
 
+.woocommerce-tabs ul.tabs li.active::after {
+  display: none;
+}
+
 div.woocommerce-tabs.wc-tabs-wrapper {
   margin-bottom: 60px;
 }
@@ -152,4 +156,89 @@ div.woocommerce-tabs.wc-tabs-wrapper {
     margin-right: 0;
     margin-bottom: 3.706325903em;
   }
+}
+
+.storefront-full-width-content .woocommerce-tabs .panel {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.tabs.wc-tabs.custom li a:focus {
+  outline-color: #fff;
+}
+
+.tabs.wc-tabs.custom li svg {
+  transition: 0.4s;
+}
+
+.tabs.wc-tabs.custom li.active svg {
+  transform: rotate(180deg);
+}
+
+.description-custom-post-detail {
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.description-custom-post-detail h2 {
+  display: none;
+}
+
+.additional_information-custom-post-detail h2 {
+  display: none;
+}
+
+.woocommerce-product-attributes-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.woocommerce-product-attributes-item th,
+.woocommerce-product-attributes-item td {
+  padding: 0;
+}
+
+.woocommerce-product-attributes-item th {
+  margin-bottom: 10px;
+}
+
+.woocommerce-product-attributes-item__label {
+  color: #1b1b1b;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.28px;
+  line-height: 14px;
+  text-transform: uppercase;
+  background-color: transparent !important;
+}
+
+.woocommerce-product-attributes-item__label:after {
+  content: ":";
+}
+
+.woocommerce-product-attributes-item__value {
+  background-color: transparent !important;
+}
+
+.fr-chip-label.custom {
+  align-items: center;
+  border: 1px solid #dbd6d6;
+  box-shadow: #ffffff 0px 0px 0px 2px;
+  color: #1b1b1b;
+  font-family: Helvetica Neue;
+  font-size: 11px;
+  justify-content: center;
+  letter-spacing: 0.16px;
+  line-height: 13.2px;
+  text-align: left;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.fr-chip-label.custom span {
+  color: #000;
+  font-size: 11px;
+  letter-spacing: 0.16px;
+  line-height: 12.6923px;
+  text-align: center;
 }
