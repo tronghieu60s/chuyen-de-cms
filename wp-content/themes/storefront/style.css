@@ -14229,3 +14229,175 @@ table.cart .qty{
   border-radius: 2px;
   background-color: #fff !important;
 }
+.fr-header-wrapper {
+  position: relative;
+  z-index: 102;
+  background-color: #f4f4f4;
+}
+.fr-header-wrapper .fr-header-nav {
+  user-select: none;
+  height: 40px;
+  font-size: 14px;
+}
+.fr-head.withlink,
+.fr-link.transition-btn,
+.fr-header,
+.fr-hamburger-header,
+.fr-flbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.fr-header {
+  align-items: center;
+  justify-content: space-between !important;
+  position: relative;
+  z-index: 1;
+}
+.Eng {
+  font-weight: 600;
+}
+.HT {
+  font-weight: 600;
+}
+.active-language {
+  font-weight: 800;
+}
+.search1 {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 6px;
+  border: 1px solid #ababab;
+  background-color: white;
+}
+.woocommerce-product-search {
+  height: 35px;
+}
+.button:focus {
+  outline: none !important;
+}
+.HT {
+  padding-left: 15px;
+  padding-right: 0px;
+}
+.fr-flbox,
+.fr-pulldown-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.fr-footer .fr-footer-copyright .fr-link .text {
+  color: #7d7d7d;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: none;
+}
+.between.fr-flbox,
+.between.fr-pulldown-box {
+  justify-content: space-between;
+}
+.fr-text.copyright {
+  color: #7d7d7d;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  line-height: 1.1875;
+  text-transform: uppercase;
+}
+.fr-footer .fr-footer-copyright {
+  padding-bottom: 10px;
+  text-align: left;
+}
+.fr-footer {
+  padding-bottom: 1px;
+}
+.fr-footer .fr-footer-content-wrapper {
+  display: flex;
+  padding-top: 52px;
+  padding-bottom: 52px;
+}
+.fr-footer .fr-footer-content-wrapper .fr-footer-content-pc {
+  flex: 1;
+}
+.fr-footer .fr-footer-content-wrapper .fr-footer-content-pc .footer-content a {
+  display: block;
+  margin-bottom: 16px;
+  margin-right: 16px;
+}
+.fr-footer
+  .fr-footer-content-wrapper
+  .fr-footer-content-pc
+  .footer-content-header {
+  margin-bottom: 16px;
+}
+.fr-text.bold,
+.lang-ja .fr-head.h4,
+.lang-ja .fr-head.h5,
+:lang(ja) .fr-head.h4,
+:lang(ja) .fr-head.h5,
+.b {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+.fr-footer
+  .fr-footer-content-wrapper
+  .fr-footer-content-pc
+  .footer-content
+  .footer-content-header
+  .fr-text {
+  padding-bottom: 0;
+  line-height: 30px;
+}
+.fr-system-text-l:lang(vi) {
+  font-size: 17px;
+}
+.site-footer a {
+  text-decoration: none;
+}
+.fr-share-buttons > .item {
+  font-size: 0;
+  list-style: none;
+  margin-right: 18px;
+  margin-bottom: 14px;
+}
+.fr-icon.loginwith_facebook,
+.fr-icon.loginwith_twitter,
+.fr-icon.loginwith_line,
+.fr-icon.loginwith_instagram,
+.fr-icon.loginwith_youtube,
+.fr-icon.loginwith_pinterest,
+.fr-icon.follow_facebook,
+.fr-icon.follow_twitter,
+.fr-icon.follow_line,
+.fr-icon.follow_instagram,
+.fr-icon.follow_googleplus,
+.fr-icon.follow_youtube,
+.fr-icon.follow_pinterest {
+  background-size: 40px 40px;
+  font-size: 40px;
+}
+.fr-icon.follow_facebook {
+  background-image: url(https://asset.uniqlo.com/g/icons/follow_facebook.svg);
+}
+.fr-icon {
+  overflow: visible;
+  position: relative;
+}
+.fr-icon {
+  background-size: 1em 1em;
+  display: inline-block;
+  font-size: 24px;
+  height: 1em;
+  overflow: hidden;
+  vertical-align: bottom;
+  width: 1em;
+}
+.fr-share-buttons.icon .item > a {
+  display: block;
+  line-height: 0;
+}
+.fr-icon.follow_instagram {
+  background-image: url(https://asset.uniqlo.com/g/icons/follow_instagram.svg);
+}
+.fr-icon.follow_youtube {
+  background-image: url(https://asset.uniqlo.com/g/icons/follow_youtube.svg);
+}
