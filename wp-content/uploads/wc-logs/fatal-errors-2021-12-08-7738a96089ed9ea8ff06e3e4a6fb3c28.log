@@ -1,0 +1,27 @@
+2021-12-08T14:17:53+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in D:\Thaydoi\1\chuyen-de-cms\wp-content\plugins\woocommerce\templates\cart\cart.php:58
+Stack trace:
+#0 D:\Thaydoi\1\chuyen-de-cms\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\Thaydoi\1\chuyen-de-cms\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 D:\Thaydoi\1\chuyen-de-cms\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 D:\Thaydoi\1\chuyen-de-cms\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 D:\Thaydoi\1\chuyen-de-cms\wp-includes\shortcodes.php(356): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 D:\Thaydoi\1\chuyen-de-cms\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 D:\Thaydoi\1\chuyen-de-cms\wp-includes\class-wp-hook.php(303): do_shortcode('[woocommerce_ca...')
+#8 D:\Thaydoi\1\chuyen-de-cms\wp-includes\plugin.php(189): WP_Hook->apply_filters('[woocommerce_ca...', Array)
+#9 D:\Thaydoi\1\chuyen-de-cms\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#10 D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\inc\storefront-template-functions.php(352): the_content()
+#11 D:\Thaydoi\1\chuyen-de-cms\wp-includes\class-wp-hook.php(303): storefront_page_content('')
+#12 D:\Thaydoi\1\chuyen-de-cms\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#13 D:\Thaydoi\1\chuyen-de-cms\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\content-page.php(18): do_action('storefront_page')
+#15 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(772): require('D:\\Thaydoi\\1\\ch...')
+#16 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template.php(716): load_template('D:\\Thaydoi\\1\\ch...', false, Array)
+#17 D:\Thaydoi\1\chuyen-de-cms\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#18 D:\Thaydoi\1\chuyen-de-cms\wp-content\themes\storefront\page.php(24): get_template_part('content', 'page')
+#19 D:\Thaydoi\1\chuyen-de-cms\wp-includes\template-loader.php(106): include('D:\\Thaydoi\\1\\ch...')
+#20 D:\Thaydoi\1\chuyen-de-cms\wp-blog-header.php(19): require_once('D:\\Thaydoi\\1\\ch...')
+#21 D:\Thaydoi\1\chuyen-de-cms\index.php(17): require('D:\\Thaydoi\\1\\ch...')
+#22 {main}
+  thrown in D:\Thaydoi\1\chuyen-de-cms\wp-content\plugins\woocommerce\templates\cart\cart.php on line 58
+

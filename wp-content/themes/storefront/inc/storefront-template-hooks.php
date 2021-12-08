@@ -59,8 +59,7 @@ add_action( 'homepage', 'storefront_homepage_content', 10 );
  * @see  storefront_display_comments()
  */
 add_action( 'storefront_loop_post', 'storefront_post_header', 10 );
-add_action( 'storefront_loop_post', 'storefront_post_content', 30 );
-add_action( 'storefront_loop_post', 'storefront_post_taxonomy', 40 );
+add_action( 'storefront_loop_post_content', 'storefront_post_content', 10 );
 add_action( 'storefront_loop_after', 'storefront_paging_nav', 10 );
 add_action( 'storefront_single_post', 'storefront_post_header', 10 );
 add_action( 'storefront_single_post', 'storefront_post_content', 30 );
