@@ -258,7 +258,10 @@ div.woocommerce-tabs.wc-tabs-wrapper {
   text-align: left;
 }
 
-.woocommerce-LoopProduct-link.woocommerce-loop-product__link .price del .woocommerce-Price-amount.amount.custom {
+.woocommerce-LoopProduct-link.woocommerce-loop-product__link
+  .price
+  del
+  .woocommerce-Price-amount.amount.custom {
   text-align: left;
 }
 
@@ -266,7 +269,8 @@ div.woocommerce-tabs.wc-tabs-wrapper {
   display: none;
 }
 
-.woocommerce-LoopProduct-link.woocommerce-loop-product__link span.woocommerce-Price-amount.amount.custom {
+.woocommerce-LoopProduct-link.woocommerce-loop-product__link
+  span.woocommerce-Price-amount.amount.custom {
   color: #1b1b1b;
   font-size: 22px;
   font-weight: 700;
@@ -276,4 +280,11 @@ div.woocommerce-tabs.wc-tabs-wrapper {
 
 .button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
   display: none;
+}
+
+.fr-text-annotation.custom {
+  color: #7d7d7d;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: 24px;
 }
