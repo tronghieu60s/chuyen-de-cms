@@ -302,7 +302,7 @@ p {
 }
 ul,
 ol {
-  margin: 0 0 1.41575em 3em;
+  /* margin: 0 0 1.41575em 3em; */
   padding: 0;
 }
 ul {
@@ -939,7 +939,6 @@ input[type="submit"],
   border-color: #43454b;
   color: #fff;
   cursor: pointer;
-  padding: 0.6180469716em 1.41575em;
   text-decoration: none;
   font-weight: 600;
   text-shadow: none;
@@ -3628,1339 +3627,6 @@ button.menu-toggle::after {
 .lang-ja .fr-wordbreak,
 :lang(ja) .fr-wordbreak {
   word-break: break-all;
-}
-.fr-chips,
-.fr-definition-list.inline .fr-definition-list-term,
-.fr-definition-list.minor .fr-definition-list-term,
-.compact.fr-definition-list.price,
-.compact.fr-definition-list.price .fr-definition-list-term,
-.fr-accordion-head.order-summary .item-value,
-.fr-table.mini tbody > tr > th .details,
-.fr-table.mini tbody > tr > td .details,
-.fr-active-filter,
-.fr-active-filter-container-dropdown-header .total-filters,
-.fr-dropdown .menu,
-.fr-icon-list-with-tooltip .fr-tooltip,
-.fr-footer .regions-container .grid .fr-link .inner .text,
-.fr-footer .fr-footer-content-wrapper .fr-footer-content-pc .fr-text,
-.fr-footer .fr-footer-copyright .fr-link .text,
-.fr-footer .fr-accordion-list-item,
-.fr-footer .fr-accordion-head .fr-accordion-head-inner,
-.fr-header-wrapper.sticky-header .item-count {
-  font-family: "Helvetica Neue", HelveticaNeue, Helvetica, "Noto Sans", Roboto,
-    Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro",
-    "\30D2\30E9\30AE\30CE\89D2\30B4   Pro W3", "Noto Sans CJK JP", Osaka, Meiryo,
-    "\30E1\30A4\30EA\30AA", "MS PGothic",
-    "\FF2D\FF33   \FF30\30B4\30B7\30C3\30AF", "Hiragino Sans GB",
-    "Arial Unicode MS", sans-serif;
-}
-.lang-ja .fr-ordered-list,
-:lang(ja) .fr-ordered-list,
-.fr-font-japanese .fr-ordered-list,
-.lang-ja .fr-ordered-list.annotation,
-:lang(ja) .fr-ordered-list.annotation,
-.fr-font-japanese .fr-ordered-list.annotation,
-.lang-ja .fr-unordered-list,
-:lang(ja) .fr-unordered-list,
-.fr-font-japanese .fr-unordered-list,
-.lang-ja .fr-unordered-list.annotation,
-:lang(ja) .fr-unordered-list.annotation,
-.fr-font-japanese .fr-unordered-list.annotation,
-.lang-ja .fr-product-card .info .description,
-:lang(ja) .fr-product-card .info .description,
-.lang-ja .fr-product-card .info .gender-size > *,
-:lang(ja) .fr-product-card .info .gender-size > *,
-.lang-ja .fr-tappable-grid-inner .title,
-:lang(ja) .fr-tappable-grid-inner .title,
-.lang-ja .fr-breadcrumbs .item,
-:lang(ja) .fr-breadcrumbs .item,
-.lang-ja .fr-breadcrumbs .item a,
-:lang(ja) .fr-breadcrumbs .item a,
-.lang-ja .fr-faq > .q,
-:lang(ja) .fr-faq > .q,
-.lang-ja .fr-faq .cap,
-:lang(ja) .fr-faq .cap,
-:lang(ja) .fr-global-nav-item a *:last-child:not(.fr-badge),
-.lang-ja .fr-global-nav-item a *:last-child:not(.fr-badge),
-.fr-font-japanese .fr-global-nav-item a *:last-child:not(.fr-badge),
-.lang-ja .fr-quote > .text > .head,
-:lang(ja) .fr-quote > .text > .head,
-.lang-ja .fr-quote > .signature,
-:lang(ja) .fr-quote > .signature,
-.lang-ja .fr-sns-post .user .name,
-:lang(ja) .fr-sns-post .user .name,
-.lang-ja .fr-tabs .fr-tabs-title,
-:lang(ja) .fr-tabs .fr-tabs-title,
-.lang-ja .fr-user-review-author,
-:lang(ja) .fr-user-review-author {
-  font-family: "Hiragino Sans", "Hiragino Kaku Gothic Pro",
-    "\30D2\30E9\30AE\30CE\89D2\30B4   Pro W3", "Noto Sans CJK JP", Osaka, Meiryo,
-    "\30E1\30A4\30EA\30AA", "MS PGothic",
-    "\FF2D\FF33   \FF30\30B4\30B7\30C3\30AF", "Hiragino Sans GB",
-    "Helvetica Neue", HelveticaNeue, Helvetica, "Noto Sans", Roboto, Arial,
-    "Arial Unicode MS", sans-serif;
-}
-.fr-product-price.promo .fr-product-price-info .price-limited,
-.fr-product-price.promo .fr-product-price-info .price-original,
-.delivery-summary .shipping-cost {
-  font-family: "UniqloPro Regular", "Helvetica Neue", HelveticaNeue, Helvetica,
-    "Noto Sans", Roboto, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro",
-    "\30D2\30E9\30AE\30CE\89D2\30B4   Pro W3", "Noto Sans CJK JP", Osaka, Meiryo,
-    "\30E1\30A4\30EA\30AA", "MS PGothic", "MS P\30B4\30B7\30C3\30AF",
-    "Hiragino Sans GB", "Arial Unicode MS", sans-serif;
-  font-stretch: normal;
-  font-style: normal;
-  font-weight: 400;
-}
-.fr-coupon-image.fr-large .fr-coupon-image-overlay,
-.fr-head-withtext .title,
-.fr-product-card.wide .info .price,
-.fr-product-card.wide .info .price-limited,
-.fr-product-card.wide .info .price-original,
-.fr-product-price .fr-product-price-info .price-limited,
-.fr-product-price .fr-product-price-info .price-original,
-.fr-product-price .price-multi-buy,
-.fr-quote > .text > .head,
-.fr-popup-fixed-base .header h1,
-.fr-header-wrapper.sticky-header .item-value,
-.fr-definition-list.price .fr-definition-list-description,
-.fr-btn,
-.fr-purchase-history-item .fr-btn,
-.fr-table tfoot > tr:last-child > th:last-child,
-.fr-product-card .info .price-limited,
-.fr-product-card .info .price-original,
-.fr-product-card.list .info .price,
-.fr-product-card.default .info .price,
-.fr-product-card.small .info .price,
-.fr-product-price .fr-product-price-info .price-limited + .price-original,
-.fr-utility-bar > .result .count,
-.fr-accordion-head.order-summary .fr-accordion-head-title,
-.fr-coupon-list-item .coupon-name,
-.fr-drumlink-item,
-.fr-media-wrapper > .info .head,
-.fr-media-wrapper > .info .title,
-.compact.fr-definition-list.price .fr-definition-list-description,
-.fr-definition-list-term,
-.fr-accordion-head .fr-accordion-head-inner,
-.medium.fr-btn,
-.fr-table tbody > tr > th:first-child,
-.fr-table tfoot > tr > th:first-child,
-.fr-table tbody > tr > th:last-child,
-.fr-table tfoot > tr > th:last-child,
-.fr-table.mini tbody > tr > td:last-child,
-.store.fr-info-section .info-main,
-.order.fr-info-section .info-main,
-.fr-load-more .text,
-.fr-product-card .info .description,
-.fr-product-card .info-column .description,
-.fr-product-card .info-row .description,
-.fr-product-card .info .bottom-link-wrapper .link,
-.fr-product-card .info-column .bottom-link-wrapper .link,
-.fr-product-card .info-row .bottom-link-wrapper .link,
-.fr-product-card .title,
-.fr-product-price .description,
-.fr-product-price .fr-product-price-info .dual-price-original,
-.fr-product-price .link,
-.fr-product-price.image .title,
-.fr-purchase-history-item-name,
-.fr-return-button .fr-return-button-inner,
-.fr-store-info-name,
-.fr-store-info-distance,
-.fr-tappable-grid-inner .title,
-.fr-anchor-button .fr-anchor-inner .fr-anchor-title,
-.fr-orderedlist-with-image .listItem dt,
-.fr-banner .info .title,
-.fr-drumlink-item .text,
-.fr-popup-fixed-base .header .title,
-.fr-drumlink .header .title,
-.fr-faq > .q,
-.fr-faq .cap,
-.fr-footer .fr-footer-content-wrapper .fr-footer-content-pc .subscribe-now,
-.fr-footer .fr-list > li,
-.fr-banner .head,
-.fr-image-plus-text .head,
-.fr-banner .date,
-.fr-image-plus-text .date,
-.fr-banner .title,
-.fr-image-plus-text .title,
-.fr-banner .link,
-.fr-image-plus-text .link,
-.apply-coupon-checkout-tooltip-text.fr-text.withtooltip > .text,
-.fr-quote > .signature,
-.fr-sns-post .user .name,
-.fr-tabs .fr-tabs-title,
-.swipeable .fr-tabs-item .fr-tabs-title,
-.fr-tabs .women.fr-tabs-item .fr-tabs-title,
-.fr-tabs .men.fr-tabs-item .fr-tabs-title,
-.fr-tabs .kids.fr-tabs-item .fr-tabs-title,
-.fr-tabs .boys.fr-tabs-item .fr-tabs-title,
-.fr-tabs .girls.fr-tabs-item .fr-tabs-title,
-.fr-tabs .baby.fr-tabs-item .fr-tabs-title,
-.fr-user-review-title,
-.fr-media-wrapper > .info .flag,
-.fr-two-column-list-item-wrapper:nth-child(2) .status-info,
-.fr-showmore .button,
-.small.fr-btn,
-.fr-fitting-bar .fr-fitting-label,
-.fr-product-card .info .dual-price-original,
-.fr-utility-bar,
-.fr-media-header-tag,
-.fr-tabs .fr-tabs-item .fr-tabs-item-inner.icon .fr-tabs-title,
-.swipeable .fr-tabs-item .fr-tabs-item-inner.icon .fr-tabs-title,
-.fr-user-review-author,
-.fr-coupon-image .fr-coupon-image-overlay,
-.fr-global-nav-item a *:last-child:not(.fr-badge),
-.fr-gender-label,
-.fr-product-price .gender-size .size,
-.fr-hero-media .text .title,
-.fr-feature-links-grid .fr-feature-links-grid-item h4,
-.fr-feature-links-grid .fr-feature-links-grid-item a,
-.fr-product-card .gender-size,
-.fr-table tfoot > tr:first-child,
-.fr-global-nav-item {
-  font-family: "UniqloPro Bold", "Helvetica Neue", HelveticaNeue, Helvetica,
-    "Noto Sans", Roboto, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro",
-    "\30D2\30E9\30AE\30CE\89D2\30B4   Pro W3", "Noto Sans CJK JP", Osaka, Meiryo,
-    "\30E1\30A4\30EA\30AA", "MS PGothic", "MS P\30B4\30B7\30C3\30AF",
-    "Hiragino Sans GB", "Arial Unicode MS", sans-serif;
-  font-stretch: normal;
-  font-style: normal;
-  font-weight: 700;
-}
-.fr-product-card .rank-row .rank,
-.fr-icon .fr-badge {
-  font-family: "UniqloPro Light", "Helvetica Neue", HelveticaNeue, Helvetica,
-    "Noto Sans", Roboto, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro",
-    "\30D2\30E9\30AE\30CE\89D2\30B4   Pro W3", "Noto Sans CJK JP", Osaka, Meiryo,
-    "\30E1\30A4\30EA\30AA", "MS PGothic", "MS P\30B4\30B7\30C3\30AF",
-    "Hiragino Sans GB", "Arial Unicode MS", sans-serif;
-  font-stretch: normal;
-  font-style: normal;
-  font-weight: 300;
-}
-:lang(vi) .fr-product-price.promo .fr-product-price-info .price-limited,
-.fr-product-price.promo .fr-product-price-info :lang(vi) .price-limited,
-:lang(vi) .fr-product-price.promo .fr-product-price-info .price-original,
-.fr-product-price.promo .fr-product-price-info :lang(vi) .price-original,
-:lang(vi) .delivery-summary .shipping-cost,
-.delivery-summary :lang(vi) .shipping-cost,
-:lang(vi) .fr-coupon-image.fr-large .fr-coupon-image-overlay,
-.fr-coupon-image.fr-large :lang(vi) .fr-coupon-image-overlay,
-:lang(vi) .fr-head-withtext .title,
-.fr-head-withtext :lang(vi) .title,
-:lang(vi) .fr-product-card.wide .info .price,
-.fr-product-card.wide .info :lang(vi) .price,
-:lang(vi) .fr-product-card.wide .info .price-limited,
-.fr-product-card.wide .info :lang(vi) .price-limited,
-:lang(vi) .fr-product-card.wide .info .price-original,
-.fr-product-card.wide .info :lang(vi) .price-original,
-:lang(vi) .fr-product-price .fr-product-price-info .price-limited,
-.fr-product-price .fr-product-price-info :lang(vi) .price-limited,
-:lang(vi) .fr-product-price .fr-product-price-info .price-original,
-.fr-product-price .fr-product-price-info :lang(vi) .price-original,
-:lang(vi) .fr-product-price .price-multi-buy,
-.fr-product-price :lang(vi) .price-multi-buy,
-:lang(vi) .fr-quote > .text > .head,
-:lang(vi) .fr-popup-fixed-base .header h1,
-.fr-popup-fixed-base .header :lang(vi) h1,
-:lang(vi) .fr-header-wrapper.sticky-header .item-value,
-.fr-header-wrapper.sticky-header :lang(vi) .item-value,
-:lang(vi) .fr-definition-list.price .fr-definition-list-description,
-.fr-definition-list.price :lang(vi) .fr-definition-list-description,
-:lang(vi) .fr-btn,
-:lang(vi) .fr-purchase-history-item .fr-btn,
-.fr-purchase-history-item :lang(vi) .fr-btn,
-:lang(vi) .fr-table tfoot > tr:last-child > th:last-child,
-.fr-table :lang(vi) tfoot > tr:last-child > th:last-child,
-:lang(vi) .fr-product-card .info .price-limited,
-.fr-product-card .info :lang(vi) .price-limited,
-:lang(vi) .fr-product-card .info .price-original,
-.fr-product-card .info :lang(vi) .price-original,
-:lang(vi) .fr-product-card.list .info .price,
-.fr-product-card.list .info :lang(vi) .price,
-:lang(vi) .fr-product-card.default .info .price,
-.fr-product-card.default .info :lang(vi) .price,
-:lang(vi) .fr-product-card.small .info .price,
-.fr-product-card.small .info :lang(vi) .price,
-:lang(vi)
-  .fr-product-price
-  .fr-product-price-info
-  .price-limited
-  + .price-original,
-.fr-product-price
-  .fr-product-price-info
-  :lang(vi)
-  .price-limited
-  + .price-original,
-:lang(vi) .fr-utility-bar > .result .count,
-.fr-utility-bar > .result :lang(vi) .count,
-:lang(vi) .fr-accordion-head.order-summary .fr-accordion-head-title,
-.fr-accordion-head.order-summary :lang(vi) .fr-accordion-head-title,
-:lang(vi) .fr-coupon-list-item .coupon-name,
-.fr-coupon-list-item :lang(vi) .coupon-name,
-:lang(vi) .fr-drumlink-item,
-:lang(vi) .fr-media-wrapper > .info .head,
-.fr-media-wrapper > .info :lang(vi) .head,
-:lang(vi) .fr-media-wrapper > .info .title,
-.fr-media-wrapper > .info :lang(vi) .title,
-:lang(vi) .compact.fr-definition-list.price .fr-definition-list-description,
-.compact.fr-definition-list.price :lang(vi) .fr-definition-list-description,
-:lang(vi) .fr-definition-list-term,
-:lang(vi) .fr-accordion-head .fr-accordion-head-inner,
-.fr-accordion-head :lang(vi) .fr-accordion-head-inner,
-:lang(vi) .medium.fr-btn,
-:lang(vi) .fr-table tbody > tr > th:first-child,
-.fr-table :lang(vi) tbody > tr > th:first-child,
-:lang(vi) .fr-table tfoot > tr > th:first-child,
-.fr-table :lang(vi) tfoot > tr > th:first-child,
-:lang(vi) .fr-table tbody > tr > th:last-child,
-.fr-table :lang(vi) tbody > tr > th:last-child,
-:lang(vi) .fr-table tfoot > tr > th:last-child,
-.fr-table :lang(vi) tfoot > tr > th:last-child,
-:lang(vi) .fr-table.mini tbody > tr > td:last-child,
-.fr-table.mini :lang(vi) tbody > tr > td:last-child,
-:lang(vi) .store.fr-info-section .info-main,
-.store.fr-info-section :lang(vi) .info-main,
-:lang(vi) .order.fr-info-section .info-main,
-.order.fr-info-section :lang(vi) .info-main,
-:lang(vi) .fr-load-more .text,
-.fr-load-more :lang(vi) .text,
-:lang(vi) .fr-product-card .info .description,
-.fr-product-card .info :lang(vi) .description,
-:lang(vi) .fr-product-card .info-column .description,
-.fr-product-card .info-column :lang(vi) .description,
-:lang(vi) .fr-product-card .info-row .description,
-.fr-product-card .info-row :lang(vi) .description,
-:lang(vi) .fr-product-card .info .bottom-link-wrapper .link,
-.fr-product-card .info .bottom-link-wrapper :lang(vi) .link,
-:lang(vi) .fr-product-card .info-column .bottom-link-wrapper .link,
-.fr-product-card .info-column .bottom-link-wrapper :lang(vi) .link,
-:lang(vi) .fr-product-card .info-row .bottom-link-wrapper .link,
-.fr-product-card .info-row .bottom-link-wrapper :lang(vi) .link,
-:lang(vi) .fr-product-card .title,
-.fr-product-card :lang(vi) .title,
-:lang(vi) .fr-product-price .description,
-.fr-product-price :lang(vi) .description,
-:lang(vi) .fr-product-price .fr-product-price-info .dual-price-original,
-.fr-product-price .fr-product-price-info :lang(vi) .dual-price-original,
-:lang(vi) .fr-product-price .link,
-.fr-product-price :lang(vi) .link,
-:lang(vi) .fr-product-price.image .title,
-.fr-product-price.image :lang(vi) .title,
-:lang(vi) .fr-purchase-history-item-name,
-:lang(vi) .fr-return-button .fr-return-button-inner,
-.fr-return-button :lang(vi) .fr-return-button-inner,
-:lang(vi) .fr-store-info-name,
-:lang(vi) .fr-store-info-distance,
-:lang(vi) .fr-tappable-grid-inner .title,
-.fr-tappable-grid-inner :lang(vi) .title,
-:lang(vi) .fr-anchor-button .fr-anchor-inner .fr-anchor-title,
-.fr-anchor-button .fr-anchor-inner :lang(vi) .fr-anchor-title,
-:lang(vi) .fr-orderedlist-with-image .listItem dt,
-.fr-orderedlist-with-image .listItem :lang(vi) dt,
-:lang(vi) .fr-banner .info .title,
-.fr-banner .info :lang(vi) .title,
-:lang(vi) .fr-drumlink-item .text,
-.fr-drumlink-item :lang(vi) .text,
-:lang(vi) .fr-popup-fixed-base .header .title,
-.fr-popup-fixed-base .header :lang(vi) .title,
-:lang(vi) .fr-drumlink .header .title,
-.fr-drumlink .header :lang(vi) .title,
-:lang(vi) .fr-faq > .q,
-:lang(vi) .fr-faq .cap,
-.fr-faq :lang(vi) .cap,
-:lang(vi)
-  .fr-footer
-  .fr-footer-content-wrapper
-  .fr-footer-content-pc
-  .subscribe-now,
-.fr-footer
-  .fr-footer-content-wrapper
-  .fr-footer-content-pc
-  :lang(vi)
-  .subscribe-now,
-:lang(vi) .fr-footer .fr-list > li,
-.fr-footer :lang(vi) .fr-list > li,
-:lang(vi) .fr-banner .head,
-.fr-banner :lang(vi) .head,
-:lang(vi) .fr-image-plus-text .head,
-.fr-image-plus-text :lang(vi) .head,
-:lang(vi) .fr-banner .date,
-.fr-banner :lang(vi) .date,
-:lang(vi) .fr-image-plus-text .date,
-.fr-image-plus-text :lang(vi) .date,
-:lang(vi) .fr-banner .title,
-.fr-banner :lang(vi) .title,
-:lang(vi) .fr-image-plus-text .title,
-.fr-image-plus-text :lang(vi) .title,
-:lang(vi) .fr-banner .link,
-.fr-banner :lang(vi) .link,
-:lang(vi) .fr-image-plus-text .link,
-.fr-image-plus-text :lang(vi) .link,
-:lang(vi) .apply-coupon-checkout-tooltip-text.fr-text.withtooltip > .text,
-:lang(vi) .fr-quote > .signature,
-:lang(vi) .fr-sns-post .user .name,
-.fr-sns-post .user :lang(vi) .name,
-:lang(vi) .fr-tabs .fr-tabs-title,
-.fr-tabs :lang(vi) .fr-tabs-title,
-:lang(vi) .swipeable .fr-tabs-item .fr-tabs-title,
-.swipeable .fr-tabs-item :lang(vi) .fr-tabs-title,
-:lang(vi) .fr-tabs .women.fr-tabs-item .fr-tabs-title,
-.fr-tabs .women.fr-tabs-item :lang(vi) .fr-tabs-title,
-:lang(vi) .fr-tabs .men.fr-tabs-item .fr-tabs-title,
-.fr-tabs .men.fr-tabs-item :lang(vi) .fr-tabs-title,
-:lang(vi) .fr-tabs .kids.fr-tabs-item .fr-tabs-title,
-.fr-tabs .kids.fr-tabs-item :lang(vi) .fr-tabs-title,
-:lang(vi) .fr-tabs .boys.fr-tabs-item .fr-tabs-title,
-.fr-tabs .boys.fr-tabs-item :lang(vi) .fr-tabs-title,
-:lang(vi) .fr-tabs .girls.fr-tabs-item .fr-tabs-title,
-.fr-tabs .girls.fr-tabs-item :lang(vi) .fr-tabs-title,
-:lang(vi) .fr-tabs .baby.fr-tabs-item .fr-tabs-title,
-.fr-tabs .baby.fr-tabs-item :lang(vi) .fr-tabs-title,
-:lang(vi) .fr-user-review-title,
-:lang(vi) .fr-media-wrapper > .info .flag,
-.fr-media-wrapper > .info :lang(vi) .flag,
-:lang(vi) .fr-two-column-list-item-wrapper:nth-child(2) .status-info,
-.fr-two-column-list-item-wrapper:nth-child(2) :lang(vi) .status-info,
-:lang(vi) .fr-showmore .button,
-.fr-showmore :lang(vi) .button,
-:lang(vi) .small.fr-btn,
-:lang(vi) .fr-fitting-bar .fr-fitting-label,
-.fr-fitting-bar :lang(vi) .fr-fitting-label,
-:lang(vi) .fr-product-card .info .dual-price-original,
-.fr-product-card .info :lang(vi) .dual-price-original,
-:lang(vi) .fr-utility-bar,
-:lang(vi) .fr-media-header-tag,
-:lang(vi) .fr-tabs .fr-tabs-item .fr-tabs-item-inner.icon .fr-tabs-title,
-.fr-tabs .fr-tabs-item .fr-tabs-item-inner.icon :lang(vi) .fr-tabs-title,
-:lang(vi) .swipeable .fr-tabs-item .fr-tabs-item-inner.icon .fr-tabs-title,
-.swipeable .fr-tabs-item .fr-tabs-item-inner.icon :lang(vi) .fr-tabs-title,
-:lang(vi) .fr-user-review-author,
-:lang(vi) .fr-coupon-image .fr-coupon-image-overlay,
-.fr-coupon-image :lang(vi) .fr-coupon-image-overlay,
-:lang(vi) .fr-global-nav-item a *:last-child:not(.fr-badge),
-.fr-global-nav-item a :lang(vi) *:last-child:not(.fr-badge),
-:lang(vi) .fr-gender-label,
-:lang(vi) .fr-product-price .gender-size .size,
-.fr-product-price .gender-size :lang(vi) .size,
-:lang(vi) .fr-hero-media .text .title,
-.fr-hero-media .text :lang(vi) .title,
-:lang(vi) .fr-feature-links-grid .fr-feature-links-grid-item h4,
-.fr-feature-links-grid .fr-feature-links-grid-item :lang(vi) h4,
-:lang(vi) .fr-feature-links-grid .fr-feature-links-grid-item a,
-.fr-feature-links-grid .fr-feature-links-grid-item :lang(vi) a,
-:lang(vi) .fr-product-card .gender-size,
-.fr-product-card :lang(vi) .gender-size,
-:lang(vi) .fr-table tfoot > tr:first-child,
-.fr-table :lang(vi) tfoot > tr:first-child,
-:lang(vi) .fr-global-nav-item,
-:lang(vi) .fr-product-card .rank-row .rank,
-.fr-product-card .rank-row :lang(vi) .rank,
-:lang(vi) .fr-icon .fr-badge,
-.fr-icon :lang(vi) .fr-badge {
-  font-family: Arial, "Helvetica Neue", HelveticaNeue, Helvetica, "Noto Sans",
-    Roboto, "Hiragino Sans", "Hiragino Kaku Gothic Pro",
-    "\30D2\30E9\30AE\30CE\89D2\30B4   Pro W3", "Noto Sans CJK JP", Osaka, Meiryo,
-    "\30E1\30A4\30EA\30AA", "MS PGothic",
-    "\FF2D\FF33   \FF30\30B4\30B7\30C3\30AF", "Hiragino Sans GB",
-    "Arial Unicode MS", sans-serif;
-}
-.fr-product-price.promo .fr-product-price-info .price-limited,
-.fr-product-price.promo .fr-product-price-info .price-original,
-.fr-media-header-title {
-  font-size: 22px;
-  font-weight: 600;
-  letter-spacing: 0.01em;
-  line-height: 1.182;
-}
-:lang(ja) .fr-product-price.promo .fr-product-price-info .price-limited,
-.fr-product-price.promo .fr-product-price-info :lang(ja) .price-limited,
-:lang(ja) .fr-product-price.promo .fr-product-price-info .price-original,
-.fr-product-price.promo .fr-product-price-info :lang(ja) .price-original,
-:lang(ja) .fr-media-header-title,
-.lang-ja .fr-product-price.promo .fr-product-price-info .price-limited,
-.fr-product-price.promo .fr-product-price-info .lang-ja .price-limited,
-.lang-ja .fr-product-price.promo .fr-product-price-info .price-original,
-.fr-product-price.promo .fr-product-price-info .lang-ja .price-original,
-.lang-ja .fr-media-header-title,
-.fr-font-japanese .fr-product-price.promo .fr-product-price-info .price-limited,
-.fr-product-price.promo .fr-product-price-info .fr-font-japanese .price-limited,
-.fr-font-japanese
-  .fr-product-price.promo
-  .fr-product-price-info
-  .price-original,
-.fr-product-price.promo
-  .fr-product-price-info
-  .fr-font-japanese
-  .price-original,
-.fr-font-japanese .fr-media-header-title {
-  font-size: 21px;
-  letter-spacing: normal;
-  line-height: 1.5;
-}
-.lang-ja .fr-accordion-head,
-:lang(ja) .fr-accordion-head,
-.details.store.fr-info-section .info-main,
-.lang-ja .fr-tappable-grid-inner .title,
-:lang(ja) .fr-tappable-grid-inner .title,
-.icon.fr-drumlink-item .text,
-.fr-popup-fixed-base .header h1,
-.fr-drumlink .header h1,
-.lang-ja .fr-faq > .q,
-:lang(ja) .fr-faq > .q,
-.lang-ja .fr-faq .cap,
-:lang(ja) .fr-faq .cap {
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  line-height: 1.1875;
-}
-:lang(ja) .lang-ja .fr-accordion-head,
-.lang-ja :lang(ja) .fr-accordion-head,
-:lang(ja) .fr-accordion-head,
-:lang(ja) .details.store.fr-info-section .info-main,
-.details.store.fr-info-section :lang(ja) .info-main,
-:lang(ja) .lang-ja .fr-tappable-grid-inner .title,
-.lang-ja .fr-tappable-grid-inner :lang(ja) .title,
-:lang(ja) .fr-tappable-grid-inner .title,
-:lang(ja) .icon.fr-drumlink-item .text,
-.icon.fr-drumlink-item :lang(ja) .text,
-:lang(ja) .fr-popup-fixed-base .header h1,
-.fr-popup-fixed-base .header :lang(ja) h1,
-:lang(ja) .fr-drumlink .header h1,
-.fr-drumlink .header :lang(ja) h1,
-:lang(ja) .lang-ja .fr-faq > .q,
-.lang-ja :lang(ja) .fr-faq > .q,
-:lang(ja) .fr-faq > .q,
-:lang(ja) .lang-ja .fr-faq .cap,
-.lang-ja .fr-faq :lang(ja) .cap,
-:lang(ja) .fr-faq .cap,
-.lang-ja .fr-accordion-head,
-.lang-ja .details.store.fr-info-section .info-main,
-.details.store.fr-info-section .lang-ja .info-main,
-.lang-ja .fr-tappable-grid-inner .title,
-:lang(ja) .fr-tappable-grid-inner .lang-ja .title,
-.lang-ja .icon.fr-drumlink-item .text,
-.icon.fr-drumlink-item .lang-ja .text,
-.lang-ja .fr-popup-fixed-base .header h1,
-.fr-popup-fixed-base .header .lang-ja h1,
-.lang-ja .fr-drumlink .header h1,
-.fr-drumlink .header .lang-ja h1,
-.lang-ja .fr-faq > .q,
-.lang-ja :lang(ja) .fr-faq > .q,
-.lang-ja .fr-faq .cap,
-:lang(ja) .fr-faq .lang-ja .cap,
-.fr-font-japanese .lang-ja .fr-accordion-head,
-.lang-ja .fr-font-japanese .fr-accordion-head,
-.fr-font-japanese :lang(ja) .fr-accordion-head,
-:lang(ja) .fr-font-japanese .fr-accordion-head,
-.fr-font-japanese .details.store.fr-info-section .info-main,
-.details.store.fr-info-section .fr-font-japanese .info-main,
-.fr-font-japanese .lang-ja .fr-tappable-grid-inner .title,
-.lang-ja .fr-tappable-grid-inner .fr-font-japanese .title,
-.fr-font-japanese :lang(ja) .fr-tappable-grid-inner .title,
-:lang(ja) .fr-tappable-grid-inner .fr-font-japanese .title,
-.fr-font-japanese .icon.fr-drumlink-item .text,
-.icon.fr-drumlink-item .fr-font-japanese .text,
-.fr-font-japanese .fr-popup-fixed-base .header h1,
-.fr-popup-fixed-base .header .fr-font-japanese h1,
-.fr-font-japanese .fr-drumlink .header h1,
-.fr-drumlink .header .fr-font-japanese h1,
-.fr-font-japanese .lang-ja .fr-faq > .q,
-.lang-ja .fr-font-japanese .fr-faq > .q,
-.fr-font-japanese :lang(ja) .fr-faq > .q,
-:lang(ja) .fr-font-japanese .fr-faq > .q,
-.fr-font-japanese .lang-ja .fr-faq .cap,
-.lang-ja .fr-faq .fr-font-japanese .cap,
-.fr-font-japanese :lang(ja) .fr-faq .cap,
-:lang(ja) .fr-faq .fr-font-japanese .cap {
-  font-size: 14px;
-  letter-spacing: normal;
-  line-height: 1.5;
-}
-.fr-searchform .fr-searchform-input {
-  font-size: 17px;
-  font-weight: normal;
-  letter-spacing: 0.02em;
-  line-height: 1.471;
-}
-:lang(ja) .fr-searchform .fr-searchform-input,
-.fr-searchform :lang(ja) .fr-searchform-input,
-.lang-ja .fr-searchform .fr-searchform-input,
-.fr-searchform .lang-ja .fr-searchform-input,
-.fr-font-japanese .fr-searchform .fr-searchform-input,
-.fr-searchform .fr-font-japanese .fr-searchform-input {
-  font-size: 16px;
-  letter-spacing: normal;
-  line-height: 1.5;
-}
-.lang-ja .fr-product-card .info .link,
-:lang(ja) .fr-product-card .info .link,
-.fr-drumlink-item .text,
-.lang-ja .fr-image-plus-text .info .title,
-:lang(ja) .fr-image-plus-text .info .title,
-.lang-ja .fr-user-review-title,
-:lang(ja) .fr-user-review-title,
-.lang-ja .fr-user-review-author,
-:lang(ja) .fr-user-review-author {
-  font-weight: 600;
-  letter-spacing: 0.01em;
-  line-height: 1.2;
-}
-:lang(ja) .lang-ja .fr-product-card .info .link,
-.lang-ja .fr-product-card .info :lang(ja) .link,
-:lang(ja) .fr-product-card .info .link,
-:lang(ja) .fr-drumlink-item .text,
-.fr-drumlink-item :lang(ja) .text,
-:lang(ja) .lang-ja .fr-image-plus-text .info .title,
-.lang-ja .fr-image-plus-text .info :lang(ja) .title,
-:lang(ja) .fr-image-plus-text .info .title,
-:lang(ja) .lang-ja .fr-user-review-title,
-.lang-ja :lang(ja) .fr-user-review-title,
-:lang(ja) .fr-user-review-title,
-:lang(ja) .lang-ja .fr-user-review-author,
-.lang-ja :lang(ja) .fr-user-review-author,
-:lang(ja) .fr-user-review-author,
-.lang-ja .fr-product-card .info .link,
-:lang(ja) .fr-product-card .info .lang-ja .link,
-.lang-ja .fr-drumlink-item .text,
-.fr-drumlink-item .lang-ja .text,
-.lang-ja .fr-image-plus-text .info .title,
-:lang(ja) .fr-image-plus-text .info .lang-ja .title,
-.lang-ja .fr-user-review-title,
-.lang-ja .fr-user-review-author,
-.fr-font-japanese .lang-ja .fr-product-card .info .link,
-.lang-ja .fr-product-card .info .fr-font-japanese .link,
-.fr-font-japanese :lang(ja) .fr-product-card .info .link,
-:lang(ja) .fr-product-card .info .fr-font-japanese .link,
-.fr-font-japanese .fr-drumlink-item .text,
-.fr-drumlink-item .fr-font-japanese .text,
-.fr-font-japanese .lang-ja .fr-image-plus-text .info .title,
-.lang-ja .fr-image-plus-text .info .fr-font-japanese .title,
-.fr-font-japanese :lang(ja) .fr-image-plus-text .info .title,
-:lang(ja) .fr-image-plus-text .info .fr-font-japanese .title,
-.fr-font-japanese .lang-ja .fr-user-review-title,
-.lang-ja .fr-font-japanese .fr-user-review-title,
-.fr-font-japanese :lang(ja) .fr-user-review-title,
-:lang(ja) .fr-font-japanese .fr-user-review-title,
-.fr-font-japanese .lang-ja .fr-user-review-author,
-.lang-ja .fr-font-japanese .fr-user-review-author,
-.fr-font-japanese :lang(ja) .fr-user-review-author,
-:lang(ja) .fr-font-japanese .fr-user-review-author {
-  font-size: 13px;
-  letter-spacing: normal;
-  line-height: 1.5;
-}
-.compact.fr-definition-list.price .fr-definition-list-term,
-.fr-definition-list-description,
-.lang-ja .fr-ordered-list,
-:lang(ja) .fr-ordered-list,
-.fr-font-japanese .fr-ordered-list,
-.lang-ja .fr-unordered-list,
-:lang(ja) .fr-unordered-list,
-.fr-font-japanese .fr-unordered-list,
-.fr-accordion-list > .fr-accordion-list-item .inner,
-.fr-table tbody > tr > td:first-child,
-.fr-table tfoot > tr > td:first-child,
-.fr-table.mini tbody > tr > th .details,
-.fr-table.mini tbody > tr > td .details,
-.fr-tile-information .title,
-.fr-icon-list-with-tooltip .fr-tooltip,
-.fr-info-section,
-.fr-info-section .info-main,
-.fr-product-card .fr-definition-list.minor .fr-definition-list-term,
-.fr-product-card .fr-definition-list.minor .fr-definition-list-description,
-.lang-ja .fr-product-card .info .description,
-:lang(ja) .fr-product-card .info .description,
-.lang-ja .fr-product-card .info .flag,
-:lang(ja) .fr-product-card .info .flag,
-.lang-ja .fr-product-card .info .limited .limited-item,
-:lang(ja) .fr-product-card .info .limited .limited-item,
-.lang-ja .fr-product-card .info .limited-flag .limited-flag-item,
-:lang(ja) .fr-product-card .info .limited-flag .limited-flag-item,
-.fr-product-card.cart .info .fr-product-price .price-limited,
-.fr-product-card.cart .info .fr-product-price .price-original,
-.fr-product-card.cart .info .fr-product-price .price-multi-buy,
-.fr-product-card.summary .info .fr-product-price .price-limited,
-.fr-product-card.summary .info .fr-product-price .price-original,
-.withannotation.fr-btn-wrapper .fr-text-annotation,
-.fr-layer-item.popup-modal.dialog-without-fixed .contents,
-.fr-user-review .user-info,
-.lang-ja .fr-user-review-comment,
-:lang(ja) .fr-user-review-comment {
-  font-weight: normal;
-  letter-spacing: 0.01em;
-  line-height: 1.2;
-}
-:lang(ja) .compact.fr-definition-list.price .fr-definition-list-term,
-.compact.fr-definition-list.price :lang(ja) .fr-definition-list-term,
-:lang(ja) .fr-definition-list-description,
-:lang(ja) .lang-ja .fr-ordered-list,
-.lang-ja :lang(ja) .fr-ordered-list,
-:lang(ja) .fr-ordered-list,
-:lang(ja) .fr-font-japanese .fr-ordered-list,
-.fr-font-japanese :lang(ja) .fr-ordered-list,
-:lang(ja) .lang-ja .fr-unordered-list,
-.lang-ja :lang(ja) .fr-unordered-list,
-:lang(ja) .fr-unordered-list,
-:lang(ja) .fr-font-japanese .fr-unordered-list,
-.fr-font-japanese :lang(ja) .fr-unordered-list,
-:lang(ja) .fr-accordion-list > .fr-accordion-list-item .inner,
-.fr-accordion-list > .fr-accordion-list-item :lang(ja) .inner,
-:lang(ja) .fr-table tbody > tr > td:first-child,
-.fr-table :lang(ja) tbody > tr > td:first-child,
-:lang(ja) .fr-table tfoot > tr > td:first-child,
-.fr-table :lang(ja) tfoot > tr > td:first-child,
-:lang(ja) .fr-table.mini tbody > tr > th .details,
-.fr-table.mini tbody > tr > th :lang(ja) .details,
-:lang(ja) .fr-table.mini tbody > tr > td .details,
-.fr-table.mini tbody > tr > td :lang(ja) .details,
-:lang(ja) .fr-tile-information .title,
-.fr-tile-information :lang(ja) .title,
-:lang(ja) .fr-icon-list-with-tooltip .fr-tooltip,
-.fr-icon-list-with-tooltip :lang(ja) .fr-tooltip,
-:lang(ja) .fr-info-section,
-:lang(ja) .fr-info-section .info-main,
-.fr-info-section :lang(ja) .info-main,
-:lang(ja) .fr-product-card .fr-definition-list.minor .fr-definition-list-term,
-.fr-product-card .fr-definition-list.minor :lang(ja) .fr-definition-list-term,
-:lang(ja)
-  .fr-product-card
-  .fr-definition-list.minor
-  .fr-definition-list-description,
-.fr-product-card
-  .fr-definition-list.minor
-  :lang(ja)
-  .fr-definition-list-description,
-:lang(ja) .lang-ja .fr-product-card .info .description,
-.lang-ja .fr-product-card .info :lang(ja) .description,
-:lang(ja) .fr-product-card .info .description,
-:lang(ja) .lang-ja .fr-product-card .info .flag,
-.lang-ja .fr-product-card .info :lang(ja) .flag,
-:lang(ja) .fr-product-card .info .flag,
-:lang(ja) .lang-ja .fr-product-card .info .limited .limited-item,
-.lang-ja .fr-product-card .info .limited :lang(ja) .limited-item,
-:lang(ja) .fr-product-card .info .limited .limited-item,
-:lang(ja) .lang-ja .fr-product-card .info .limited-flag .limited-flag-item,
-.lang-ja .fr-product-card .info .limited-flag :lang(ja) .limited-flag-item,
-:lang(ja) .fr-product-card .info .limited-flag .limited-flag-item,
-:lang(ja) .fr-product-card.cart .info .fr-product-price .price-limited,
-.fr-product-card.cart .info .fr-product-price :lang(ja) .price-limited,
-:lang(ja) .fr-product-card.cart .info .fr-product-price .price-original,
-.fr-product-card.cart .info .fr-product-price :lang(ja) .price-original,
-:lang(ja) .fr-product-card.cart .info .fr-product-price .price-multi-buy,
-.fr-product-card.cart .info .fr-product-price :lang(ja) .price-multi-buy,
-:lang(ja) .fr-product-card.summary .info .fr-product-price .price-limited,
-.fr-product-card.summary .info .fr-product-price :lang(ja) .price-limited,
-:lang(ja) .fr-product-card.summary .info .fr-product-price .price-original,
-.fr-product-card.summary .info .fr-product-price :lang(ja) .price-original,
-:lang(ja) .withannotation.fr-btn-wrapper .fr-text-annotation,
-.withannotation.fr-btn-wrapper :lang(ja) .fr-text-annotation,
-:lang(ja) .fr-layer-item.popup-modal.dialog-without-fixed .contents,
-.fr-layer-item.popup-modal.dialog-without-fixed :lang(ja) .contents,
-:lang(ja) .fr-user-review .user-info,
-.fr-user-review :lang(ja) .user-info,
-:lang(ja) .lang-ja .fr-user-review-comment,
-.lang-ja :lang(ja) .fr-user-review-comment,
-:lang(ja) .fr-user-review-comment,
-.lang-ja .compact.fr-definition-list.price .fr-definition-list-term,
-.compact.fr-definition-list.price .lang-ja .fr-definition-list-term,
-.lang-ja .fr-definition-list-description,
-.lang-ja .fr-ordered-list,
-.lang-ja .fr-unordered-list,
-.lang-ja .fr-accordion-list > .fr-accordion-list-item .inner,
-.fr-accordion-list > .fr-accordion-list-item .lang-ja .inner,
-.lang-ja .fr-table tbody > tr > td:first-child,
-.fr-table .lang-ja tbody > tr > td:first-child,
-.lang-ja .fr-table tfoot > tr > td:first-child,
-.fr-table .lang-ja tfoot > tr > td:first-child,
-.lang-ja .fr-table.mini tbody > tr > th .details,
-.fr-table.mini tbody > tr > th .lang-ja .details,
-.lang-ja .fr-table.mini tbody > tr > td .details,
-.fr-table.mini tbody > tr > td .lang-ja .details,
-.lang-ja .fr-tile-information .title,
-.fr-tile-information .lang-ja .title,
-.lang-ja .fr-icon-list-with-tooltip .fr-tooltip,
-.fr-icon-list-with-tooltip .lang-ja .fr-tooltip,
-.lang-ja .fr-info-section,
-.lang-ja .fr-info-section .info-main,
-.fr-info-section .lang-ja .info-main,
-.lang-ja .fr-product-card .fr-definition-list.minor .fr-definition-list-term,
-.fr-product-card .fr-definition-list.minor .lang-ja .fr-definition-list-term,
-.lang-ja
-  .fr-product-card
-  .fr-definition-list.minor
-  .fr-definition-list-description,
-.fr-product-card
-  .fr-definition-list.minor
-  .lang-ja
-  .fr-definition-list-description,
-.lang-ja .fr-product-card .info .description,
-:lang(ja) .fr-product-card .info .lang-ja .description,
-.lang-ja .fr-product-card .info .flag,
-:lang(ja) .fr-product-card .info .lang-ja .flag,
-.lang-ja .fr-product-card .info .limited .limited-item,
-:lang(ja) .fr-product-card .info .limited .lang-ja .limited-item,
-.lang-ja .fr-product-card .info .limited-flag .limited-flag-item,
-:lang(ja) .fr-product-card .info .limited-flag .lang-ja .limited-flag-item,
-.lang-ja .fr-product-card.cart .info .fr-product-price .price-limited,
-.fr-product-card.cart .info .fr-product-price .lang-ja .price-limited,
-.lang-ja .fr-product-card.cart .info .fr-product-price .price-original,
-.fr-product-card.cart .info .fr-product-price .lang-ja .price-original,
-.lang-ja .fr-product-card.cart .info .fr-product-price .price-multi-buy,
-.fr-product-card.cart .info .fr-product-price .lang-ja .price-multi-buy,
-.lang-ja .fr-product-card.summary .info .fr-product-price .price-limited,
-.fr-product-card.summary .info .fr-product-price .lang-ja .price-limited,
-.lang-ja .fr-product-card.summary .info .fr-product-price .price-original,
-.fr-product-card.summary .info .fr-product-price .lang-ja .price-original,
-.lang-ja .withannotation.fr-btn-wrapper .fr-text-annotation,
-.withannotation.fr-btn-wrapper .lang-ja .fr-text-annotation,
-.lang-ja .fr-layer-item.popup-modal.dialog-without-fixed .contents,
-.fr-layer-item.popup-modal.dialog-without-fixed .lang-ja .contents,
-.lang-ja .fr-user-review .user-info,
-.fr-user-review .lang-ja .user-info,
-.lang-ja .fr-user-review-comment,
-.fr-font-japanese .compact.fr-definition-list.price .fr-definition-list-term,
-.compact.fr-definition-list.price .fr-font-japanese .fr-definition-list-term,
-.fr-font-japanese .fr-definition-list-description,
-.fr-font-japanese .fr-ordered-list,
-.fr-font-japanese .fr-unordered-list,
-.fr-font-japanese .fr-accordion-list > .fr-accordion-list-item .inner,
-.fr-accordion-list > .fr-accordion-list-item .fr-font-japanese .inner,
-.fr-font-japanese .fr-table tbody > tr > td:first-child,
-.fr-table .fr-font-japanese tbody > tr > td:first-child,
-.fr-font-japanese .fr-table tfoot > tr > td:first-child,
-.fr-table .fr-font-japanese tfoot > tr > td:first-child,
-.fr-font-japanese .fr-table.mini tbody > tr > th .details,
-.fr-table.mini tbody > tr > th .fr-font-japanese .details,
-.fr-font-japanese .fr-table.mini tbody > tr > td .details,
-.fr-table.mini tbody > tr > td .fr-font-japanese .details,
-.fr-font-japanese .fr-tile-information .title,
-.fr-tile-information .fr-font-japanese .title,
-.fr-font-japanese .fr-icon-list-with-tooltip .fr-tooltip,
-.fr-icon-list-with-tooltip .fr-font-japanese .fr-tooltip,
-.fr-font-japanese .fr-info-section,
-.fr-font-japanese .fr-info-section .info-main,
-.fr-info-section .fr-font-japanese .info-main,
-.fr-font-japanese
-  .fr-product-card
-  .fr-definition-list.minor
-  .fr-definition-list-term,
-.fr-product-card
-  .fr-definition-list.minor
-  .fr-font-japanese
-  .fr-definition-list-term,
-.fr-font-japanese
-  .fr-product-card
-  .fr-definition-list.minor
-  .fr-definition-list-description,
-.fr-product-card
-  .fr-definition-list.minor
-  .fr-font-japanese
-  .fr-definition-list-description,
-.fr-font-japanese .lang-ja .fr-product-card .info .description,
-.lang-ja .fr-product-card .info .fr-font-japanese .description,
-.fr-font-japanese :lang(ja) .fr-product-card .info .description,
-:lang(ja) .fr-product-card .info .fr-font-japanese .description,
-.fr-font-japanese .lang-ja .fr-product-card .info .flag,
-.lang-ja .fr-product-card .info .fr-font-japanese .flag,
-.fr-font-japanese :lang(ja) .fr-product-card .info .flag,
-:lang(ja) .fr-product-card .info .fr-font-japanese .flag,
-.fr-font-japanese .lang-ja .fr-product-card .info .limited .limited-item,
-.lang-ja .fr-product-card .info .limited .fr-font-japanese .limited-item,
-.fr-font-japanese :lang(ja) .fr-product-card .info .limited .limited-item,
-:lang(ja) .fr-product-card .info .limited .fr-font-japanese .limited-item,
-.fr-font-japanese
-  .lang-ja
-  .fr-product-card
-  .info
-  .limited-flag
-  .limited-flag-item,
-.lang-ja
-  .fr-product-card
-  .info
-  .limited-flag
-  .fr-font-japanese
-  .limited-flag-item,
-.fr-font-japanese
-  :lang(ja)
-  .fr-product-card
-  .info
-  .limited-flag
-  .limited-flag-item,
-:lang(ja)
-  .fr-product-card
-  .info
-  .limited-flag
-  .fr-font-japanese
-  .limited-flag-item,
-.fr-font-japanese .fr-product-card.cart .info .fr-product-price .price-limited,
-.fr-product-card.cart .info .fr-product-price .fr-font-japanese .price-limited,
-.fr-font-japanese .fr-product-card.cart .info .fr-product-price .price-original,
-.fr-product-card.cart .info .fr-product-price .fr-font-japanese .price-original,
-.fr-font-japanese
-  .fr-product-card.cart
-  .info
-  .fr-product-price
-  .price-multi-buy,
-.fr-product-card.cart
-  .info
-  .fr-product-price
-  .fr-font-japanese
-  .price-multi-buy,
-.fr-font-japanese
-  .fr-product-card.summary
-  .info
-  .fr-product-price
-  .price-limited,
-.fr-product-card.summary
-  .info
-  .fr-product-price
-  .fr-font-japanese
-  .price-limited,
-.fr-font-japanese
-  .fr-product-card.summary
-  .info
-  .fr-product-price
-  .price-original,
-.fr-product-card.summary
-  .info
-  .fr-product-price
-  .fr-font-japanese
-  .price-original,
-.fr-font-japanese .withannotation.fr-btn-wrapper .fr-text-annotation,
-.withannotation.fr-btn-wrapper .fr-font-japanese .fr-text-annotation,
-.fr-font-japanese .fr-layer-item.popup-modal.dialog-without-fixed .contents,
-.fr-layer-item.popup-modal.dialog-without-fixed .fr-font-japanese .contents,
-.fr-font-japanese .fr-user-review .user-info,
-.fr-user-review .fr-font-japanese .user-info,
-.fr-font-japanese .lang-ja .fr-user-review-comment,
-.lang-ja .fr-font-japanese .fr-user-review-comment,
-.fr-font-japanese :lang(ja) .fr-user-review-comment,
-:lang(ja) .fr-font-japanese .fr-user-review-comment {
-  font-size: 13px;
-  letter-spacing: normal;
-  line-height: 1.5;
-}
-.fr-product-card.cart .info :not(.cart) .price-limited + .price-original,
-.fr-product-card.cart .info :not(.cart) .price-original + .price-original,
-.lang-ja .fr-image-plus-text .info .head,
-:lang(ja) .fr-image-plus-text .info .head,
-.lang-ja .fr-image-plus-text .info .link,
-:lang(ja) .fr-image-plus-text .info .link,
-.lang-ja .fr-tabs .fr-tabs-title,
-:lang(ja) .fr-tabs .fr-tabs-title {
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0.01em;
-  line-height: 1.154;
-}
-:lang(ja)
-  .fr-product-card.cart
-  .info
-  :not(.cart)
-  .price-limited
-  + .price-original,
-.fr-product-card.cart
-  .info
-  :not(.cart)
-  :lang(ja)
-  .price-limited
-  + .price-original,
-:lang(ja)
-  .fr-product-card.cart
-  .info
-  :not(.cart)
-  .price-original
-  + .price-original,
-.fr-product-card.cart
-  .info
-  :not(.cart)
-  :lang(ja)
-  .price-original
-  + .price-original,
-:lang(ja) .lang-ja .fr-image-plus-text .info .head,
-.lang-ja .fr-image-plus-text .info :lang(ja) .head,
-:lang(ja) .fr-image-plus-text .info .head,
-:lang(ja) .lang-ja .fr-image-plus-text .info .link,
-.lang-ja .fr-image-plus-text .info :lang(ja) .link,
-:lang(ja) .fr-image-plus-text .info .link,
-:lang(ja) .lang-ja .fr-tabs .fr-tabs-title,
-.lang-ja .fr-tabs :lang(ja) .fr-tabs-title,
-:lang(ja) .fr-tabs .fr-tabs-title,
-.lang-ja
-  .fr-product-card.cart
-  .info
-  :not(.cart)
-  .price-limited
-  + .price-original,
-.fr-product-card.cart
-  .info
-  :not(.cart)
-  .lang-ja
-  .price-limited
-  + .price-original,
-.lang-ja
-  .fr-product-card.cart
-  .info
-  :not(.cart)
-  .price-original
-  + .price-original,
-.fr-product-card.cart
-  .info
-  :not(.cart)
-  .lang-ja
-  .price-original
-  + .price-original,
-.lang-ja .fr-image-plus-text .info .head,
-:lang(ja) .fr-image-plus-text .info .lang-ja .head,
-.lang-ja .fr-image-plus-text .info .link,
-:lang(ja) .fr-image-plus-text .info .lang-ja .link,
-.lang-ja .fr-tabs .fr-tabs-title,
-:lang(ja) .fr-tabs .lang-ja .fr-tabs-title,
-.fr-font-japanese
-  .fr-product-card.cart
-  .info
-  :not(.cart)
-  .price-limited
-  + .price-original,
-.fr-product-card.cart
-  .info
-  :not(.cart)
-  .fr-font-japanese
-  .price-limited
-  + .price-original,
-.fr-font-japanese
-  .fr-product-card.cart
-  .info
-  :not(.cart)
-  .price-original
-  + .price-original,
-.fr-product-card.cart
-  .info
-  :not(.cart)
-  .fr-font-japanese
-  .price-original
-  + .price-original,
-.fr-font-japanese .lang-ja .fr-image-plus-text .info .head,
-.lang-ja .fr-image-plus-text .info .fr-font-japanese .head,
-.fr-font-japanese :lang(ja) .fr-image-plus-text .info .head,
-:lang(ja) .fr-image-plus-text .info .fr-font-japanese .head,
-.fr-font-japanese .lang-ja .fr-image-plus-text .info .link,
-.lang-ja .fr-image-plus-text .info .fr-font-japanese .link,
-.fr-font-japanese :lang(ja) .fr-image-plus-text .info .link,
-:lang(ja) .fr-image-plus-text .info .fr-font-japanese .link,
-.fr-font-japanese .lang-ja .fr-tabs .fr-tabs-title,
-.lang-ja .fr-tabs .fr-font-japanese .fr-tabs-title,
-.fr-font-japanese :lang(ja) .fr-tabs .fr-tabs-title,
-:lang(ja) .fr-tabs .fr-font-japanese .fr-tabs-title {
-  font-size: 12px;
-  letter-spacing: normal;
-  line-height: 1.5;
-}
-.fr-definition-list.minor > *,
-.fr-ordered-list.annotation,
-.coupon-list .fr-unordered-list.annotation,
-.fr-unordered-list.annotation,
-.fr-accordion-head.order-summary .item-value,
-.fr-helpful-voting .fr-voting-text,
-.fr-helpful-voting .fr-voting-count,
-.review,
-.review-set .fr-review-count,
-.fr-store-info-hours,
-.fr-store-info .fr-status-flag,
-.fr-tappable-grid-inner .description,
-.lang-ja .fr-tappable-grid-inner .description,
-:lang(ja) .fr-tappable-grid-inner .description,
-.selectable-review-stars .review-description,
-.fr-user-review-date,
-.fr-user-review.image .fr-user-review-info::after,
-.fr-user-review.image .fr-user-review-info::before,
-.fr-user-review.image .user-info {
-  font-size: 14px;
-  font-weight: normal;
-  letter-spacing: 0.01em;
-  line-height: 1.154;
-}
-:lang(ja) .fr-definition-list.minor > *,
-:lang(ja) .fr-ordered-list.annotation,
-:lang(ja) .coupon-list .fr-unordered-list.annotation,
-.coupon-list :lang(ja) .fr-unordered-list.annotation,
-:lang(ja) .fr-unordered-list.annotation,
-:lang(ja) .fr-accordion-head.order-summary .item-value,
-.fr-accordion-head.order-summary :lang(ja) .item-value,
-:lang(ja) .fr-helpful-voting .fr-voting-text,
-.fr-helpful-voting :lang(ja) .fr-voting-text,
-:lang(ja) .fr-helpful-voting .fr-voting-count,
-.fr-helpful-voting :lang(ja) .fr-voting-count,
-:lang(ja) .review,
-:lang(ja) .review-set .fr-review-count,
-.review-set :lang(ja) .fr-review-count,
-:lang(ja) .fr-store-info-hours,
-:lang(ja) .fr-store-info .fr-status-flag,
-.fr-store-info :lang(ja) .fr-status-flag,
-.fr-tappable-grid-inner :lang(ja) .description,
-:lang(ja) .lang-ja .fr-tappable-grid-inner .description,
-.lang-ja .fr-tappable-grid-inner :lang(ja) .description,
-:lang(ja) .fr-tappable-grid-inner .description,
-:lang(ja) .selectable-review-stars .review-description,
-.selectable-review-stars :lang(ja) .review-description,
-:lang(ja) .fr-user-review-date,
-:lang(ja) .fr-user-review.image .fr-user-review-info::after,
-.fr-user-review.image :lang(ja) .fr-user-review-info::after,
-:lang(ja) .fr-user-review.image .fr-user-review-info::before,
-.fr-user-review.image :lang(ja) .fr-user-review-info::before,
-:lang(ja) .fr-user-review.image .user-info,
-.fr-user-review.image :lang(ja) .user-info,
-.lang-ja .fr-definition-list.minor > *,
-.lang-ja .fr-ordered-list.annotation,
-.lang-ja .fr-unordered-list.annotation,
-.lang-ja .fr-accordion-head.order-summary .item-value,
-.fr-accordion-head.order-summary .lang-ja .item-value,
-.lang-ja .fr-helpful-voting .fr-voting-text,
-.fr-helpful-voting .lang-ja .fr-voting-text,
-.lang-ja .fr-helpful-voting .fr-voting-count,
-.fr-helpful-voting .lang-ja .fr-voting-count,
-.lang-ja .review,
-.lang-ja .review-set .fr-review-count,
-.review-set .lang-ja .fr-review-count,
-.lang-ja .fr-store-info-hours,
-.lang-ja .fr-store-info .fr-status-flag,
-.fr-store-info .lang-ja .fr-status-flag,
-.fr-tappable-grid-inner .lang-ja .description,
-.lang-ja .fr-tappable-grid-inner .description,
-.lang-ja .selectable-review-stars .review-description,
-.selectable-review-stars .lang-ja .review-description,
-.lang-ja .fr-user-review-date,
-.lang-ja .fr-user-review.image .fr-user-review-info::after,
-.fr-user-review.image .lang-ja .fr-user-review-info::after,
-.lang-ja .fr-user-review.image .fr-user-review-info::before,
-.fr-user-review.image .lang-ja .fr-user-review-info::before,
-.lang-ja .fr-user-review.image .user-info,
-.fr-user-review.image .lang-ja .user-info,
-.fr-font-japanese .fr-definition-list.minor > *,
-.fr-font-japanese .fr-ordered-list.annotation,
-.fr-font-japanese .fr-unordered-list.annotation,
-.fr-font-japanese .fr-accordion-head.order-summary .item-value,
-.fr-accordion-head.order-summary .fr-font-japanese .item-value,
-.fr-font-japanese .fr-helpful-voting .fr-voting-text,
-.fr-helpful-voting .fr-font-japanese .fr-voting-text,
-.fr-font-japanese .fr-helpful-voting .fr-voting-count,
-.fr-helpful-voting .fr-font-japanese .fr-voting-count,
-.fr-font-japanese .review,
-.fr-font-japanese .review-set .fr-review-count,
-.review-set .fr-font-japanese .fr-review-count,
-.fr-font-japanese .fr-store-info-hours,
-.fr-font-japanese .fr-store-info .fr-status-flag,
-.fr-store-info .fr-font-japanese .fr-status-flag,
-.fr-font-japanese .fr-tappable-grid-inner .description,
-.fr-tappable-grid-inner .fr-font-japanese .description,
-.fr-font-japanese .selectable-review-stars .review-description,
-.selectable-review-stars .fr-font-japanese .review-description,
-.fr-font-japanese .fr-user-review-date,
-.fr-font-japanese .fr-user-review.image .fr-user-review-info::after,
-.fr-user-review.image .fr-font-japanese .fr-user-review-info::after,
-.fr-font-japanese .fr-user-review.image .fr-user-review-info::before,
-.fr-user-review.image .fr-font-japanese .fr-user-review-info::before,
-.fr-font-japanese .fr-user-review.image .user-info,
-.fr-user-review.image .fr-font-japanese .user-info {
-  font-size: 12px;
-  letter-spacing: normal;
-  line-height: 1.5;
-}
-.lang-ja .fr-anchor-button .fr-anchor-inner .fr-anchor-title,
-:lang(ja) .fr-anchor-button .fr-anchor-inner .fr-anchor-title,
-:lang(ja) .fr-global-nav-item a *:last-child:not(.fr-badge),
-.lang-ja .fr-global-nav-item a *:last-child:not(.fr-badge),
-.fr-font-japanese .fr-global-nav-item a *:last-child:not(.fr-badge) {
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.01em;
-  line-height: 1.182;
-}
-:lang(ja) .lang-ja .fr-anchor-button .fr-anchor-inner .fr-anchor-title,
-.lang-ja .fr-anchor-button .fr-anchor-inner :lang(ja) .fr-anchor-title,
-:lang(ja) .fr-anchor-button .fr-anchor-inner .fr-anchor-title,
-:lang(ja) .fr-global-nav-item a *:last-child:not(.fr-badge),
-:lang(ja) .lang-ja .fr-global-nav-item a *:last-child:not(.fr-badge),
-.lang-ja .fr-global-nav-item a :lang(ja) *:last-child:not(.fr-badge),
-:lang(ja) .fr-font-japanese .fr-global-nav-item a *:last-child:not(.fr-badge),
-.fr-font-japanese .fr-global-nav-item a :lang(ja) *:last-child:not(.fr-badge),
-.lang-ja .fr-anchor-button .fr-anchor-inner .fr-anchor-title,
-:lang(ja) .fr-anchor-button .fr-anchor-inner .lang-ja .fr-anchor-title,
-:lang(ja) .fr-global-nav-item a .lang-ja *:last-child:not(.fr-badge),
-.lang-ja .fr-global-nav-item a *:last-child:not(.fr-badge),
-.fr-font-japanese .fr-global-nav-item a .lang-ja *:last-child:not(.fr-badge),
-.fr-font-japanese .lang-ja .fr-anchor-button .fr-anchor-inner .fr-anchor-title,
-.lang-ja .fr-anchor-button .fr-anchor-inner .fr-font-japanese .fr-anchor-title,
-.fr-font-japanese :lang(ja) .fr-anchor-button .fr-anchor-inner .fr-anchor-title,
-:lang(ja) .fr-anchor-button .fr-anchor-inner .fr-font-japanese .fr-anchor-title,
-:lang(ja) .fr-global-nav-item a .fr-font-japanese *:last-child:not(.fr-badge),
-.lang-ja .fr-global-nav-item a .fr-font-japanese *:last-child:not(.fr-badge),
-.fr-font-japanese .fr-global-nav-item a *:last-child:not(.fr-badge) {
-  letter-spacing: normal;
-  line-height: 1.5;
-}
-.lang-ja .fr-ordered-list.annotation,
-:lang(ja) .fr-ordered-list.annotation,
-.fr-font-japanese .fr-ordered-list.annotation,
-.lang-ja .fr-unordered-list.annotation,
-:lang(ja) .fr-unordered-list.annotation,
-.fr-font-japanese .fr-unordered-list.annotation,
-.lang-ja .fr-product-card .info .gender-size > *,
-:lang(ja) .fr-product-card .info .gender-size > *,
-.fr-product-image .thumb-outofstock,
-.fr-header-wrapper.sticky-header .item-count {
-  font-size: 11px;
-  font-weight: normal;
-  letter-spacing: 0.01em;
-  line-height: 1.182;
-}
-:lang(ja) .lang-ja .fr-ordered-list.annotation,
-.lang-ja :lang(ja) .fr-ordered-list.annotation,
-:lang(ja) .fr-ordered-list.annotation,
-:lang(ja) .fr-font-japanese .fr-ordered-list.annotation,
-.fr-font-japanese :lang(ja) .fr-ordered-list.annotation,
-:lang(ja) .lang-ja .fr-unordered-list.annotation,
-.lang-ja :lang(ja) .fr-unordered-list.annotation,
-:lang(ja) .fr-unordered-list.annotation,
-:lang(ja) .fr-font-japanese .fr-unordered-list.annotation,
-.fr-font-japanese :lang(ja) .fr-unordered-list.annotation,
-:lang(ja) .lang-ja .fr-product-card .info .gender-size > *,
-.lang-ja .fr-product-card .info :lang(ja) .gender-size > *,
-:lang(ja) .fr-product-card .info .gender-size > *,
-:lang(ja) .fr-product-image .thumb-outofstock,
-.fr-product-image :lang(ja) .thumb-outofstock,
-:lang(ja) .fr-header-wrapper.sticky-header .item-count,
-.fr-header-wrapper.sticky-header :lang(ja) .item-count,
-.lang-ja .fr-ordered-list.annotation,
-.lang-ja .fr-unordered-list.annotation,
-.lang-ja .fr-product-card .info .gender-size > *,
-:lang(ja) .fr-product-card .info .lang-ja .gender-size > *,
-.lang-ja .fr-product-image .thumb-outofstock,
-.fr-product-image .lang-ja .thumb-outofstock,
-.lang-ja .fr-header-wrapper.sticky-header .item-count,
-.fr-header-wrapper.sticky-header .lang-ja .item-count,
-.fr-font-japanese .fr-ordered-list.annotation,
-.fr-font-japanese .fr-unordered-list.annotation,
-.fr-font-japanese .lang-ja .fr-product-card .info .gender-size > *,
-.lang-ja .fr-product-card .info .fr-font-japanese .gender-size > *,
-.fr-font-japanese :lang(ja) .fr-product-card .info .gender-size > *,
-:lang(ja) .fr-product-card .info .fr-font-japanese .gender-size > *,
-.fr-font-japanese .fr-product-image .thumb-outofstock,
-.fr-product-image .fr-font-japanese .thumb-outofstock,
-.fr-font-japanese .fr-header-wrapper.sticky-header .item-count,
-.fr-header-wrapper.sticky-header .fr-font-japanese .item-count {
-  letter-spacing: normal;
-  line-height: 1.5;
-}
-.fr-product-card .rank-row .rank {
-  font-size: 33px;
-  letter-spacing: 0.01em;
-  line-height: 1.152;
-  text-transform: uppercase;
-}
-.fr-no-uppercase .fr-product-card .rank-row .rank,
-.fr-product-card .rank-row .fr-no-uppercase .rank {
-  text-transform: none;
-}
-:lang(ja) .fr-product-card .rank-row .rank,
-.fr-product-card .rank-row :lang(ja) .rank,
-.lang-ja .fr-product-card .rank-row .rank,
-.fr-product-card .rank-row .lang-ja .rank {
-  font-size: 30px;
-  line-height: 1.2;
-}
-.fr-product-card .rank-row .rank :lang(vi) {
-  font-size: 29px;
-}
-.fr-product-card.small .rank-row .rank {
-  font-size: 24px;
-  letter-spacing: 0.01em;
-  line-height: 1.152;
-  text-transform: uppercase;
-}
-.fr-no-uppercase .fr-product-card.small .rank-row .rank,
-.fr-product-card.small .rank-row .fr-no-uppercase .rank {
-  text-transform: none;
-}
-:lang(ja) .fr-product-card.small .rank-row .rank,
-.fr-product-card.small .rank-row :lang(ja) .rank,
-.lang-ja .fr-product-card.small .rank-row .rank,
-.fr-product-card.small .rank-row .lang-ja .rank {
-  line-height: 1.2;
-}
-.fr-product-card.small .rank-row .rank:lang(vi) {
-  font-size: 23px;
-}
-.fr-coupon-image.fr-large .fr-coupon-image-overlay,
-.fr-head-withtext .title,
-.fr-product-card.wide .info .price,
-.fr-product-card.wide .info .price-limited,
-.fr-product-card.wide .info .price-original,
-.fr-product-price .fr-product-price-info .price-limited,
-.fr-product-price .fr-product-price-info .price-original,
-.fr-product-price .price-multi-buy,
-.fr-quote > .text > .head {
-  font-size: 36px;
-  letter-spacing: 0.01em;
-  line-height: 1.182;
-  text-transform: uppercase;
-}
-.fr-no-uppercase .fr-coupon-image.fr-large .fr-coupon-image-overlay,
-.fr-coupon-image.fr-large .fr-no-uppercase .fr-coupon-image-overlay,
-.fr-no-uppercase .fr-head-withtext .title,
-.fr-head-withtext .fr-no-uppercase .title,
-.fr-no-uppercase .fr-product-card.wide .info .price,
-.fr-product-card.wide .info .fr-no-uppercase .price,
-.fr-no-uppercase .fr-product-card.wide .info .price-limited,
-.fr-product-card.wide .info .fr-no-uppercase .price-limited,
-.fr-no-uppercase .fr-product-card.wide .info .price-original,
-.fr-product-card.wide .info .fr-no-uppercase .price-original,
-.fr-no-uppercase .fr-product-price .fr-product-price-info .price-limited,
-.fr-product-price .fr-product-price-info .fr-no-uppercase .price-limited,
-.fr-no-uppercase .fr-product-price .fr-product-price-info .price-original,
-.fr-product-price .fr-product-price-info .fr-no-uppercase .price-original,
-.fr-no-uppercase .fr-product-price .price-multi-buy,
-.fr-product-price .fr-no-uppercase .price-multi-buy,
-.fr-no-uppercase .fr-quote > .text > .head {
-  text-transform: none;
-}
-:lang(ja) .fr-coupon-image.fr-large .fr-coupon-image-overlay,
-.fr-coupon-image.fr-large :lang(ja) .fr-coupon-image-overlay,
-:lang(ja) .fr-head-withtext .title,
-.fr-head-withtext :lang(ja) .title,
-:lang(ja) .fr-product-card.wide .info .price,
-.fr-product-card.wide .info :lang(ja) .price,
-:lang(ja) .fr-product-card.wide .info .price-limited,
-.fr-product-card.wide .info :lang(ja) .price-limited,
-:lang(ja) .fr-product-card.wide .info .price-original,
-.fr-product-card.wide .info :lang(ja) .price-original,
-:lang(ja) .fr-product-price .fr-product-price-info .price-limited,
-.fr-product-price .fr-product-price-info :lang(ja) .price-limited,
-:lang(ja) .fr-product-price .fr-product-price-info .price-original,
-.fr-product-price .fr-product-price-info :lang(ja) .price-original,
-:lang(ja) .fr-product-price .price-multi-buy,
-.fr-product-price :lang(ja) .price-multi-buy,
-:lang(ja) .fr-quote > .text > .head,
-.lang-ja .fr-coupon-image.fr-large .fr-coupon-image-overlay,
-.fr-coupon-image.fr-large .lang-ja .fr-coupon-image-overlay,
-.lang-ja .fr-head-withtext .title,
-.fr-head-withtext .lang-ja .title,
-.lang-ja .fr-product-card.wide .info .price,
-.fr-product-card.wide .info .lang-ja .price,
-.lang-ja .fr-product-card.wide .info .price-limited,
-.fr-product-card.wide .info .lang-ja .price-limited,
-.lang-ja .fr-product-card.wide .info .price-original,
-.fr-product-card.wide .info .lang-ja .price-original,
-.lang-ja .fr-product-price .fr-product-price-info .price-limited,
-.fr-product-price .fr-product-price-info .lang-ja .price-limited,
-.lang-ja .fr-product-price .fr-product-price-info .price-original,
-.fr-product-price .fr-product-price-info .lang-ja .price-original,
-.lang-ja .fr-product-price .price-multi-buy,
-.fr-product-price .lang-ja .price-multi-buy,
-.lang-ja .fr-quote > .text > .head {
-  line-height: 1.2;
 }
 .fr-coupon-image.fr-large .fr-coupon-image-overlay:lang(vi),
 .fr-head-withtext .title:lang(vi),
@@ -10757,7 +9423,6 @@ hr {
 .fr-product-card .info-row .fr-product-price-info {
   margin: 4px 0;
   font-size: 22px;
-  color: red;
 }
 .fr-product-card .info .review-set,
 .fr-product-card .info-column .review-set,
@@ -11133,9 +9798,6 @@ hr {
 }
 .fr-product-card.small .info-row {
   margin: 8px 0 0;
-}
-.fr-product-card.cart {
-  margin: 28px 0;
 }
 .fr-product-card.cart .description {
   margin-bottom: 4px;
@@ -13141,7 +11803,6 @@ hr {
 .right.fr-banner,
 .right.fr-image-plus-text {
   display: flex;
-  padding: 20px 0;
 }
 .left.fr-banner div:first-child,
 .left.fr-image-plus-text div:first-child,
@@ -15117,6 +13778,454 @@ html.show-focus-outline
   margin-top: 30px;
   cursor: pointer;
 }
-.title >a {
-    color: #1b1b1b;
+.title > a {
+  color: #1b1b1b;
+}
+._39u9aeDjDEs9UNRGVtRi8c {
+  display: flex;
+  margin-right: -20px;
+}
+._39u9aeDjDEs9UNRGVtRi8c ._31hxxrceSEWnCY9fr7vaPp {
+  padding-right: 20px;
+}
+._39u9aeDjDEs9UNRGVtRi8c ._1m4uhQJi-8JwfEwqfTfE3d {
+  padding-right: 20px;
+}
+._39u9aeDjDEs9UNRGVtRi8c ._2qr8An2hD64BX-vE4KmruD {
+  padding-right: 20px;
+}
+._39u9aeDjDEs9UNRGVtRi8c ._2hc9WvZcIpnV0vXxhC4qpW {
+  padding-right: 20px;
+}
+._39u9aeDjDEs9UNRGVtRi8c ._3RiZ6QEpk-sPmmJ30vy7Ld {
+  padding-right: 20px;
+}
+._39u9aeDjDEs9UNRGVtRi8c ._2HfaTL0saL-M4X4S3jOSMC {
+  padding-right: 20px;
+}
+._39u9aeDjDEs9UNRGVtRi8c .yztj8QnnnOTsKOv0vO0dm {
+  padding-right: 20px;
+}
+._39u9aeDjDEs9UNRGVtRi8c ._34-ukJSxcRzAuUa0bNd_Qn {
+  padding-right: 20px;
+}
+._39u9aeDjDEs9UNRGVtRi8c ._3f66BpGs_P1Kv-wX6olNc8 {
+  padding-right: 20px;
+}
+._39u9aeDjDEs9UNRGVtRi8c ._3I4wGGHVIZr-W7_6o_BTU1 {
+  padding-right: 20px;
+}
+._39u9aeDjDEs9UNRGVtRi8c .cgf5BhrmSSiMxhpbABaw7 {
+  padding-right: 20px;
+}
+._39u9aeDjDEs9UNRGVtRi8c ._2JLPy9qTylj_q6PaxHb_dz {
+  padding-right: 20px;
+}
+._39u9aeDjDEs9UNRGVtRi8c ._1flfPZNZM_8ZvCq6uUXxLL {
+  padding-right: 20px;
+}
+._39u9aeDjDEs9UNRGVtRi8c ._2F4nc4ZZq1xTZYJKrjjdWA {
+  padding-right: 20px;
+}
+._39u9aeDjDEs9UNRGVtRi8c ._2FkxP-LgEM371KLBJxRemE {
+  padding-right: 20px;
+}
+._39u9aeDjDEs9UNRGVtRi8c ._3YeN1jpszL8YIDtscnEUiv {
+  padding-right: 20px;
+}
+._31hxxrceSEWnCY9fr7vaPp {
+  width: 6.25%;
+}
+._1m4uhQJi-8JwfEwqfTfE3d {
+  width: 12.5%;
+}
+._2qr8An2hD64BX-vE4KmruD {
+  width: 18.75%;
+}
+._2hc9WvZcIpnV0vXxhC4qpW {
+  width: 25%;
+}
+._3RiZ6QEpk-sPmmJ30vy7Ld {
+  width: 31.25%;
+}
+._2HfaTL0saL-M4X4S3jOSMC {
+  width: 37.5%;
+}
+.yztj8QnnnOTsKOv0vO0dm {
+  width: 43.75%;
+}
+._34-ukJSxcRzAuUa0bNd_Qn {
+  width: 50%;
+}
+._3f66BpGs_P1Kv-wX6olNc8 {
+  width: 56.25%;
+}
+._3I4wGGHVIZr-W7_6o_BTU1 {
+  width: 62.5%;
+}
+.cgf5BhrmSSiMxhpbABaw7 {
+  width: 68.75%;
+}
+._2JLPy9qTylj_q6PaxHb_dz {
+  width: 75%;
+}
+._1flfPZNZM_8ZvCq6uUXxLL {
+  width: 81.25%;
+}
+._2F4nc4ZZq1xTZYJKrjjdWA {
+  width: 87.5%;
+}
+._2FkxP-LgEM371KLBJxRemE {
+  width: 93.75%;
+}
+._3YeN1jpszL8YIDtscnEUiv {
+  width: 100%;
+}
+.JJzwW0m2tLVSa3hsWjYLa {
+  width: 57px !important;
+}
+._3u9zf20Vrjy0AjP93MqQHN {
+  width: 134px !important;
+}
+._3VuFa7W_yWn1iv9drU_3F- {
+  width: 211px !important;
+}
+.swUXWRR4XB8SQxirJK12o {
+  width: 288px !important;
+}
+._2sADnVZffrcrclY1lZ3iNM {
+  width: 365px !important;
+}
+._29RugXdBCG3VhxO7V3X3k_ {
+  width: 442px !important;
+}
+.QyY0zRkjm10W31x-tgsJH {
+  width: 519px !important;
+}
+._1XupkGyyiv39lNaRRGTGOl {
+  width: 596px !important;
+}
+._2WIskKmOdxUQfoAFZIpj_X {
+  width: 673px !important;
+}
+._3BoLjE2G2j46wy17J56nun {
+  width: 750px !important;
+}
+._3M5zg3ix0zYP77ii1tHbZu {
+  width: 827px !important;
+}
+._3p3bmjonKfNoz401RqcjDG {
+  width: 904px !important;
+}
+._1UeLqPOcjx2KcDz7ZwQ5GI {
+  width: 981px !important;
+}
+._1i2Xo2pYnu1bfFKk3Q1DRo {
+  width: 1058px !important;
+}
+._2ldslSIJaU4v-Hv25gGMoN {
+  width: 1135px !important;
+}
+._1aauwmtYlWouWVqlv7cWd2 {
+  width: 1212px !important;
+}
+.MwCzO6RR6fFWSnUt2Le-u {
+  display: flex;
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: -40px;
+  flex-wrap: wrap;
+}
+.MwCzO6RR6fFWSnUt2Le-u ._3OrlMFtGkvuEjBLSk6GMyo {
+  flex: 0 0 auto;
+  list-style: none;
+  overflow: hidden;
+}
+.product-content-container {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 514px;
+}
+.product-title {
+  max-width: 250px;
+}
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.product-right-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.pulldown-wrapper {
+  width: 173px;
+  position: relative;
+}
+.subtotal-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  height: 18px;
+}
+.quantity-limit {
+  color: red;
+  margin-bottom: 9px;
+}
+html {
+  box-sizing: border-box;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+}
+*,
+:after,
+:before {
+  background-repeat: no-repeat;
+  box-sizing: inherit;
+}
+:after,
+:before {
+  text-decoration: inherit;
+  vertical-align: inherit;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+hr {
+  overflow: visible;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+summary {
+  display: list-item;
+}
+small {
+  font-size: 80%;
+}
+[hidden],
+template {
+  display: none;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+  text-decoration: none;
+}
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+a:active,
+a:hover {
+  outline-width: 0;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+dfn {
+  font-style: italic;
+}
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+input {
+  border-radius: 0;
+}
+[role="button"],
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  cursor: pointer;
+}
+[disabled] {
+  cursor: default;
+}
+[type="number"] {
+  width: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+}
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+textarea {
+  overflow: auto;
+  resize: vertical;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font: inherit;
+}
+optgroup {
+  font-weight: 700;
+}
+button {
+  overflow: visible;
+}
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner,
+button::-moz-focus-inner {
+  border-style: 0;
+  padding: 0;
+}
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner,
+button:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+[type="reset"],
+[type="submit"],
+button,
+html [type="button"] {
+  -webkit-appearance: button;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+input,
+select,
+textarea {
+  background-color: transparent;
+  border-style: none;
+  color: inherit;
+}
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+select::-ms-expand {
+  display: none;
+}
+select::-ms-value {
+  color: currentColor;
+}
+legend {
+  border: 0;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  white-space: normal;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+img {
+  border-style: none;
+}
+progress {
+  vertical-align: baseline;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+@media screen {
+  [hidden~="screen"] {
+    display: inherit;
+  }
+  [hidden~="screen"]:not(:active):not(:focus):not(:target) {
+    position: absolute !important;
+    clip: rect(0 0 0 0) !important;
+  }
+}
+[aria-busy="true"] {
+  cursor: progress;
+}
+[aria-controls] {
+  cursor: pointer;
+}
+[aria-disabled] {
+  cursor: default;
+}
+::selection {
+  background-color: #b3d4fc;
+  color: #000;
+  text-shadow: none;
+}
+.fr-header-wrapper {
+  background-color: #f4f4f4;
+}
+.product-close-button{
+  background-color: #fff !important;
+}
+.single_add_to_cart_button {
+  height: 46px;
+  width: 95px;
+}
+.buttonUpdate{
+  background-color: #ababab !important;
+  color: black !important;
+  border: 1px solid black !important;
+  border-radius: 2px;
+  height: 46px;
+  width: 95px;
+  float: right;
+  font-size: 16px;
+  font-weight: 700;
+}
+.quantity .qty {
+  width: 8em !important;
+}
+table.cart .qty{
+  max-width: 6.632em !important;
+  border: 1px solid #ababab !important;
+  border-radius: 2px;
+  background-color: #fff !important;
 }
