@@ -18,17 +18,14 @@
 
 defined('ABSPATH') || exit;
 $product_tabs = apply_filters('woocommerce_product_tabs', array());
+global $product;
 
 ?>
-
-<?php
-foreach ($product_tabs as $key => $product_tab) : ?>
-	<?php if (isset($product_tab['callback']) && $key == 'description') : ?>
-		<div class="description-custom-post-detail">
-			<?php call_user_func($product_tab['callback'], $key, $product_tab); ?>
-		</div>
-	<?php endif ?>
-<?php endforeach; ?>
+<?php if (isset($product)) : ?>
+	<div class="description-custom-post-detail">
+		<?= substr($product->get_description(), 0 ,100) ?>
+	</div>
+<?php endif; ?>
 
 <div style="margin-top: 20px;">
 	<?php
@@ -62,9 +59,6 @@ foreach ($product_tabs as $key => $product_tab) : ?>
 			}
 		});
 	}
-
-	const attributesSelectors2 = document.querySelector(".description-custom-post-detail p");
-	attributesSelectors2.innerHTML = `${attributesSelectors2.textContent}`.slice(0, 100);
 </script>
 
 <?php
