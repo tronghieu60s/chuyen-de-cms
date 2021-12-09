@@ -176,6 +176,7 @@ div.woocommerce-tabs.wc-tabs-wrapper {
 }
 
 .description-custom-post-detail {
+  padding-bottom: 20px;
   border-bottom: 1px solid rgb(224, 224, 224);
 }
 
@@ -287,4 +288,8 @@ div.woocommerce-tabs.wc-tabs-wrapper {
   font-size: 14px;
   letter-spacing: 0.14px;
   line-height: 24px;
+}
+
+.single-product div.product form.cart .quantity {
+  float: none;
 }
