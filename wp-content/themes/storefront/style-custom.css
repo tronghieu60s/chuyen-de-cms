@@ -7,7 +7,7 @@ h1.product_title.entry-title.custom {
   margin-bottom: 10px;
 }
 
-span.woocommerce-Price-amount.amount.custom {
+.summary.entry-summary.custom span.woocommerce-Price-amount.amount.custom {
   color: #1b1b1b;
   font-size: 32px;
   font-weight: 700;
@@ -241,4 +241,50 @@ div.woocommerce-tabs.wc-tabs-wrapper {
   letter-spacing: 0.16px;
   line-height: 12.6923px;
   text-align: center;
+}
+
+.woocommerce-loop-product__title.custom {
+  text-align: left;
+  color: #1b1b1b;
+  font-family: Arial;
+  font-size: 17px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.35px;
+  line-height: 21px;
+  margin: 0px 0px 4px;
+}
+
+.woocommerce-LoopProduct-link.woocommerce-loop-product__link .price {
+  text-align: left;
+}
+
+.woocommerce-LoopProduct-link.woocommerce-loop-product__link
+  .price
+  del
+  .woocommerce-Price-amount.amount.custom {
+  text-align: left;
+}
+
+.woocommerce-LoopProduct-link.woocommerce-loop-product__link .onsale {
+  display: none;
+}
+
+.woocommerce-LoopProduct-link.woocommerce-loop-product__link
+  span.woocommerce-Price-amount.amount.custom {
+  color: #1b1b1b;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+}
+
+.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+  display: none;
+}
+
+.fr-text-annotation.custom {
+  color: #7d7d7d;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: 24px;
 }
