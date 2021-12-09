@@ -27,6 +27,7 @@ if (!defined('ABSPATH')) {
  *
  * @see woocommerce_default_product_tabs()
  */
+global $product;
 $product_tabs = apply_filters('woocommerce_product_tabs', array());
 
 if (!empty($product_tabs)) : ?>
@@ -35,7 +36,7 @@ if (!empty($product_tabs)) : ?>
 		<ul class="tabs wc-tabs custom" role="tablist">
 			<li>
 				<div class="pb-m" data-test="description-accordion">
-					<h4 id="" class="fr-head h4 withinfo h4"><span class="title">Mô tả</span><span class="text-info"><em class="info-block"><span class="info-block-inner"><span class="info-label">Mã sản phẩm</span><span>439065</span></span></em></span></h4>
+					<h4 id="" class="fr-head h4 withinfo h4"><span class="title">Mô tả</span><span class="text-info"><em class="info-block"><span class="info-block-inner"><span class="info-label">Mã sản phẩm</span><span><?= $product->get_id() ?></span></span></em></span></h4>
 				</div>
 			</li>
 			<?php foreach ($product_tabs as $key => $product_tab) : ?>
