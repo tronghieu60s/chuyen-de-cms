@@ -873,9 +873,6 @@ table tbody h2 a {
 .hentry .entry-header .byline a:hover {
   text-decoration: none;
 }
-.hentry .entry-content a {
-  text-decoration: underline;
-}
 .hentry .entry-content a:hover {
   text-decoration: none;
 }
@@ -14400,4 +14397,7 @@ table.cart .qty{
 }
 .fr-icon.follow_youtube {
   background-image: url(https://asset.uniqlo.com/g/icons/follow_youtube.svg);
+}
+.description.product-title.fr-no-uppercase a {
+  color:#000;
 }
