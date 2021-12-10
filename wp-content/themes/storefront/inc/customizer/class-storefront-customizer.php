@@ -809,18 +809,16 @@ if ( ! class_exists( 'Storefront_Customizer' ) ) :
 			input[type="url"]:focus,
 			input[type="password"]:focus,
 			input[type="search"]:focus {
-				outline-color: ' . $storefront_theme_mods['accent_color'] . ';
+				outline-color: transparent;
 			}
 
 			button, input[type="button"], input[type="reset"], input[type="submit"], .button, .widget a.button {
-				background-color: ' . $storefront_theme_mods['button_background_color'] . ';
+				// background-color: ' . $storefront_theme_mods['button_background_color'] . ';
 				border-color: ' . $storefront_theme_mods['button_background_color'] . ';
 				color: ' . $storefront_theme_mods['button_text_color'] . ';
 			}
 
 			button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .button:hover, .widget a.button:hover {
-				background-color: ' . storefront_adjust_color_brightness( $storefront_theme_mods['button_background_color'], $darken_factor ) . ';
-				border-color: ' . storefront_adjust_color_brightness( $storefront_theme_mods['button_background_color'], $darken_factor ) . ';
 				color: ' . $storefront_theme_mods['button_text_color'] . ';
 			}
 
@@ -846,8 +844,8 @@ if ( ! class_exists( 'Storefront_Customizer' ) ) :
 			}
 
 			.site-footer {
-				background-color: ' . $storefront_theme_mods['footer_background_color'] . ';
-				color: ' . $storefront_theme_mods['footer_text_color'] . ';
+				// background-color: ' . $storefront_theme_mods['footer_background_color'] . ';
+				color: black;
 			}
 
 			.site-footer a:not(.button):not(.components-button) {
@@ -876,6 +874,7 @@ if ( ! class_exists( 'Storefront_Customizer' ) ) :
 				}
 
 				.secondary-navigation ul.menu a {
+					font-weight: 700;
 					color: ' . $storefront_theme_mods['header_text_color'] . ';
 				}
 
