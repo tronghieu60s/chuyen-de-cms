@@ -16421,3 +16421,8 @@ table.cart .qty {
 .fr-icon.follow_youtube {
     background-image: url(https://asset.uniqlo.com/g/icons/follow_youtube.svg);
 }
+
+.description.product-title.fr-no-uppercase a {
+    color: #000;
+    background-image: url(https://asset.uniqlo.com/g/icons/follow_youtube.svg);
+}
