@@ -23,7 +23,7 @@ global $product;
 ?>
 <?php if (isset($product)) : ?>
 	<div class="description-custom-post-detail">
-		<?= substr($product->get_description(), 0 ,100) ?>
+		<?= substr($product->get_description(), 0, 100) ?>
 	</div>
 <?php endif; ?>
 
@@ -72,11 +72,17 @@ if ($max_value && $min_value === $max_value) {
 	/* translators: %s: Quantity. */
 	$label = !empty($args['product_name']) ? sprintf(esc_html__('%s quantity', 'woocommerce'), wp_strip_all_tags($args['product_name'])) : esc_html__('Quantity', 'woocommerce');
 ?>
+	<?php if (isset($product)) : ?>
+		<div class="woocommerce-product-attributes-item__label" style="margin-bottom: 10px;">Số lượng</div>
+	<?php endif; ?>
 	<div class="quantity">
 		<?php do_action('woocommerce_before_quantity_input_field'); ?>
 		<label class="screen-reader-text" for="<?php echo esc_attr($input_id); ?>"><?php echo esc_attr($label); ?></label>
 		<input type="number" id="<?php echo esc_attr($input_id); ?>" class="<?php echo esc_attr(join(' ', (array) $classes)); ?> quantity input custom" step="<?php echo esc_attr($step); ?>" min="<?php echo esc_attr($min_value); ?>" max="<?php echo esc_attr(0 < $max_value ? $max_value : ''); ?>" name="<?php echo esc_attr($input_name); ?>" value="<?php echo esc_attr($input_value); ?>" title="<?php echo esc_attr_x('Qty', 'Product quantity input tooltip', 'woocommerce'); ?>" size="4" placeholder="<?php echo esc_attr($placeholder); ?>" inputmode="<?php echo esc_attr($inputmode); ?>" />
 		<?php do_action('woocommerce_after_quantity_input_field'); ?>
 	</div>
+	<?php if (isset($product)) : ?>
+		<div class="fr-text-annotation custom">Vui lòng chọn màu và kích cỡ.&nbsp;</div>
+	<?php endif; ?>
 <?php
 }
