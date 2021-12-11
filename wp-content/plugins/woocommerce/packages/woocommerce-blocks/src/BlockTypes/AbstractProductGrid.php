@@ -105,6 +105,7 @@ abstract class AbstractProductGrid extends AbstractDynamicBlock {
 		);
 
 		return sprintf(
+			
 			'<div class="%s"><ul class="wc-block-grid__products">%s</ul></div>',
 			esc_attr( $this->get_container_classes() ),
 			implode( '', array_map( array( $this, 'render_product' ), $products ) )
@@ -357,28 +358,52 @@ abstract class AbstractProductGrid extends AbstractDynamicBlock {
 		);
 
 		return apply_filters(
+			
 			'woocommerce_blocks_product_grid_item_html',
 			"<li class=\"wc-block-grid__product\">
-				<a href=\"{$data->permalink}\" class=\"wc-block-grid__product-link\">
-					{$data->image}
-					{$data->title}
-				</a>
-				{$data->badge}
-				{$data->price}
-				{$data->rating}
-				{$data->button}
+					<div class=\"fr-product-card default\">
+					<div class=\"image-section\">
+			  		<div class=\"fr-product-image\">
+					  <a href=\"{$data->permalink}\" class=\"wc-block-grid__product-link\">
+							{$data->image}
+						</a>
+			  		</div>
+					</div>
+					<div class=\"info\">
+						<a href=\"{$data->permalink}\" class=\"wc-block-grid__product-link\">
+							{$data->title}
+						</a>			  		
+			  		<ul class=\"fr-status-flag\">
+						<li class=\"fr-status-flag-text\">
+				  		Limited Store
+						</li>
+			  		</ul>
+			  		<div class=\"fr-product-price\">
+						<div class=\"fr-product-price-info\">
+				  		<div class=\"price fr-no-uppercase\">
+							<span class=\"price-limited\"
+					  		><span class=\"fr-price-currency fr-price-currency-order-change\"
+								><span>{$data->price}</span></span
+					  		></span
+							>
+				  		</div>
+						</div>
+			  		</div
+					</div>
+		  		</div>
 			</li>",
 			$data,
 			$product
 		);
 	}
-
+	
 	/**
 	 * Get the product image.
 	 *
 	 * @param \WC_Product $product Product.
 	 * @return string
 	 */
+	
 	protected function get_image_html( $product ) {
 		return '<div class="wc-block-grid__product-image">' . $product->get_image( 'woocommerce_thumbnail' ) . '</div>'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 	}
@@ -389,6 +414,7 @@ abstract class AbstractProductGrid extends AbstractDynamicBlock {
 	 * @param \WC_Product $product Product.
 	 * @return string
 	 */
+	
 	protected function get_title_html( $product ) {
 		if ( empty( $this->attributes['contentVisibility']['title'] ) ) {
 			return '';
@@ -466,7 +492,7 @@ abstract class AbstractProductGrid extends AbstractDynamicBlock {
 		if ( empty( $this->attributes['contentVisibility']['button'] ) ) {
 			return '';
 		}
-		return '<div class="wp-block-button wc-block-grid__product-add-to-cart">' . $this->get_add_to_cart( $product ) . '</div>';
+		return '';
 	}
 
 	/**
@@ -518,3 +544,4 @@ abstract class AbstractProductGrid extends AbstractDynamicBlock {
 		$this->asset_data_registry->add( 'default_rows', wc_get_theme_support( 'product_blocks::default_rows', 3 ), true );
 	}
 }
+
