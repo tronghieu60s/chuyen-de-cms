@@ -813,7 +813,7 @@ if ( ! class_exists( 'Storefront_Customizer' ) ) :
 			}
 
 			button, input[type="button"], input[type="reset"], input[type="submit"], .button, .widget a.button {
-				background-color: ' . $storefront_theme_mods['button_background_color'] . ';
+				// background-color: ' . $storefront_theme_mods['button_background_color'] . ';
 				border-color: ' . $storefront_theme_mods['button_background_color'] . ';
 				color: ' . $storefront_theme_mods['button_text_color'] . ';
 			}
@@ -844,7 +844,7 @@ if ( ! class_exists( 'Storefront_Customizer' ) ) :
 			}
 
 			.site-footer {
-				background-color: ' . $storefront_theme_mods['footer_background_color'] . ';
+				// background-color: ' . $storefront_theme_mods['footer_background_color'] . ';
 				color: black;
 			}
 
@@ -874,6 +874,7 @@ if ( ! class_exists( 'Storefront_Customizer' ) ) :
 				}
 
 				.secondary-navigation ul.menu a {
+					font-weight: 700;
 					color: ' . $storefront_theme_mods['header_text_color'] . ';
 				}
 
