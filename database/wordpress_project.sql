@@ -2,10 +2,10 @@
 -- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
--- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th12 11, 2021 lúc 05:51 AM
--- Phiên bản máy phục vụ: 10.4.22-MariaDB
--- Phiên bản PHP: 8.0.13
+-- Host: 127.0.0.1
+-- Generation Time: Dec 11, 2021 at 06:26 AM
+-- Server version: 10.4.21-MariaDB
+-- PHP Version: 7.3.31
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,13 +18,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Cơ sở dữ liệu: `wordpress_project`
+-- Database: `wordpress_project`
 --
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_actionscheduler_actions`
+-- Table structure for table `wp_actionscheduler_actions`
 --
 
 CREATE TABLE `wp_actionscheduler_actions` (
@@ -44,7 +44,7 @@ CREATE TABLE `wp_actionscheduler_actions` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_actionscheduler_actions`
+-- Dumping data for table `wp_actionscheduler_actions`
 --
 
 INSERT INTO `wp_actionscheduler_actions` (`action_id`, `hook`, `status`, `scheduled_date_gmt`, `scheduled_date_local`, `args`, `schedule`, `group_id`, `attempts`, `last_attempt_gmt`, `last_attempt_local`, `claim_id`, `extended_args`) VALUES
@@ -83,12 +83,19 @@ INSERT INTO `wp_actionscheduler_actions` (`action_id`, `hook`, `status`, `schedu
 (39, 'woocommerce_admin/stored_state_setup_for_products/async/run_remote_notifications', 'complete', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '[]', 'O:28:\"ActionScheduler_NullSchedule\":0:{}', 0, 1, '2021-12-11 04:28:39', '2021-12-11 04:28:39', 0, NULL),
 (40, 'woocommerce_admin/stored_state_setup_for_products/async/run_remote_notifications', 'complete', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '[]', 'O:28:\"ActionScheduler_NullSchedule\":0:{}', 0, 1, '2021-12-11 04:30:23', '2021-12-11 04:30:23', 0, NULL),
 (41, 'woocommerce_admin/stored_state_setup_for_products/async/run_remote_notifications', 'complete', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '[]', 'O:28:\"ActionScheduler_NullSchedule\":0:{}', 0, 1, '2021-12-11 04:32:39', '2021-12-11 04:32:39', 0, NULL),
-(42, 'woocommerce_admin/stored_state_setup_for_products/async/run_remote_notifications', 'complete', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '[]', 'O:28:\"ActionScheduler_NullSchedule\":0:{}', 0, 1, '2021-12-11 04:34:35', '2021-12-11 04:34:35', 0, NULL);
+(42, 'woocommerce_admin/stored_state_setup_for_products/async/run_remote_notifications', 'complete', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '[]', 'O:28:\"ActionScheduler_NullSchedule\":0:{}', 0, 1, '2021-12-11 04:34:35', '2021-12-11 04:34:35', 0, NULL),
+(43, 'woocommerce_admin/stored_state_setup_for_products/async/run_remote_notifications', 'complete', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '[]', 'O:28:\"ActionScheduler_NullSchedule\":0:{}', 0, 1, '2021-12-11 05:20:33', '2021-12-11 05:20:33', 0, NULL),
+(44, 'woocommerce_admin/stored_state_setup_for_products/async/run_remote_notifications', 'complete', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '[]', 'O:28:\"ActionScheduler_NullSchedule\":0:{}', 0, 1, '2021-12-11 05:20:49', '2021-12-11 05:20:49', 0, NULL),
+(45, 'woocommerce_admin/stored_state_setup_for_products/async/run_remote_notifications', 'complete', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '[]', 'O:28:\"ActionScheduler_NullSchedule\":0:{}', 0, 1, '2021-12-11 05:21:48', '2021-12-11 05:21:48', 0, NULL),
+(46, 'woocommerce_admin/stored_state_setup_for_products/async/run_remote_notifications', 'complete', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '[]', 'O:28:\"ActionScheduler_NullSchedule\":0:{}', 0, 1, '2021-12-11 05:25:35', '2021-12-11 05:25:35', 0, NULL),
+(47, 'woocommerce_admin/stored_state_setup_for_products/async/run_remote_notifications', 'complete', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '[]', 'O:28:\"ActionScheduler_NullSchedule\":0:{}', 0, 1, '2021-12-11 05:25:35', '2021-12-11 05:25:35', 0, NULL),
+(48, 'woocommerce_admin/stored_state_setup_for_products/async/run_remote_notifications', 'complete', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '[]', 'O:28:\"ActionScheduler_NullSchedule\":0:{}', 0, 1, '2021-12-11 05:26:33', '2021-12-11 05:26:33', 0, NULL),
+(49, 'woocommerce_admin/stored_state_setup_for_products/async/run_remote_notifications', 'complete', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '[]', 'O:28:\"ActionScheduler_NullSchedule\":0:{}', 0, 1, '2021-12-11 05:26:33', '2021-12-11 05:26:33', 0, NULL);
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_actionscheduler_claims`
+-- Table structure for table `wp_actionscheduler_claims`
 --
 
 CREATE TABLE `wp_actionscheduler_claims` (
@@ -99,7 +106,7 @@ CREATE TABLE `wp_actionscheduler_claims` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_actionscheduler_groups`
+-- Table structure for table `wp_actionscheduler_groups`
 --
 
 CREATE TABLE `wp_actionscheduler_groups` (
@@ -108,7 +115,7 @@ CREATE TABLE `wp_actionscheduler_groups` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_actionscheduler_groups`
+-- Dumping data for table `wp_actionscheduler_groups`
 --
 
 INSERT INTO `wp_actionscheduler_groups` (`group_id`, `slug`) VALUES
@@ -118,7 +125,7 @@ INSERT INTO `wp_actionscheduler_groups` (`group_id`, `slug`) VALUES
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_actionscheduler_logs`
+-- Table structure for table `wp_actionscheduler_logs`
 --
 
 CREATE TABLE `wp_actionscheduler_logs` (
@@ -130,7 +137,7 @@ CREATE TABLE `wp_actionscheduler_logs` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_actionscheduler_logs`
+-- Dumping data for table `wp_actionscheduler_logs`
 --
 
 INSERT INTO `wp_actionscheduler_logs` (`log_id`, `action_id`, `message`, `log_date_gmt`, `log_date_local`) VALUES
@@ -241,12 +248,33 @@ INSERT INTO `wp_actionscheduler_logs` (`log_id`, `action_id`, `message`, `log_da
 (105, 41, 'action complete via WP Cron', '2021-12-11 04:32:39', '2021-12-11 04:32:39'),
 (106, 42, 'hành động được tạo', '2021-12-11 04:34:20', '2021-12-11 04:34:20'),
 (107, 42, 'action started via WP Cron', '2021-12-11 04:34:35', '2021-12-11 04:34:35'),
-(108, 42, 'action complete via WP Cron', '2021-12-11 04:34:35', '2021-12-11 04:34:35');
+(108, 42, 'action complete via WP Cron', '2021-12-11 04:34:35', '2021-12-11 04:34:35'),
+(109, 43, 'hành động được tạo', '2021-12-11 05:20:24', '2021-12-11 05:20:24'),
+(110, 43, 'action started via WP Cron', '2021-12-11 05:20:33', '2021-12-11 05:20:33'),
+(111, 43, 'action complete via WP Cron', '2021-12-11 05:20:33', '2021-12-11 05:20:33'),
+(112, 44, 'hành động được tạo', '2021-12-11 05:20:48', '2021-12-11 05:20:48'),
+(113, 44, 'action started via Async Request', '2021-12-11 05:20:49', '2021-12-11 05:20:49'),
+(114, 44, 'action complete via Async Request', '2021-12-11 05:20:49', '2021-12-11 05:20:49'),
+(115, 45, 'hành động được tạo', '2021-12-11 05:21:26', '2021-12-11 05:21:26'),
+(116, 45, 'action started via WP Cron', '2021-12-11 05:21:48', '2021-12-11 05:21:48'),
+(117, 45, 'action complete via WP Cron', '2021-12-11 05:21:48', '2021-12-11 05:21:48'),
+(118, 46, 'hành động được tạo', '2021-12-11 05:25:11', '2021-12-11 05:25:11'),
+(119, 47, 'hành động được tạo', '2021-12-11 05:25:27', '2021-12-11 05:25:27'),
+(120, 46, 'action started via WP Cron', '2021-12-11 05:25:34', '2021-12-11 05:25:34'),
+(121, 46, 'action complete via WP Cron', '2021-12-11 05:25:34', '2021-12-11 05:25:34'),
+(122, 47, 'action started via WP Cron', '2021-12-11 05:25:35', '2021-12-11 05:25:35'),
+(123, 47, 'action complete via WP Cron', '2021-12-11 05:25:35', '2021-12-11 05:25:35'),
+(124, 48, 'hành động được tạo', '2021-12-11 05:25:54', '2021-12-11 05:25:54'),
+(125, 49, 'hành động được tạo', '2021-12-11 05:26:08', '2021-12-11 05:26:08'),
+(126, 48, 'action started via WP Cron', '2021-12-11 05:26:33', '2021-12-11 05:26:33'),
+(127, 48, 'action complete via WP Cron', '2021-12-11 05:26:33', '2021-12-11 05:26:33'),
+(128, 49, 'action started via WP Cron', '2021-12-11 05:26:33', '2021-12-11 05:26:33'),
+(129, 49, 'action complete via WP Cron', '2021-12-11 05:26:33', '2021-12-11 05:26:33');
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_commentmeta`
+-- Table structure for table `wp_commentmeta`
 --
 
 CREATE TABLE `wp_commentmeta` (
@@ -259,7 +287,7 @@ CREATE TABLE `wp_commentmeta` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_comments`
+-- Table structure for table `wp_comments`
 --
 
 CREATE TABLE `wp_comments` (
@@ -281,7 +309,7 @@ CREATE TABLE `wp_comments` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_comments`
+-- Dumping data for table `wp_comments`
 --
 
 INSERT INTO `wp_comments` (`comment_ID`, `comment_post_ID`, `comment_author`, `comment_author_email`, `comment_author_url`, `comment_author_IP`, `comment_date`, `comment_date_gmt`, `comment_content`, `comment_karma`, `comment_approved`, `comment_agent`, `comment_type`, `comment_parent`, `user_id`) VALUES
@@ -290,7 +318,7 @@ INSERT INTO `wp_comments` (`comment_ID`, `comment_post_ID`, `comment_author`, `c
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_links`
+-- Table structure for table `wp_links`
 --
 
 CREATE TABLE `wp_links` (
@@ -312,7 +340,7 @@ CREATE TABLE `wp_links` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_options`
+-- Table structure for table `wp_options`
 --
 
 CREATE TABLE `wp_options` (
@@ -323,7 +351,7 @@ CREATE TABLE `wp_options` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_options`
+-- Dumping data for table `wp_options`
 --
 
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
@@ -431,7 +459,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (102, 'WPLANG', 'vi', 'yes'),
 (103, 'widget_block', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (104, 'sidebars_widgets', 'a:8:{s:19:\"wp_inactive_widgets\";a:0:{}s:9:\"sidebar-1\";a:0:{}s:8:\"header-1\";a:0:{}s:8:\"footer-1\";a:0:{}s:8:\"footer-2\";a:0:{}s:8:\"footer-3\";a:0:{}s:8:\"footer-4\";a:0:{}s:13:\"array_version\";i:3;}', 'yes'),
-(105, 'cron', 'a:16:{i:1639198292;a:1:{s:26:\"action_scheduler_run_queue\";a:1:{s:32:\"0d04ed39571b55704c122d726248bbac\";a:3:{s:8:\"schedule\";s:12:\"every_minute\";s:4:\"args\";a:1:{i:0;s:7:\"WP Cron\";}s:8:\"interval\";i:60;}}}i:1639199857;a:1:{s:33:\"wc_admin_process_orders_milestone\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1639199881;a:1:{s:29:\"wc_admin_unsnooze_admin_notes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1639200689;a:1:{s:34:\"wp_privacy_delete_old_export_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1639201836;a:1:{s:32:\"woocommerce_cancel_unpaid_orders\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:2:{s:8:\"schedule\";b:0;s:4:\"args\";a:0:{}}}}i:1639207055;a:1:{s:28:\"woocommerce_cleanup_sessions\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1639225889;a:5:{s:32:\"recovery_mode_clean_expired_keys\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:18:\"wp_https_detection\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1639225899;a:2:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1639225901;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1639228658;a:1:{s:14:\"wc_admin_daily\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1639228665;a:2:{s:33:\"woocommerce_cleanup_personal_data\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:30:\"woocommerce_tracker_send_event\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1639239455;a:1:{s:24:\"woocommerce_cleanup_logs\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1639267200;a:1:{s:27:\"woocommerce_scheduled_sales\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1639398689;a:1:{s:30:\"wp_site_health_scheduled_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"weekly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:604800;}}}i:1639401515;a:1:{s:25:\"woocommerce_geoip_updater\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:11:\"fifteendays\";s:4:\"args\";a:0:{}s:8:\"interval\";i:1296000;}}}s:7:\"version\";i:2;}', 'yes'),
+(105, 'cron', 'a:16:{i:1639200452;a:1:{s:26:\"action_scheduler_run_queue\";a:1:{s:32:\"0d04ed39571b55704c122d726248bbac\";a:3:{s:8:\"schedule\";s:12:\"every_minute\";s:4:\"args\";a:1:{i:0;s:7:\"WP Cron\";}s:8:\"interval\";i:60;}}}i:1639200689;a:1:{s:34:\"wp_privacy_delete_old_export_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1639201836;a:1:{s:32:\"woocommerce_cancel_unpaid_orders\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:2:{s:8:\"schedule\";b:0;s:4:\"args\";a:0:{}}}}i:1639203457;a:1:{s:33:\"wc_admin_process_orders_milestone\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1639203481;a:1:{s:29:\"wc_admin_unsnooze_admin_notes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1639207055;a:1:{s:28:\"woocommerce_cleanup_sessions\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1639225889;a:5:{s:32:\"recovery_mode_clean_expired_keys\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:18:\"wp_https_detection\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1639225899;a:2:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1639225901;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1639228658;a:1:{s:14:\"wc_admin_daily\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1639228665;a:2:{s:33:\"woocommerce_cleanup_personal_data\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:30:\"woocommerce_tracker_send_event\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1639239455;a:1:{s:24:\"woocommerce_cleanup_logs\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1639267200;a:1:{s:27:\"woocommerce_scheduled_sales\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1639398689;a:1:{s:30:\"wp_site_health_scheduled_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"weekly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:604800;}}}i:1639401515;a:1:{s:25:\"woocommerce_geoip_updater\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:11:\"fifteendays\";s:4:\"args\";a:0:{}s:8:\"interval\";i:1296000;}}}s:7:\"version\";i:2;}', 'yes'),
 (106, 'widget_pages', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (107, 'widget_calendar', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (108, 'widget_archives', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
@@ -573,7 +601,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (295, 'woocommerce_db_version', '5.9.0', 'yes'),
 (296, 'woocommerce_inbox_variant_assignment', '7', 'yes'),
 (300, '_transient_jetpack_autoloader_plugin_paths', 'a:1:{i:0;s:29:\"{{WP_PLUGIN_DIR}}/woocommerce\";}', 'yes'),
-(301, 'action_scheduler_lock_async-request-runner', '1639198296', 'yes'),
+(301, 'action_scheduler_lock_async-request-runner', '1639200412', 'yes'),
 (302, 'woocommerce_admin_notices', 'a:1:{i:0;s:20:\"no_secure_connection\";}', 'yes'),
 (303, 'woocommerce_maxmind_geolocation_settings', 'a:1:{s:15:\"database_prefix\";s:32:\"Zbgg1VenaPMenCrQCHz6VssSvIwyry9v\";}', 'yes'),
 (304, '_transient_woocommerce_webhook_ids_status_active', 'a:0:{}', 'yes'),
@@ -616,19 +644,19 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (379, 'storefront_nux_guided_tour', '1', 'yes'),
 (380, 'widget_recent-posts', 'a:2:{i:1;a:0:{}s:12:\"_multiwidget\";i:1;}', 'yes'),
 (383, 'widget_recent-comments', 'a:2:{i:1;a:0:{}s:12:\"_multiwidget\";i:1;}', 'yes'),
-(386, '_transient_product_query-transient-version', '1639197316', 'yes'),
+(386, '_transient_product_query-transient-version', '1639200369', 'yes'),
 (388, 'product_cat_children', 'a:0:{}', 'yes'),
-(391, '_transient_product-transient-version', '1639197260', 'yes'),
-(415, '_transient_timeout_wc_blocks_query_794de0be5c3695984d20742b06b6638e', '1641789327', 'no'),
-(416, '_transient_wc_blocks_query_794de0be5c3695984d20742b06b6638e', 'a:2:{s:7:\"version\";s:10:\"1639197316\";s:5:\"value\";a:5:{i:0;i:41;i:1;i:40;i:2;i:39;i:3;i:38;i:4;i:37;}}', 'no'),
-(417, '_transient_timeout_wc_blocks_query_40a733baa1e136151558dcdb43caef36', '1641789328', 'no'),
-(418, '_transient_wc_blocks_query_40a733baa1e136151558dcdb43caef36', 'a:2:{s:7:\"version\";s:10:\"1639197316\";s:5:\"value\";a:1:{i:0;i:37;}}', 'no'),
-(419, '_transient_timeout_wc_blocks_query_4fd656b542fdd541cd726bcfe2d7608c', '1641789328', 'no'),
-(420, '_transient_wc_blocks_query_4fd656b542fdd541cd726bcfe2d7608c', 'a:2:{s:7:\"version\";s:10:\"1639197316\";s:5:\"value\";a:5:{i:0;i:41;i:1;i:40;i:2;i:39;i:3;i:38;i:4;i:37;}}', 'no'),
+(391, '_transient_product-transient-version', '1639200369', 'yes'),
+(415, '_transient_timeout_wc_blocks_query_794de0be5c3695984d20742b06b6638e', '1641792394', 'no'),
+(416, '_transient_wc_blocks_query_794de0be5c3695984d20742b06b6638e', 'a:2:{s:7:\"version\";s:10:\"1639200369\";s:5:\"value\";a:5:{i:0;i:41;i:1;i:40;i:2;i:39;i:3;i:38;i:4;i:37;}}', 'no'),
+(417, '_transient_timeout_wc_blocks_query_40a733baa1e136151558dcdb43caef36', '1641792394', 'no'),
+(418, '_transient_wc_blocks_query_40a733baa1e136151558dcdb43caef36', 'a:2:{s:7:\"version\";s:10:\"1639200369\";s:5:\"value\";a:1:{i:0;i:37;}}', 'no'),
+(419, '_transient_timeout_wc_blocks_query_4fd656b542fdd541cd726bcfe2d7608c', '1641792394', 'no'),
+(420, '_transient_wc_blocks_query_4fd656b542fdd541cd726bcfe2d7608c', 'a:2:{s:7:\"version\";s:10:\"1639200369\";s:5:\"value\";a:5:{i:0;i:41;i:1;i:40;i:2;i:39;i:3;i:38;i:4;i:37;}}', 'no'),
 (423, '_transient_timeout_wc_blocks_query_b0f8deebe99fe8002df6ef683aad8401', '1640697851', 'no'),
 (424, '_transient_wc_blocks_query_b0f8deebe99fe8002df6ef683aad8401', 'a:2:{s:7:\"version\";s:10:\"1638105849\";s:5:\"value\";a:0:{}}', 'no'),
-(425, '_transient_timeout_wc_blocks_query_15472336987b9198abf9017428ceb248', '1641789328', 'no'),
-(426, '_transient_wc_blocks_query_15472336987b9198abf9017428ceb248', 'a:2:{s:7:\"version\";s:10:\"1639197316\";s:5:\"value\";a:5:{i:0;i:41;i:1;i:40;i:2;i:39;i:3;i:38;i:4;i:37;}}', 'no'),
+(425, '_transient_timeout_wc_blocks_query_15472336987b9198abf9017428ceb248', '1641792394', 'no'),
+(426, '_transient_wc_blocks_query_15472336987b9198abf9017428ceb248', 'a:2:{s:7:\"version\";s:10:\"1639200369\";s:5:\"value\";a:5:{i:0;i:41;i:1;i:40;i:2;i:39;i:3;i:38;i:4;i:37;}}', 'no'),
 (443, 'woocommerce_cod_settings', 'a:6:{s:7:\"enabled\";s:3:\"yes\";s:5:\"title\";s:16:\"Cash on delivery\";s:11:\"description\";s:28:\"Pay with cash upon delivery.\";s:12:\"instructions\";s:28:\"Pay with cash upon delivery.\";s:18:\"enable_for_methods\";a:0:{}s:18:\"enable_for_virtual\";s:3:\"yes\";}', 'yes'),
 (444, '_transient_shipping-transient-version', '1638106660', 'yes'),
 (452, 'woocommerce_flat_rate_1_settings', 'a:3:{s:5:\"title\";s:9:\"Flat rate\";s:10:\"tax_status\";s:7:\"taxable\";s:4:\"cost\";s:5:\"20000\";}', 'yes'),
@@ -639,10 +667,10 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (486, '_site_transient_timeout_php_check_26328e95a1a09d326a615e4b43668741', '1639278227', 'no'),
 (487, '_site_transient_php_check_26328e95a1a09d326a615e4b43668741', 'a:5:{s:19:\"recommended_version\";s:3:\"7.4\";s:15:\"minimum_version\";s:6:\"5.6.20\";s:12:\"is_supported\";b:1;s:9:\"is_secure\";b:1;s:13:\"is_acceptable\";b:1;}', 'no'),
 (488, '_transient_health-check-site-status-result', '{\"good\":15,\"recommended\":3,\"critical\":1}', 'yes'),
-(501, '_transient_timeout_wc_product_loop_48411be95870d46f9fddbf3c0e4b8d51', '1641664096', 'no'),
-(502, '_transient_wc_product_loop_48411be95870d46f9fddbf3c0e4b8d51', 'a:2:{s:7:\"version\";s:10:\"1638808607\";s:5:\"value\";O:8:\"stdClass\":5:{s:3:\"ids\";a:2:{i:0;i:37;i:1;i:36;}s:5:\"total\";i:2;s:11:\"total_pages\";i:1;s:8:\"per_page\";i:2;s:12:\"current_page\";i:1;}}', 'no'),
-(503, '_transient_timeout_wc_product_loop_cd4ceb08a6a3e9bac7f4260a4e03a47f', '1641664096', 'no'),
-(504, '_transient_wc_product_loop_cd4ceb08a6a3e9bac7f4260a4e03a47f', 'a:2:{s:7:\"version\";s:10:\"1638808607\";s:5:\"value\";O:8:\"stdClass\":5:{s:3:\"ids\";a:4:{i:0;i:31;i:1;i:32;i:2;i:33;i:3;i:34;}s:5:\"total\";i:4;s:11:\"total_pages\";i:1;s:8:\"per_page\";i:4;s:12:\"current_page\";i:1;}}', 'no'),
+(501, '_transient_timeout_wc_product_loop_48411be95870d46f9fddbf3c0e4b8d51', '1641792162', 'no'),
+(502, '_transient_wc_product_loop_48411be95870d46f9fddbf3c0e4b8d51', 'a:2:{s:7:\"version\";s:10:\"1639200086\";s:5:\"value\";O:8:\"stdClass\":5:{s:3:\"ids\";a:1:{i:0;i:37;}s:5:\"total\";i:1;s:11:\"total_pages\";i:1;s:8:\"per_page\";i:2;s:12:\"current_page\";i:1;}}', 'no'),
+(503, '_transient_timeout_wc_product_loop_cd4ceb08a6a3e9bac7f4260a4e03a47f', '1641792162', 'no'),
+(504, '_transient_wc_product_loop_cd4ceb08a6a3e9bac7f4260a4e03a47f', 'a:2:{s:7:\"version\";s:10:\"1639200086\";s:5:\"value\";O:8:\"stdClass\":5:{s:3:\"ids\";a:4:{i:0;i:38;i:1;i:39;i:2;i:40;i:3;i:41;}s:5:\"total\";i:4;s:11:\"total_pages\";i:1;s:8:\"per_page\";i:4;s:12:\"current_page\";i:1;}}', 'no'),
 (506, '_site_transient_timeout_browser_8c0f7fc3e179be2149f7c63aa1458aa0', '1639279018', 'no'),
 (507, '_site_transient_browser_8c0f7fc3e179be2149f7c63aa1458aa0', 'a:10:{s:4:\"name\";s:6:\"Chrome\";s:7:\"version\";s:12:\"96.0.4664.55\";s:8:\"platform\";s:7:\"Windows\";s:10:\"update_url\";s:29:\"https://www.google.com/chrome\";s:7:\"img_src\";s:43:\"http://s.w.org/images/browsers/chrome.png?1\";s:11:\"img_src_ssl\";s:44:\"https://s.w.org/images/browsers/chrome.png?1\";s:15:\"current_version\";s:2:\"18\";s:7:\"upgrade\";b:0;s:8:\"insecure\";b:0;s:6:\"mobile\";b:0;}', 'no'),
 (522, '_transient_timeout_wc_report_orders_stats_de5ce7526d833a1b33ed0020b199b632', '1639279030', 'no'),
@@ -703,26 +731,26 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (844, '_transient_feed_mod_d117b5738fbd35bd8c0391cda1f2b5d9', '1639196274', 'no'),
 (845, '_transient_timeout_dash_v2_a5a61dcab273495c31cd79aafebbdc74', '1639239474', 'no'),
 (846, '_transient_dash_v2_a5a61dcab273495c31cd79aafebbdc74', '<div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://vi.wordpress.org/2021/09/30/nha-trang-wordpress-meetup-10-10-2021-online/\'>Nha Trang WordPress Meetup 10/10/2021 (Online)</a></li><li><a class=\'rsswidget\' href=\'https://vi.wordpress.org/2021/09/09/ban-cap-nhat-wordpress-5-8-1/\'>Bản cập nhật WordPress 5.8.1</a></li></ul></div><div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://wptavern.com/10up-releases-the-publisher-media-kit-wordpress-plugin?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=10up-releases-the-publisher-media-kit-wordpress-plugin\'>WPTavern: 10up Releases the Publisher Media Kit WordPress Plugin</a></li><li><a class=\'rsswidget\' href=\'https://ma.tt/2021/12/state-of-the-word-in-person/\'>Matt: State of the Word… in person!</a></li><li><a class=\'rsswidget\' href=\'https://wptavern.com/more-than-200-local-newspaper-publishers-are-suing-google-and-facebook-for-damages?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=more-than-200-local-newspaper-publishers-are-suing-google-and-facebook-for-damages\'>WPTavern: More than 200 Local Newspaper Publishers Are Suing Google and Facebook for Damages</a></li></ul></div>', 'no'),
-(874, '_transient_is_multi_author', '0', 'yes'),
-(875, '_transient_timeout_wc_products_onsale', '1641789328', 'no'),
-(876, '_transient_wc_products_onsale', 'a:1:{i:0;i:37;}', 'no'),
-(877, '_transient_timeout_wc_blocks_query_d427d49bdec596164abb4236eb99b051', '1641789328', 'no'),
-(878, '_transient_wc_blocks_query_d427d49bdec596164abb4236eb99b051', 'a:2:{s:7:\"version\";s:10:\"1639197316\";s:5:\"value\";a:1:{i:0;i:37;}}', 'no'),
-(879, '_transient_timeout_wc_term_counts', '1641789328', 'no'),
-(880, '_transient_wc_term_counts', 'a:2:{i:17;s:1:\"1\";i:18;s:1:\"4\";}', 'no'),
-(882, '_transient_timeout_wc_related_37', '1639283753', 'no'),
-(883, '_transient_wc_related_37', 'a:1:{s:50:\"limit=3&exclude_ids%5B0%5D=0&exclude_ids%5B1%5D=37\";a:0:{}}', 'no'),
-(884, '_transient_timeout_wc_related_40', '1639283766', 'no'),
-(885, '_transient_wc_related_40', 'a:1:{s:50:\"limit=3&exclude_ids%5B0%5D=0&exclude_ids%5B1%5D=40\";a:3:{i:0;s:2:\"38\";i:1;s:2:\"39\";i:2;s:2:\"41\";}}', 'no'),
+(877, '_transient_timeout_wc_blocks_query_d427d49bdec596164abb4236eb99b051', '1641792394', 'no'),
+(878, '_transient_wc_blocks_query_d427d49bdec596164abb4236eb99b051', 'a:2:{s:7:\"version\";s:10:\"1639200369\";s:5:\"value\";a:1:{i:0;i:37;}}', 'no'),
 (886, '_site_transient_timeout_theme_roots', '1639199184', 'no'),
 (887, '_site_transient_theme_roots', 'a:4:{s:10:\"storefront\";s:7:\"/themes\";s:14:\"twentynineteen\";s:7:\"/themes\";s:12:\"twentytwenty\";s:7:\"/themes\";s:15:\"twentytwentyone\";s:7:\"/themes\";}', 'no'),
-(888, '_transient_timeout__woocommerce_helper_subscriptions', '1639198284', 'no'),
-(889, '_transient__woocommerce_helper_subscriptions', 'a:0:{}', 'no');
+(939, '_transient_timeout_wc_related_39', '1639286622', 'no'),
+(940, '_transient_wc_related_39', 'a:1:{s:50:\"limit=3&exclude_ids%5B0%5D=0&exclude_ids%5B1%5D=39\";a:3:{i:0;s:2:\"38\";i:1;s:2:\"40\";i:2;s:2:\"41\";}}', 'no'),
+(945, '_transient_is_multi_author', '0', 'yes'),
+(946, '_transient_timeout_wc_term_counts', '1641792380', 'no'),
+(947, '_transient_wc_term_counts', 'a:2:{i:18;s:1:\"4\";i:17;s:1:\"1\";}', 'no'),
+(948, '_transient_timeout_wc_related_41', '1639286773', 'no'),
+(949, '_transient_wc_related_41', 'a:1:{s:50:\"limit=3&exclude_ids%5B0%5D=0&exclude_ids%5B1%5D=41\";a:3:{i:0;s:2:\"38\";i:1;s:2:\"39\";i:2;s:2:\"40\";}}', 'no'),
+(950, '_transient_timeout_wc_related_37', '1639286780', 'no'),
+(951, '_transient_wc_related_37', 'a:1:{s:50:\"limit=3&exclude_ids%5B0%5D=0&exclude_ids%5B1%5D=37\";a:0:{}}', 'no'),
+(953, '_transient_timeout_wc_products_onsale', '1641792394', 'no'),
+(954, '_transient_wc_products_onsale', 'a:1:{i:0;i:37;}', 'no');
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_postmeta`
+-- Table structure for table `wp_postmeta`
 --
 
 CREATE TABLE `wp_postmeta` (
@@ -733,7 +761,7 @@ CREATE TABLE `wp_postmeta` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_postmeta`
+-- Dumping data for table `wp_postmeta`
 --
 
 INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
@@ -896,7 +924,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (328, 47, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:1415;s:6:\"height\";i:2000;s:4:\"file\";s:28:\"2021/12/25T_211021evwR9B.jpg\";s:5:\"sizes\";a:0:{}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"4\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:8:\"NIKON D5\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:10:\"1630401204\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:3:\"155\";s:3:\"iso\";s:3:\"800\";s:13:\"shutter_speed\";s:9:\"0.0015625\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"1\";s:8:\"keywords\";a:0:{}}}'),
 (334, 51, '_edit_last', '1'),
 (335, 51, '_edit_lock', '1638808609:1'),
-(347, 41, '_edit_lock', '1639196452:1'),
+(347, 41, '_edit_lock', '1639200189:1'),
 (348, 46, '_thumbnail_id', '47'),
 (351, 51, '_thumbnail_id', '63'),
 (356, 63, '_wp_attached_file', '2021/12/mimg_1_m.jpg'),
@@ -906,17 +934,17 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (415, 71, '_edit_lock', '1639072321:1'),
 (416, 71, '_wp_page_template', 'default'),
 (425, 75, '_edit_last', '1'),
-(426, 75, '_edit_lock', '1639072436:1'),
+(426, 75, '_edit_lock', '1639199864:1'),
 (427, 75, '_wp_page_template', 'default'),
 (428, 78, '_edit_last', '1'),
-(429, 78, '_edit_lock', '1639072455:1'),
+(429, 78, '_edit_lock', '1639199747:1'),
 (430, 78, '_wp_page_template', 'default'),
 (431, 80, '_edit_last', '1'),
-(432, 80, '_edit_lock', '1639072400:1'),
+(432, 80, '_edit_lock', '1639199995:1'),
 (433, 80, '_wp_page_template', 'default'),
 (434, 82, '_edit_last', '1'),
 (435, 82, '_wp_page_template', 'default'),
-(444, 82, '_edit_lock', '1639072556:1'),
+(444, 82, '_edit_lock', '1639200073:1'),
 (445, 41, '_edit_last', '1'),
 (446, 41, '_wp_old_slug', 'vneck-tee'),
 (483, 91, '_wp_trash_meta_status', 'publish'),
@@ -1046,7 +1074,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (652, 110, '_wp_trash_meta_time', '1639073655'),
 (653, 112, '_wp_attached_file', '2021/11/goods_01_440426-1.webp'),
 (654, 112, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:2000;s:6:\"height\";i:2000;s:4:\"file\";s:30:\"2021/11/goods_01_440426-1.webp\";s:5:\"sizes\";a:0:{}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
-(655, 40, '_edit_lock', '1639196762:1'),
+(655, 40, '_edit_lock', '1639200172:1'),
 (656, 40, '_product_attributes', 'a:2:{s:7:\"mau-sac\";a:6:{s:4:\"name\";s:10:\"Màu sắc\";s:5:\"value\";s:37:\"#FFFFFF | #DECAE8 | #EFC5A7 | #C4C3C8\";s:8:\"position\";i:0;s:10:\"is_visible\";i:1;s:12:\"is_variation\";i:0;s:11:\"is_taxonomy\";i:0;}s:7:\"kich-co\";a:6:{s:4:\"name\";s:10:\"Kích cỡ\";s:5:\"value\";s:20:\"S | M | L | XL | XXL\";s:8:\"position\";i:1;s:10:\"is_visible\";i:1;s:12:\"is_variation\";i:0;s:11:\"is_taxonomy\";i:0;}}'),
 (657, 40, '_edit_last', '1'),
 (658, 114, '_wp_attached_file', '2021/11/vngoods_00_440749.webp'),
@@ -1056,19 +1084,40 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (662, 115, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:1008;s:6:\"height\";i:1008;s:4:\"file\";s:28:\"2021/11/goods_68_434214.webp\";s:5:\"sizes\";a:0:{}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
 (663, 39, '_product_attributes', 'a:2:{s:7:\"mau-sac\";a:6:{s:4:\"name\";s:10:\"Màu sắc\";s:5:\"value\";s:37:\"#FFFFFF | #DECAE8 | #EFC5A7 | #C4C3C8\";s:8:\"position\";i:0;s:10:\"is_visible\";i:1;s:12:\"is_variation\";i:0;s:11:\"is_taxonomy\";i:0;}s:7:\"kich-co\";a:6:{s:4:\"name\";s:10:\"Kích cỡ\";s:5:\"value\";s:20:\"S | M | L | XL | XXL\";s:8:\"position\";i:1;s:10:\"is_visible\";i:1;s:12:\"is_variation\";i:0;s:11:\"is_taxonomy\";i:0;}}'),
 (664, 39, '_edit_last', '1'),
-(665, 38, '_edit_lock', '1639197012:1'),
+(665, 38, '_edit_lock', '1639200215:1'),
 (666, 116, '_wp_attached_file', '2021/11/vngoods_55_437262.webp'),
 (667, 116, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:1008;s:6:\"height\";i:1008;s:4:\"file\";s:30:\"2021/11/vngoods_55_437262.webp\";s:5:\"sizes\";a:0:{}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
 (668, 38, '_edit_last', '1'),
-(669, 37, '_edit_lock', '1639197138:1'),
+(669, 37, '_edit_lock', '1639200261:1'),
 (670, 119, '_wp_attached_file', '2021/11/vngoods_09_433056.webp'),
 (671, 119, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:1008;s:6:\"height\";i:1008;s:4:\"file\";s:30:\"2021/11/vngoods_09_433056.webp\";s:5:\"sizes\";a:0:{}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
-(672, 37, '_edit_last', '1');
+(672, 37, '_edit_last', '1'),
+(694, 120, '_edit_last', '1'),
+(695, 120, '_edit_lock', '1639199703:1'),
+(696, 120, '_wp_page_template', 'default'),
+(697, 121, '_menu_item_type', 'post_type'),
+(698, 121, '_menu_item_menu_item_parent', '0'),
+(699, 121, '_menu_item_object_id', '120'),
+(700, 121, '_menu_item_object', 'page'),
+(701, 121, '_menu_item_target', ''),
+(702, 121, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(703, 121, '_menu_item_xfn', ''),
+(704, 121, '_menu_item_url', ''),
+(713, 40, '_wp_old_slug', 'tshirt'),
+(714, 109, '_wp_old_date', '2021-12-09'),
+(715, 108, '_wp_old_date', '2021-12-09'),
+(716, 107, '_wp_old_date', '2021-12-09'),
+(717, 106, '_wp_old_date', '2021-12-09'),
+(718, 38, '_wp_old_slug', 'long-sleeve-tee'),
+(719, 40, '_wp_old_slug', 'women'),
+(720, 41, '_wp_old_slug', 'nu'),
+(721, 38, '_wp_old_slug', 'men'),
+(722, 37, '_wp_old_slug', 'hoodie');
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_posts`
+-- Table structure for table `wp_posts`
 --
 
 CREATE TABLE `wp_posts` (
@@ -1098,7 +1147,7 @@ CREATE TABLE `wp_posts` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_posts`
+-- Dumping data for table `wp_posts`
 --
 
 INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_content_filtered`, `post_parent`, `guid`, `menu_order`, `post_type`, `post_mime_type`, `comment_count`) VALUES
@@ -1130,11 +1179,11 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (27, 1, '2021-11-28 13:24:34', '2021-11-28 13:24:34', '', 'Hoodies', '', 'inherit', 'open', 'closed', '', 'hoodies-image', '', '', '2021-11-28 13:24:34', '2021-11-28 13:24:34', '', 0, 'http://wordpress.project/wp-content/uploads/2021/11/hoodies.jpg', 0, 'attachment', 'image/jpeg', 0),
 (28, 1, '2021-11-28 13:24:34', '2021-11-28 13:24:34', '\n					<!-- wp:cover {\"url\":\"http://wordpress.project/wp-content/uploads/2021/11/hero.jpg\",\"id\":24,\"dimRatio\":0,\"customOverlayColor\":\"#ffffff\",\"align\":\"full\"} -->\n					<div class=\"wp-block-cover alignfull\" style=\"background-image:url(http://wordpress.project/wp-content/uploads/2021/11/hero.jpg);background-color:#ffffff\"><div class=\"wp-block-cover__inner-container\"><!-- wp:heading {\"level\":1,\"align\":\"center\"} -->\n					<h1 style=\"text-align:center\">Welcome</h1>\n					<!-- /wp:heading -->\n\n					<!-- wp:paragraph {\"align\":\"center\",\"customTextColor\":\"#000000\"} -->\n					<p style=\"color:#000000;text-align:center\" class=\"has-text-color\">This is your homepage which is what most visitors will see when they first visit your shop.</p>\n					<!-- /wp:paragraph -->\n\n					<!-- wp:paragraph {\"align\":\"center\",\"customTextColor\":\"#000000\"} -->\n					<p style=\"color:#000000;text-align:center\" class=\"has-text-color\">You can change this text by editing the \"Welcome\" page via the \"Pages\" menu in your dashboard.</p>\n					<!-- /wp:paragraph --></div></div>\n					<!-- /wp:cover -->\n				\n\n				<!-- wp:heading {\"align\":\"center\"} -->\n				<h2 style=\"text-align:center\">Shop by Category</h2>\n				<!-- /wp:heading -->\n\n				<!-- wp:shortcode -->\n				[product_categories limit=\"3\" columns=\"3\" orderby=\"menu_order\"]\n				<!-- /wp:shortcode -->\n\n				<!-- wp:heading {\"align\":\"center\"} -->\n				<h2 style=\"text-align:center\">New In</h2>\n				<!-- /wp:heading -->\n\n				<!-- wp:woocommerce/product-new {\"columns\":4} /-->\n\n				\n					<!-- wp:heading {\"align\":\"center\"} -->\n					<h2 style=\"text-align:center\">We Recommend</h2>\n					<!-- /wp:heading -->\n\n					<!-- wp:woocommerce/handpicked-products {\"columns\":4,\"editMode\":false,\"products\":[37,33,35,36]} /-->\n				\n\n				<!-- wp:heading {\"align\":\"center\"} -->\n				<h2 style=\"text-align:center\">Fan Favorites</h2>\n				<!-- /wp:heading -->\n\n				<!-- wp:woocommerce/product-top-rated {\"columns\":4} /-->\n\n				<!-- wp:heading {\"align\":\"center\"} -->\n				<h2 style=\"text-align:center\">On Sale</h2>\n				<!-- /wp:heading -->\n\n				<!-- wp:woocommerce/product-on-sale {\"columns\":4} /-->\n\n				<!-- wp:heading {\"align\":\"center\"} -->\n				<h2 style=\"text-align:center\">Best Sellers</h2>\n				<!-- /wp:heading -->\n\n				<!-- wp:woocommerce/product-best-sellers {\"columns\":4} /-->', 'Homepage', '', 'publish', 'closed', 'closed', '', 'homepage', '', '', '2021-11-28 13:24:34', '2021-11-28 13:24:34', '', 0, 'http://wordpress.project/?page_id=28', 0, 'page', '', 0),
 (29, 1, '2021-11-28 13:24:34', '2021-11-28 13:24:34', '', 'Blog', '', 'publish', 'closed', 'closed', '', 'blog', '', '', '2021-11-28 13:24:34', '2021-11-28 13:24:34', '', 0, 'http://wordpress.project/?page_id=29', 0, 'page', '', 0),
-(37, 1, '2021-11-28 13:24:35', '2021-11-28 13:24:35', 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.', 'Quần Short Thể Thao Siêu Co Giãn', '', 'publish', 'open', 'closed', '', 'hoodie', '', '', '2021-12-11 04:34:20', '2021-12-11 04:34:20', '', 0, 'http://wordpress.project/?p=37', 0, 'product', '', 0),
-(38, 1, '2021-11-28 13:24:35', '2021-11-28 13:24:35', 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.', 'Quần Short Thể Thao', '', 'publish', 'open', 'closed', '', 'long-sleeve-tee', '', '', '2021-12-11 04:32:18', '2021-12-11 04:32:18', '', 0, 'http://wordpress.project/?p=38', 0, 'product', '', 0),
+(37, 1, '2021-11-28 13:24:35', '2021-11-28 13:24:35', 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.', 'Quần Short Thể Thao Siêu Co Giãn', '', 'publish', 'open', 'closed', '', 'men', '', '', '2021-12-11 05:26:09', '2021-12-11 05:26:09', '', 0, 'http://wordpress.project/?p=37', 0, 'product', '', 0),
+(38, 1, '2021-11-28 13:24:35', '2021-11-28 13:24:35', 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.', 'Quần Short Thể Thao', '', 'publish', 'open', 'closed', '', 'short', '', '', '2021-12-11 05:25:54', '2021-12-11 05:25:54', '', 0, 'http://wordpress.project/?p=38', 0, 'product', '', 0),
 (39, 1, '2021-11-28 13:24:35', '2021-11-28 13:24:35', 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.', 'Áo Thun Dry-EX Dáng Ngắn Cổ Tròn Ngắn Tay', '', 'publish', 'open', 'closed', '', 'polo', '', '', '2021-12-11 04:30:18', '2021-12-11 04:30:18', '', 0, 'http://wordpress.project/?p=39', 0, 'product', '', 0),
-(40, 1, '2021-11-28 13:24:35', '2021-11-28 13:24:35', 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.', 'Áo Thun Gân Cotton Dáng Ngắn Cổ Tròn Ngắn Tay', '', 'publish', 'open', 'closed', '', 'tshirt', '', '', '2021-12-11 04:28:07', '2021-12-11 04:28:07', '', 0, 'http://wordpress.project/?p=40', 0, 'product', '', 0),
-(41, 1, '2021-11-28 13:24:35', '2021-11-28 13:24:35', 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.', 'AIRism Cotton Áo Thun Cổ Tròn Dáng Rộng Không Tay', '', 'publish', 'open', 'closed', '', 'nu', '', '', '2021-12-11 04:23:00', '2021-12-11 04:23:00', '', 0, 'http://wordpress.project/?p=41', 0, 'product', '', 0),
+(40, 1, '2021-11-28 13:24:35', '2021-11-28 13:24:35', 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.', 'Áo Thun Gân Cotton Dáng Ngắn Cổ Tròn Ngắn Tay', '', 'publish', 'open', 'closed', '', 'ao_thun', '', '', '2021-12-11 05:25:11', '2021-12-11 05:25:11', '', 0, 'http://wordpress.project/?p=40', 0, 'product', '', 0),
+(41, 1, '2021-11-28 13:24:35', '2021-11-28 13:24:35', 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.', 'AIRism Cotton Áo Thun Cổ Tròn Dáng Rộng Không Tay', '', 'publish', 'open', 'closed', '', 'women', '', '', '2021-12-11 05:25:27', '2021-12-11 05:25:27', '', 0, 'http://wordpress.project/?p=41', 0, 'product', '', 0),
 (42, 1, '2021-11-28 13:24:34', '2021-11-28 13:24:34', '{\n    \"nav_menus_created_posts\": {\n        \"value\": [\n            12,\n            13,\n            14,\n            15,\n            16,\n            17,\n            18,\n            19,\n            20,\n            21,\n            22,\n            23,\n            24,\n            25,\n            26,\n            27,\n            28,\n            29,\n            30,\n            31,\n            32,\n            33,\n            34,\n            35,\n            36,\n            37,\n            38,\n            39,\n            40,\n            41\n        ],\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2021-11-28 13:24:34\"\n    },\n    \"show_on_front\": {\n        \"starter_content\": true,\n        \"value\": \"page\",\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2021-11-28 13:23:55\"\n    },\n    \"page_on_front\": {\n        \"starter_content\": true,\n        \"value\": 28,\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2021-11-28 13:23:55\"\n    },\n    \"page_for_posts\": {\n        \"starter_content\": true,\n        \"value\": 29,\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2021-11-28 13:23:55\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', 'adf709b4-307b-44ed-81eb-1cefc80c8831', '', '', '2021-11-28 13:24:34', '2021-11-28 13:24:34', '', 0, 'http://wordpress.project/?p=42', 0, 'customize_changeset', '', 0),
 (43, 1, '2021-11-28 13:24:34', '2021-11-28 13:24:34', '\n					<!-- wp:cover {\"url\":\"http://wordpress.project/wp-content/uploads/2021/11/hero.jpg\",\"id\":24,\"dimRatio\":0,\"customOverlayColor\":\"#ffffff\",\"align\":\"full\"} -->\n					<div class=\"wp-block-cover alignfull\" style=\"background-image:url(http://wordpress.project/wp-content/uploads/2021/11/hero.jpg);background-color:#ffffff\"><div class=\"wp-block-cover__inner-container\"><!-- wp:heading {\"level\":1,\"align\":\"center\"} -->\n					<h1 style=\"text-align:center\">Welcome</h1>\n					<!-- /wp:heading -->\n\n					<!-- wp:paragraph {\"align\":\"center\",\"customTextColor\":\"#000000\"} -->\n					<p style=\"color:#000000;text-align:center\" class=\"has-text-color\">This is your homepage which is what most visitors will see when they first visit your shop.</p>\n					<!-- /wp:paragraph -->\n\n					<!-- wp:paragraph {\"align\":\"center\",\"customTextColor\":\"#000000\"} -->\n					<p style=\"color:#000000;text-align:center\" class=\"has-text-color\">You can change this text by editing the \"Welcome\" page via the \"Pages\" menu in your dashboard.</p>\n					<!-- /wp:paragraph --></div></div>\n					<!-- /wp:cover -->\n				\n\n				<!-- wp:heading {\"align\":\"center\"} -->\n				<h2 style=\"text-align:center\">Shop by Category</h2>\n				<!-- /wp:heading -->\n\n				<!-- wp:shortcode -->\n				[product_categories limit=\"3\" columns=\"3\" orderby=\"menu_order\"]\n				<!-- /wp:shortcode -->\n\n				<!-- wp:heading {\"align\":\"center\"} -->\n				<h2 style=\"text-align:center\">New In</h2>\n				<!-- /wp:heading -->\n\n				<!-- wp:woocommerce/product-new {\"columns\":4} /-->\n\n				\n					<!-- wp:heading {\"align\":\"center\"} -->\n					<h2 style=\"text-align:center\">We Recommend</h2>\n					<!-- /wp:heading -->\n\n					<!-- wp:woocommerce/handpicked-products {\"columns\":4,\"editMode\":false,\"products\":[37,33,35,36]} /-->\n				\n\n				<!-- wp:heading {\"align\":\"center\"} -->\n				<h2 style=\"text-align:center\">Fan Favorites</h2>\n				<!-- /wp:heading -->\n\n				<!-- wp:woocommerce/product-top-rated {\"columns\":4} /-->\n\n				<!-- wp:heading {\"align\":\"center\"} -->\n				<h2 style=\"text-align:center\">On Sale</h2>\n				<!-- /wp:heading -->\n\n				<!-- wp:woocommerce/product-on-sale {\"columns\":4} /-->\n\n				<!-- wp:heading {\"align\":\"center\"} -->\n				<h2 style=\"text-align:center\">Best Sellers</h2>\n				<!-- /wp:heading -->\n\n				<!-- wp:woocommerce/product-best-sellers {\"columns\":4} /-->', 'Homepage', '', 'inherit', 'closed', 'closed', '', '28-revision-v1', '', '', '2021-11-28 13:24:34', '2021-11-28 13:24:34', '', 28, 'http://wordpress.project/?p=43', 0, 'revision', '', 0),
 (44, 1, '2021-11-28 13:24:34', '2021-11-28 13:24:34', '', 'Blog', '', 'inherit', 'closed', 'closed', '', '29-revision-v1', '', '', '2021-11-28 13:24:34', '2021-11-28 13:24:34', '', 29, 'http://wordpress.project/?p=44', 0, 'revision', '', 0),
@@ -1165,13 +1214,13 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (71, 1, '2021-12-09 17:54:12', '2021-12-09 17:54:12', '', 'product', '', 'trash', 'closed', 'closed', '', 'product__trashed', '', '', '2021-12-09 18:07:04', '2021-12-09 18:07:04', '', 0, 'http://wordpress.project/?page_id=71', 0, 'page', '', 0),
 (73, 1, '2021-12-09 17:54:12', '2021-12-09 17:54:12', '', 'product', '', 'inherit', 'closed', 'closed', '', '71-revision-v1', '', '', '2021-12-09 17:54:12', '2021-12-09 17:54:12', '', 71, 'http://wordpress.project/?p=73', 0, 'revision', '', 0),
 (74, 1, '2021-12-09 17:54:24', '0000-00-00 00:00:00', '', 'Lưu bản nháp tự động', '', 'auto-draft', 'closed', 'closed', '', '', '', '', '2021-12-09 17:54:24', '0000-00-00 00:00:00', '', 0, 'http://wordpress.project/?page_id=74', 0, 'page', '', 0),
-(75, 1, '2021-12-09 17:54:45', '2021-12-09 17:54:45', '', 'NỮ', '', 'publish', 'closed', 'closed', '', 'nu', '', '', '2021-12-09 17:56:12', '2021-12-09 17:56:12', '', 71, 'http://wordpress.project/?page_id=75', 0, 'page', '', 0),
+(75, 1, '2021-12-09 17:54:45', '2021-12-09 17:54:45', '', 'NỮ', '', 'publish', 'closed', 'closed', '', 'women', '', '', '2021-12-11 05:19:40', '2021-12-11 05:19:40', '', 120, 'http://wordpress.project/?page_id=75', 0, 'page', '', 0),
 (76, 1, '2021-12-09 17:54:45', '2021-12-09 17:54:45', '', 'Nữ', '', 'inherit', 'closed', 'closed', '', '75-revision-v1', '', '', '2021-12-09 17:54:45', '2021-12-09 17:54:45', '', 75, 'http://wordpress.project/?p=76', 0, 'revision', '', 0),
-(78, 1, '2021-12-09 17:55:04', '2021-12-09 17:55:04', '', 'NAM', '', 'publish', 'closed', 'closed', '', 'nam', '', '', '2021-12-09 17:56:29', '2021-12-09 17:56:29', '', 71, 'http://wordpress.project/?page_id=78', 0, 'page', '', 0),
+(78, 1, '2021-12-09 17:55:04', '2021-12-09 17:55:04', '', 'NAM', '', 'publish', 'closed', 'closed', '', 'men', '', '', '2021-12-11 05:18:04', '2021-12-11 05:18:04', '', 120, 'http://wordpress.project/?page_id=78', 0, 'page', '', 0),
 (79, 1, '2021-12-09 17:55:04', '2021-12-09 17:55:04', '', 'Nam', '', 'inherit', 'closed', 'closed', '', '78-revision-v1', '', '', '2021-12-09 17:55:04', '2021-12-09 17:55:04', '', 78, 'http://wordpress.project/?p=79', 0, 'revision', '', 0),
-(80, 1, '2021-12-09 17:55:37', '2021-12-09 17:55:37', '', 'TRẺ EM', '', 'publish', 'closed', 'closed', '', 'tre-em', '', '', '2021-12-09 17:55:37', '2021-12-09 17:55:37', '', 71, 'http://wordpress.project/?page_id=80', 0, 'page', '', 0),
+(80, 1, '2021-12-09 17:55:37', '2021-12-09 17:55:37', '', 'TRẺ EM', '', 'publish', 'closed', 'closed', '', 'kids', '', '', '2021-12-11 05:22:05', '2021-12-11 05:22:05', '', 120, 'http://wordpress.project/?page_id=80', 0, 'page', '', 0),
 (81, 1, '2021-12-09 17:55:37', '2021-12-09 17:55:37', '', 'TRẺ EM', '', 'inherit', 'closed', 'closed', '', '80-revision-v1', '', '', '2021-12-09 17:55:37', '2021-12-09 17:55:37', '', 80, 'http://wordpress.project/?p=81', 0, 'revision', '', 0),
-(82, 1, '2021-12-09 17:55:52', '2021-12-09 17:55:52', '', 'TRẺ SƠ SINH', '', 'publish', 'closed', 'closed', '', 'tre-so-sinh', '', '', '2021-12-09 17:58:11', '2021-12-09 17:58:11', '', 71, 'http://wordpress.project/?page_id=82', 0, 'page', '', 0),
+(82, 1, '2021-12-09 17:55:52', '2021-12-09 17:55:52', '', 'TRẺ SƠ SINH', '', 'publish', 'closed', 'closed', '', 'baby', '', '', '2021-12-11 05:22:34', '2021-12-11 05:22:34', '', 120, 'http://wordpress.project/?page_id=82', 0, 'page', '', 0),
 (84, 1, '2021-12-09 17:55:52', '2021-12-09 17:55:52', '', 'TRẺ SƠ SINH', '', 'inherit', 'closed', 'closed', '', '82-revision-v1', '', '', '2021-12-09 17:55:52', '2021-12-09 17:55:52', '', 82, 'http://wordpress.project/?p=84', 0, 'revision', '', 0),
 (85, 1, '2021-12-09 17:56:12', '2021-12-09 17:56:12', '', 'NỮ', '', 'inherit', 'closed', 'closed', '', '75-revision-v1', '', '', '2021-12-09 17:56:12', '2021-12-09 17:56:12', '', 75, 'http://wordpress.project/?p=85', 0, 'revision', '', 0),
 (86, 1, '2021-12-09 17:56:29', '2021-12-09 17:56:29', '', 'NAM', '', 'inherit', 'closed', 'closed', '', '78-revision-v1', '', '', '2021-12-09 17:56:29', '2021-12-09 17:56:29', '', 78, 'http://wordpress.project/?p=86', 0, 'revision', '', 0),
@@ -1186,10 +1235,10 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (103, 1, '2021-12-09 18:10:13', '2021-12-09 18:10:13', ' ', '', '', 'publish', 'closed', 'closed', '', '103', '', '', '2021-12-09 18:10:13', '2021-12-09 18:10:13', '', 0, 'http://wordpress.project/?p=103', 3, 'nav_menu_item', '', 0),
 (104, 1, '2021-12-09 18:10:13', '2021-12-09 18:10:13', ' ', '', '', 'publish', 'closed', 'closed', '', '104', '', '', '2021-12-09 18:10:13', '2021-12-09 18:10:13', '', 0, 'http://wordpress.project/?p=104', 4, 'nav_menu_item', '', 0),
 (105, 1, '2021-12-09 18:10:13', '2021-12-09 18:10:13', ' ', '', '', 'publish', 'closed', 'closed', '', '105', '', '', '2021-12-09 18:10:13', '2021-12-09 18:10:13', '', 0, 'http://wordpress.project/?p=105', 5, 'nav_menu_item', '', 0),
-(106, 1, '2021-12-09 18:14:14', '2021-12-09 18:10:54', ' ', '', '', 'publish', 'closed', 'closed', '', '106', '', '', '2021-12-09 18:14:14', '2021-12-09 18:14:14', '', 71, 'http://wordpress.project/?p=106', 4, 'nav_menu_item', '', 0),
-(107, 1, '2021-12-09 18:14:14', '2021-12-09 18:10:55', ' ', '', '', 'publish', 'closed', 'closed', '', '107', '', '', '2021-12-09 18:14:14', '2021-12-09 18:14:14', '', 71, 'http://wordpress.project/?p=107', 3, 'nav_menu_item', '', 0),
-(108, 1, '2021-12-09 18:14:14', '2021-12-09 18:10:55', ' ', '', '', 'publish', 'closed', 'closed', '', '108', '', '', '2021-12-09 18:14:14', '2021-12-09 18:14:14', '', 71, 'http://wordpress.project/?p=108', 2, 'nav_menu_item', '', 0),
-(109, 1, '2021-12-09 18:14:15', '2021-12-09 18:10:55', ' ', '', '', 'publish', 'closed', 'closed', '', '109', '', '', '2021-12-09 18:14:15', '2021-12-09 18:14:15', '', 71, 'http://wordpress.project/?p=109', 1, 'nav_menu_item', '', 0),
+(106, 1, '2021-12-11 05:21:04', '2021-12-09 18:10:54', ' ', '', '', 'publish', 'closed', 'closed', '', '106', '', '', '2021-12-11 05:21:04', '2021-12-11 05:21:04', '', 71, 'http://wordpress.project/?p=106', 4, 'nav_menu_item', '', 0),
+(107, 1, '2021-12-11 05:21:04', '2021-12-09 18:10:55', ' ', '', '', 'publish', 'closed', 'closed', '', '107', '', '', '2021-12-11 05:21:04', '2021-12-11 05:21:04', '', 71, 'http://wordpress.project/?p=107', 3, 'nav_menu_item', '', 0),
+(108, 1, '2021-12-11 05:21:04', '2021-12-09 18:10:55', ' ', '', '', 'publish', 'closed', 'closed', '', '108', '', '', '2021-12-11 05:21:04', '2021-12-11 05:21:04', '', 120, 'http://wordpress.project/?p=108', 2, 'nav_menu_item', '', 0),
+(109, 1, '2021-12-11 05:21:03', '2021-12-09 18:10:55', ' ', '', '', 'publish', 'closed', 'closed', '', '109', '', '', '2021-12-11 05:21:03', '2021-12-11 05:21:03', '', 120, 'http://wordpress.project/?p=109', 1, 'nav_menu_item', '', 0),
 (110, 1, '2021-12-09 18:14:14', '2021-12-09 18:14:14', '{\n    \"storefront::nav_menu_locations[primary]\": {\n        \"value\": 21,\n        \"type\": \"theme_mod\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2021-12-09 18:14:06\"\n    },\n    \"storefront::nav_menu_locations[secondary]\": {\n        \"value\": 21,\n        \"type\": \"theme_mod\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2021-12-09 18:14:06\"\n    },\n    \"storefront::nav_menu_locations[handheld]\": {\n        \"value\": 21,\n        \"type\": \"theme_mod\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2021-12-09 18:14:06\"\n    },\n    \"nav_menu_item[106]\": {\n        \"value\": {\n            \"menu_item_parent\": 0,\n            \"object_id\": 82,\n            \"object\": \"page\",\n            \"type\": \"post_type\",\n            \"type_label\": \"Trang\",\n            \"url\": \"http://wordpress.project/product__trashed/tre-so-sinh/\",\n            \"title\": \"\",\n            \"target\": \"\",\n            \"attr_title\": \"\",\n            \"description\": \"\",\n            \"classes\": \"\",\n            \"xfn\": \"\",\n            \"nav_menu_term_id\": 21,\n            \"position\": 4,\n            \"status\": \"publish\",\n            \"original_title\": \"TR\\u1eba S\\u01a0 SINH\",\n            \"_invalid\": false\n        },\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2021-12-09 18:14:06\"\n    },\n    \"nav_menu_item[107]\": {\n        \"value\": {\n            \"menu_item_parent\": 0,\n            \"object_id\": 80,\n            \"object\": \"page\",\n            \"type\": \"post_type\",\n            \"type_label\": \"Trang\",\n            \"url\": \"http://wordpress.project/product__trashed/tre-em/\",\n            \"title\": \"\",\n            \"target\": \"\",\n            \"attr_title\": \"\",\n            \"description\": \"\",\n            \"classes\": \"\",\n            \"xfn\": \"\",\n            \"nav_menu_term_id\": 21,\n            \"position\": 3,\n            \"status\": \"publish\",\n            \"original_title\": \"TR\\u1eba EM\",\n            \"_invalid\": false\n        },\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2021-12-09 18:14:06\"\n    },\n    \"nav_menu_item[108]\": {\n        \"value\": {\n            \"menu_item_parent\": 0,\n            \"object_id\": 78,\n            \"object\": \"page\",\n            \"type\": \"post_type\",\n            \"type_label\": \"Trang\",\n            \"url\": \"http://wordpress.project/product__trashed/nam/\",\n            \"title\": \"\",\n            \"target\": \"\",\n            \"attr_title\": \"\",\n            \"description\": \"\",\n            \"classes\": \"\",\n            \"xfn\": \"\",\n            \"nav_menu_term_id\": 21,\n            \"position\": 2,\n            \"status\": \"publish\",\n            \"original_title\": \"NAM\",\n            \"_invalid\": false\n        },\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2021-12-09 18:14:06\"\n    },\n    \"nav_menu_item[109]\": {\n        \"value\": {\n            \"menu_item_parent\": 0,\n            \"object_id\": 75,\n            \"object\": \"page\",\n            \"type\": \"post_type\",\n            \"type_label\": \"Trang\",\n            \"url\": \"http://wordpress.project/product__trashed/nu/\",\n            \"title\": \"\",\n            \"target\": \"\",\n            \"attr_title\": \"\",\n            \"description\": \"\",\n            \"classes\": \"\",\n            \"xfn\": \"\",\n            \"nav_menu_term_id\": 21,\n            \"position\": 1,\n            \"status\": \"publish\",\n            \"original_title\": \"N\\u1eee\",\n            \"_invalid\": false\n        },\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2021-12-09 18:14:06\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', '3d7d786b-ece6-4888-a281-e7b53e3af843', '', '', '2021-12-09 18:14:14', '2021-12-09 18:14:14', '', 0, 'http://wordpress.project/?p=110', 0, 'customize_changeset', '', 0),
 (111, 1, '2021-12-11 04:22:21', '2021-12-11 04:22:21', 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.', 'AIRism Cotton Áo Thun Cổ Tròn Dáng Rộng Không Tay', '', 'inherit', 'closed', 'closed', '', '41-autosave-v1', '', '', '2021-12-11 04:22:21', '2021-12-11 04:22:21', '', 41, 'http://wordpress.project/?p=111', 0, 'revision', '', 0),
 (112, 1, '2021-12-11 04:22:31', '2021-12-11 04:22:31', '', 'goods_01_440426 (1)', '', 'inherit', 'open', 'closed', '', 'goods_01_440426-1', '', '', '2021-12-11 04:22:31', '2021-12-11 04:22:31', '', 41, 'http://wordpress.project/wp-content/uploads/2021/11/goods_01_440426-1.webp', 0, 'attachment', 'image/webp', 0),
@@ -1199,12 +1248,15 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (116, 1, '2021-12-11 04:31:49', '2021-12-11 04:31:49', '', 'vngoods_55_437262', '', 'inherit', 'open', 'closed', '', 'vngoods_55_437262', '', '', '2021-12-11 04:31:49', '2021-12-11 04:31:49', '', 38, 'http://wordpress.project/wp-content/uploads/2021/11/vngoods_55_437262.webp', 0, 'attachment', 'image/webp', 0),
 (117, 1, '2021-12-11 04:31:52', '2021-12-11 04:31:52', 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.', 'Quần Short Thể Thao', '', 'inherit', 'closed', 'closed', '', '38-autosave-v1', '', '', '2021-12-11 04:31:52', '2021-12-11 04:31:52', '', 38, 'http://wordpress.project/?p=117', 0, 'revision', '', 0),
 (118, 1, '2021-12-11 04:33:46', '2021-12-11 04:33:46', 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.', 'Quần Short Thể Thao Siêu Co Giãn', '', 'inherit', 'closed', 'closed', '', '37-autosave-v1', '', '', '2021-12-11 04:33:46', '2021-12-11 04:33:46', '', 37, 'http://wordpress.project/?p=118', 0, 'revision', '', 0),
-(119, 1, '2021-12-11 04:34:12', '2021-12-11 04:34:12', '', 'vngoods_09_433056', '', 'inherit', 'open', 'closed', '', 'vngoods_09_433056', '', '', '2021-12-11 04:34:12', '2021-12-11 04:34:12', '', 37, 'http://wordpress.project/wp-content/uploads/2021/11/vngoods_09_433056.webp', 0, 'attachment', 'image/webp', 0);
+(119, 1, '2021-12-11 04:34:12', '2021-12-11 04:34:12', '', 'vngoods_09_433056', '', 'inherit', 'open', 'closed', '', 'vngoods_09_433056', '', '', '2021-12-11 04:34:12', '2021-12-11 04:34:12', '', 37, 'http://wordpress.project/wp-content/uploads/2021/11/vngoods_09_433056.webp', 0, 'attachment', 'image/webp', 0),
+(120, 1, '2021-12-11 05:17:18', '2021-12-11 05:17:18', '', 'product', '', 'publish', 'closed', 'closed', '', 'product', '', '', '2021-12-11 05:17:18', '2021-12-11 05:17:18', '', 0, 'http://wordpress.project/?page_id=120', 0, 'page', '', 0),
+(121, 1, '2021-12-11 05:17:18', '2021-12-11 05:17:18', ' ', '', '', 'publish', 'closed', 'closed', '', '121', '', '', '2021-12-11 05:17:18', '2021-12-11 05:17:18', '', 0, 'http://wordpress.project/2021/12/11/121/', 6, 'nav_menu_item', '', 0),
+(123, 1, '2021-12-11 05:17:18', '2021-12-11 05:17:18', '', 'product', '', 'inherit', 'closed', 'closed', '', '120-revision-v1', '', '', '2021-12-11 05:17:18', '2021-12-11 05:17:18', '', 120, 'http://wordpress.project/?p=123', 0, 'revision', '', 0);
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_termmeta`
+-- Table structure for table `wp_termmeta`
 --
 
 CREATE TABLE `wp_termmeta` (
@@ -1215,7 +1267,7 @@ CREATE TABLE `wp_termmeta` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_termmeta`
+-- Dumping data for table `wp_termmeta`
 --
 
 INSERT INTO `wp_termmeta` (`meta_id`, `term_id`, `meta_key`, `meta_value`) VALUES
@@ -1229,7 +1281,7 @@ INSERT INTO `wp_termmeta` (`meta_id`, `term_id`, `meta_key`, `meta_value`) VALUE
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_terms`
+-- Table structure for table `wp_terms`
 --
 
 CREATE TABLE `wp_terms` (
@@ -1240,7 +1292,7 @@ CREATE TABLE `wp_terms` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_terms`
+-- Dumping data for table `wp_terms`
 --
 
 INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
@@ -1269,7 +1321,7 @@ INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_term_relationships`
+-- Table structure for table `wp_term_relationships`
 --
 
 CREATE TABLE `wp_term_relationships` (
@@ -1279,7 +1331,7 @@ CREATE TABLE `wp_term_relationships` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_term_relationships`
+-- Dumping data for table `wp_term_relationships`
 --
 
 INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_order`) VALUES
@@ -1305,12 +1357,13 @@ INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_orde
 (106, 21, 0),
 (107, 21, 0),
 (108, 21, 0),
-(109, 21, 0);
+(109, 21, 0),
+(121, 20, 0);
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_term_taxonomy`
+-- Table structure for table `wp_term_taxonomy`
 --
 
 CREATE TABLE `wp_term_taxonomy` (
@@ -1323,7 +1376,7 @@ CREATE TABLE `wp_term_taxonomy` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_term_taxonomy`
+-- Dumping data for table `wp_term_taxonomy`
 --
 
 INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `description`, `parent`, `count`) VALUES
@@ -1346,13 +1399,13 @@ INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `desc
 (17, 17, 'product_cat', 'A short category description', 0, 1),
 (18, 18, 'product_cat', 'A short category description', 0, 4),
 (19, 19, 'category', '', 0, 0),
-(20, 20, 'nav_menu', '', 0, 5),
+(20, 20, 'nav_menu', '', 0, 6),
 (21, 21, 'nav_menu', '', 0, 4);
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_usermeta`
+-- Table structure for table `wp_usermeta`
 --
 
 CREATE TABLE `wp_usermeta` (
@@ -1363,7 +1416,7 @@ CREATE TABLE `wp_usermeta` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_usermeta`
+-- Dumping data for table `wp_usermeta`
 --
 
 INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALUES
@@ -1382,7 +1435,7 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (13, 1, 'wp_user_level', '10'),
 (14, 1, 'dismissed_wp_pointers', ''),
 (15, 1, 'show_welcome_panel', '1'),
-(16, 1, 'session_tokens', 'a:2:{s:64:\"caeb7fc82a50f995bb99f6f51b6f4f204f4b65ca33ba4e260f8165fcd866ffbf\";a:4:{s:10:\"expiration\";i:1639244922;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:114:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36\";s:5:\"login\";i:1639072122;}s:64:\"06f7bcbc8ec15dca3a343e285b25add89e52a217362617ee1048c21aa79c38b2\";a:4:{s:10:\"expiration\";i:1639369057;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:114:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36\";s:5:\"login\";i:1639196257;}}'),
+(16, 1, 'session_tokens', 'a:3:{s:64:\"caeb7fc82a50f995bb99f6f51b6f4f204f4b65ca33ba4e260f8165fcd866ffbf\";a:4:{s:10:\"expiration\";i:1639244922;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:114:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36\";s:5:\"login\";i:1639072122;}s:64:\"06f7bcbc8ec15dca3a343e285b25add89e52a217362617ee1048c21aa79c38b2\";a:4:{s:10:\"expiration\";i:1639369057;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:114:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36\";s:5:\"login\";i:1639196257;}s:64:\"8d5fc7ae83179bf4f148681b2dc8323e386a6b73a144f03137f361c0eef2d0c6\";a:4:{s:10:\"expiration\";i:1639372552;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:114:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36\";s:5:\"login\";i:1639199752;}}'),
 (17, 1, 'wp_user-settings', 'libraryContent=browse'),
 (18, 1, 'wp_user-settings-time', '1639196257'),
 (19, 1, 'wp_dashboard_quick_press_last_post_id', '50'),
@@ -1392,7 +1445,7 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (23, 1, 'wc_last_active', '1639180800'),
 (24, 1, 'woocommerce_admin_task_list_tracked_started_tasks', '{\"payments\":2,\"shipping\":1,\"marketing\":1}'),
 (25, 1, 'woocommerce_admin_help_panel_highlight_shown', '\"yes\"'),
-(26, 1, '_woocommerce_persistent_cart_1', 'a:1:{s:4:\"cart\";a:1:{s:32:\"d645920e395fedad7bbbed0eca3fe2e0\";a:11:{s:3:\"key\";s:32:\"d645920e395fedad7bbbed0eca3fe2e0\";s:10:\"product_id\";i:40;s:12:\"variation_id\";i:0;s:9:\"variation\";a:0:{}s:8:\"quantity\";i:4;s:9:\"data_hash\";s:32:\"b5c1d5ca8bae6d4896cf1807cdf763f0\";s:13:\"line_tax_data\";a:2:{s:8:\"subtotal\";a:0:{}s:5:\"total\";a:0:{}}s:13:\"line_subtotal\";d:72;s:17:\"line_subtotal_tax\";i:0;s:10:\"line_total\";d:72;s:8:\"line_tax\";i:0;}}}'),
+(26, 1, '_woocommerce_persistent_cart_1', 'a:1:{s:4:\"cart\";a:1:{s:32:\"d645920e395fedad7bbbed0eca3fe2e0\";a:11:{s:3:\"key\";s:32:\"d645920e395fedad7bbbed0eca3fe2e0\";s:10:\"product_id\";i:40;s:12:\"variation_id\";i:0;s:9:\"variation\";a:0:{}s:8:\"quantity\";i:4;s:9:\"data_hash\";s:32:\"b5c1d5ca8bae6d4896cf1807cdf763f0\";s:13:\"line_tax_data\";a:2:{s:8:\"subtotal\";a:0:{}s:5:\"total\";a:0:{}}s:13:\"line_subtotal\";d:796000;s:17:\"line_subtotal_tax\";i:0;s:10:\"line_total\";d:796000;s:8:\"line_tax\";i:0;}}}'),
 (28, 1, '_woocommerce_tracks_anon_id', 'woo:Tr01RHBhHEl5KWoq6Y/H92qE'),
 (29, 1, '_order_count', '0'),
 (32, 1, 'meta-box-order_post', 'a:3:{s:4:\"side\";s:51:\"submitdiv,categorydiv,postimagediv,tagsdiv-post_tag\";s:6:\"normal\";s:96:\"revisionsdiv,postexcerpt,trackbacksdiv,postcustom,commentstatusdiv,commentsdiv,slugdiv,authordiv\";s:8:\"advanced\";s:0:\"\";}'),
@@ -1406,7 +1459,7 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_users`
+-- Table structure for table `wp_users`
 --
 
 CREATE TABLE `wp_users` (
@@ -1423,7 +1476,7 @@ CREATE TABLE `wp_users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_users`
+-- Dumping data for table `wp_users`
 --
 
 INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
@@ -1432,7 +1485,7 @@ INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_wc_admin_notes`
+-- Table structure for table `wp_wc_admin_notes`
 --
 
 CREATE TABLE `wp_wc_admin_notes` (
@@ -1455,7 +1508,7 @@ CREATE TABLE `wp_wc_admin_notes` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_wc_admin_notes`
+-- Dumping data for table `wp_wc_admin_notes`
 --
 
 INSERT INTO `wp_wc_admin_notes` (`note_id`, `name`, `type`, `locale`, `title`, `content`, `content_data`, `status`, `source`, `date_created`, `date_reminder`, `is_snoozable`, `layout`, `image`, `is_deleted`, `icon`) VALUES
@@ -1510,7 +1563,7 @@ INSERT INTO `wp_wc_admin_notes` (`note_id`, `name`, `type`, `locale`, `title`, `
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_wc_admin_note_actions`
+-- Table structure for table `wp_wc_admin_note_actions`
 --
 
 CREATE TABLE `wp_wc_admin_note_actions` (
@@ -1527,7 +1580,7 @@ CREATE TABLE `wp_wc_admin_note_actions` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_wc_admin_note_actions`
+-- Dumping data for table `wp_wc_admin_note_actions`
 --
 
 INSERT INTO `wp_wc_admin_note_actions` (`action_id`, `note_id`, `name`, `label`, `query`, `status`, `is_primary`, `actioned_text`, `nonce_action`, `nonce_name`) VALUES
@@ -1586,7 +1639,7 @@ INSERT INTO `wp_wc_admin_note_actions` (`action_id`, `note_id`, `name`, `label`,
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_wc_category_lookup`
+-- Table structure for table `wp_wc_category_lookup`
 --
 
 CREATE TABLE `wp_wc_category_lookup` (
@@ -1595,7 +1648,7 @@ CREATE TABLE `wp_wc_category_lookup` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_wc_category_lookup`
+-- Dumping data for table `wp_wc_category_lookup`
 --
 
 INSERT INTO `wp_wc_category_lookup` (`category_tree_id`, `category_id`) VALUES
@@ -1607,7 +1660,7 @@ INSERT INTO `wp_wc_category_lookup` (`category_tree_id`, `category_id`) VALUES
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_wc_customer_lookup`
+-- Table structure for table `wp_wc_customer_lookup`
 --
 
 CREATE TABLE `wp_wc_customer_lookup` (
@@ -1628,7 +1681,7 @@ CREATE TABLE `wp_wc_customer_lookup` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_wc_download_log`
+-- Table structure for table `wp_wc_download_log`
 --
 
 CREATE TABLE `wp_wc_download_log` (
@@ -1642,7 +1695,7 @@ CREATE TABLE `wp_wc_download_log` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_wc_order_coupon_lookup`
+-- Table structure for table `wp_wc_order_coupon_lookup`
 --
 
 CREATE TABLE `wp_wc_order_coupon_lookup` (
@@ -1655,7 +1708,7 @@ CREATE TABLE `wp_wc_order_coupon_lookup` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_wc_order_product_lookup`
+-- Table structure for table `wp_wc_order_product_lookup`
 --
 
 CREATE TABLE `wp_wc_order_product_lookup` (
@@ -1677,7 +1730,7 @@ CREATE TABLE `wp_wc_order_product_lookup` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_wc_order_stats`
+-- Table structure for table `wp_wc_order_stats`
 --
 
 CREATE TABLE `wp_wc_order_stats` (
@@ -1698,7 +1751,7 @@ CREATE TABLE `wp_wc_order_stats` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_wc_order_tax_lookup`
+-- Table structure for table `wp_wc_order_tax_lookup`
 --
 
 CREATE TABLE `wp_wc_order_tax_lookup` (
@@ -1713,7 +1766,7 @@ CREATE TABLE `wp_wc_order_tax_lookup` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_wc_product_meta_lookup`
+-- Table structure for table `wp_wc_product_meta_lookup`
 --
 
 CREATE TABLE `wp_wc_product_meta_lookup` (
@@ -1734,7 +1787,7 @@ CREATE TABLE `wp_wc_product_meta_lookup` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_wc_product_meta_lookup`
+-- Dumping data for table `wp_wc_product_meta_lookup`
 --
 
 INSERT INTO `wp_wc_product_meta_lookup` (`product_id`, `sku`, `virtual`, `downloadable`, `min_price`, `max_price`, `onsale`, `stock_quantity`, `stock_status`, `rating_count`, `average_rating`, `total_sales`, `tax_status`, `tax_class`) VALUES
@@ -1747,7 +1800,7 @@ INSERT INTO `wp_wc_product_meta_lookup` (`product_id`, `sku`, `virtual`, `downlo
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_wc_reserved_stock`
+-- Table structure for table `wp_wc_reserved_stock`
 --
 
 CREATE TABLE `wp_wc_reserved_stock` (
@@ -1761,7 +1814,7 @@ CREATE TABLE `wp_wc_reserved_stock` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_wc_tax_rate_classes`
+-- Table structure for table `wp_wc_tax_rate_classes`
 --
 
 CREATE TABLE `wp_wc_tax_rate_classes` (
@@ -1771,7 +1824,7 @@ CREATE TABLE `wp_wc_tax_rate_classes` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_wc_tax_rate_classes`
+-- Dumping data for table `wp_wc_tax_rate_classes`
 --
 
 INSERT INTO `wp_wc_tax_rate_classes` (`tax_rate_class_id`, `name`, `slug`) VALUES
@@ -1781,7 +1834,7 @@ INSERT INTO `wp_wc_tax_rate_classes` (`tax_rate_class_id`, `name`, `slug`) VALUE
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_wc_webhooks`
+-- Table structure for table `wp_wc_webhooks`
 --
 
 CREATE TABLE `wp_wc_webhooks` (
@@ -1804,7 +1857,7 @@ CREATE TABLE `wp_wc_webhooks` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_woocommerce_api_keys`
+-- Table structure for table `wp_woocommerce_api_keys`
 --
 
 CREATE TABLE `wp_woocommerce_api_keys` (
@@ -1822,7 +1875,7 @@ CREATE TABLE `wp_woocommerce_api_keys` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_woocommerce_attribute_taxonomies`
+-- Table structure for table `wp_woocommerce_attribute_taxonomies`
 --
 
 CREATE TABLE `wp_woocommerce_attribute_taxonomies` (
@@ -1837,7 +1890,7 @@ CREATE TABLE `wp_woocommerce_attribute_taxonomies` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_woocommerce_downloadable_product_permissions`
+-- Table structure for table `wp_woocommerce_downloadable_product_permissions`
 --
 
 CREATE TABLE `wp_woocommerce_downloadable_product_permissions` (
@@ -1857,7 +1910,7 @@ CREATE TABLE `wp_woocommerce_downloadable_product_permissions` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_woocommerce_log`
+-- Table structure for table `wp_woocommerce_log`
 --
 
 CREATE TABLE `wp_woocommerce_log` (
@@ -1872,7 +1925,7 @@ CREATE TABLE `wp_woocommerce_log` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_woocommerce_order_itemmeta`
+-- Table structure for table `wp_woocommerce_order_itemmeta`
 --
 
 CREATE TABLE `wp_woocommerce_order_itemmeta` (
@@ -1885,7 +1938,7 @@ CREATE TABLE `wp_woocommerce_order_itemmeta` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_woocommerce_order_items`
+-- Table structure for table `wp_woocommerce_order_items`
 --
 
 CREATE TABLE `wp_woocommerce_order_items` (
@@ -1898,7 +1951,7 @@ CREATE TABLE `wp_woocommerce_order_items` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_woocommerce_payment_tokenmeta`
+-- Table structure for table `wp_woocommerce_payment_tokenmeta`
 --
 
 CREATE TABLE `wp_woocommerce_payment_tokenmeta` (
@@ -1911,7 +1964,7 @@ CREATE TABLE `wp_woocommerce_payment_tokenmeta` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_woocommerce_payment_tokens`
+-- Table structure for table `wp_woocommerce_payment_tokens`
 --
 
 CREATE TABLE `wp_woocommerce_payment_tokens` (
@@ -1926,7 +1979,7 @@ CREATE TABLE `wp_woocommerce_payment_tokens` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_woocommerce_sessions`
+-- Table structure for table `wp_woocommerce_sessions`
 --
 
 CREATE TABLE `wp_woocommerce_sessions` (
@@ -1937,16 +1990,16 @@ CREATE TABLE `wp_woocommerce_sessions` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_woocommerce_sessions`
+-- Dumping data for table `wp_woocommerce_sessions`
 --
 
 INSERT INTO `wp_woocommerce_sessions` (`session_id`, `session_key`, `session_value`, `session_expiry`) VALUES
-(20, '1', 'a:12:{s:4:\"cart\";s:418:\"a:1:{s:32:\"d645920e395fedad7bbbed0eca3fe2e0\";a:11:{s:3:\"key\";s:32:\"d645920e395fedad7bbbed0eca3fe2e0\";s:10:\"product_id\";i:40;s:12:\"variation_id\";i:0;s:9:\"variation\";a:0:{}s:8:\"quantity\";i:4;s:9:\"data_hash\";s:32:\"b5c1d5ca8bae6d4896cf1807cdf763f0\";s:13:\"line_tax_data\";a:2:{s:8:\"subtotal\";a:0:{}s:5:\"total\";a:0:{}}s:13:\"line_subtotal\";d:796000;s:17:\"line_subtotal_tax\";i:0;s:10:\"line_total\";d:796000;s:8:\"line_tax\";i:0;}}\";s:11:\"cart_totals\";s:406:\"a:15:{s:8:\"subtotal\";s:6:\"796000\";s:12:\"subtotal_tax\";i:0;s:14:\"shipping_total\";s:5:\"20000\";s:12:\"shipping_tax\";i:0;s:14:\"shipping_taxes\";a:0:{}s:14:\"discount_total\";i:0;s:12:\"discount_tax\";i:0;s:19:\"cart_contents_total\";s:6:\"796000\";s:17:\"cart_contents_tax\";i:0;s:19:\"cart_contents_taxes\";a:0:{}s:9:\"fee_total\";s:1:\"0\";s:7:\"fee_tax\";i:0;s:9:\"fee_taxes\";a:0:{}s:5:\"total\";s:6:\"816000\";s:9:\"total_tax\";d:0;}\";s:15:\"applied_coupons\";s:6:\"a:0:{}\";s:22:\"coupon_discount_totals\";s:6:\"a:0:{}\";s:26:\"coupon_discount_tax_totals\";s:6:\"a:0:{}\";s:21:\"removed_cart_contents\";s:6:\"a:0:{}\";s:22:\"shipping_for_package_0\";s:429:\"a:2:{s:12:\"package_hash\";s:40:\"wc_ship_655d41f2e413f3c9555c69fb4bf7a092\";s:5:\"rates\";a:1:{s:11:\"flat_rate:1\";O:16:\"WC_Shipping_Rate\":2:{s:7:\"\0*\0data\";a:6:{s:2:\"id\";s:11:\"flat_rate:1\";s:9:\"method_id\";s:9:\"flat_rate\";s:11:\"instance_id\";i:1;s:5:\"label\";s:9:\"Flat rate\";s:4:\"cost\";s:5:\"20000\";s:5:\"taxes\";a:0:{}}s:12:\"\0*\0meta_data\";a:1:{s:11:\"Mặt hàng\";s:65:\"Áo Thun Gân Cotton Dáng Ngắn Cổ Tròn Ngắn Tay &times; 4\";}}}}\";s:25:\"previous_shipping_methods\";s:39:\"a:1:{i:0;a:1:{i:0;s:11:\"flat_rate:1\";}}\";s:23:\"chosen_shipping_methods\";s:29:\"a:1:{i:0;s:11:\"flat_rate:1\";}\";s:22:\"shipping_method_counts\";s:14:\"a:1:{i:0;i:1;}\";s:8:\"customer\";s:758:\"a:27:{s:2:\"id\";s:1:\"1\";s:13:\"date_modified\";s:25:\"2021-12-06T16:32:30+00:00\";s:8:\"postcode\";s:0:\"\";s:4:\"city\";s:0:\"\";s:9:\"address_1\";s:0:\"\";s:7:\"address\";s:0:\"\";s:9:\"address_2\";s:0:\"\";s:5:\"state\";s:0:\"\";s:7:\"country\";s:2:\"VN\";s:17:\"shipping_postcode\";s:0:\"\";s:13:\"shipping_city\";s:0:\"\";s:18:\"shipping_address_1\";s:0:\"\";s:16:\"shipping_address\";s:0:\"\";s:18:\"shipping_address_2\";s:0:\"\";s:14:\"shipping_state\";s:0:\"\";s:16:\"shipping_country\";s:2:\"VN\";s:13:\"is_vat_exempt\";s:0:\"\";s:19:\"calculated_shipping\";s:0:\"\";s:10:\"first_name\";s:0:\"\";s:9:\"last_name\";s:0:\"\";s:7:\"company\";s:0:\"\";s:5:\"phone\";s:0:\"\";s:5:\"email\";s:15:\"admin@admin.com\";s:19:\"shipping_first_name\";s:0:\"\";s:18:\"shipping_last_name\";s:0:\"\";s:16:\"shipping_company\";s:0:\"\";s:14:\"shipping_phone\";s:0:\"\";}\";s:10:\"wc_notices\";N;}', 1639227500);
+(20, '1', 'a:12:{s:4:\"cart\";s:418:\"a:1:{s:32:\"d645920e395fedad7bbbed0eca3fe2e0\";a:11:{s:3:\"key\";s:32:\"d645920e395fedad7bbbed0eca3fe2e0\";s:10:\"product_id\";i:40;s:12:\"variation_id\";i:0;s:9:\"variation\";a:0:{}s:8:\"quantity\";i:4;s:9:\"data_hash\";s:32:\"b5c1d5ca8bae6d4896cf1807cdf763f0\";s:13:\"line_tax_data\";a:2:{s:8:\"subtotal\";a:0:{}s:5:\"total\";a:0:{}}s:13:\"line_subtotal\";d:796000;s:17:\"line_subtotal_tax\";i:0;s:10:\"line_total\";d:796000;s:8:\"line_tax\";i:0;}}\";s:11:\"cart_totals\";s:406:\"a:15:{s:8:\"subtotal\";s:6:\"796000\";s:12:\"subtotal_tax\";i:0;s:14:\"shipping_total\";s:5:\"20000\";s:12:\"shipping_tax\";i:0;s:14:\"shipping_taxes\";a:0:{}s:14:\"discount_total\";i:0;s:12:\"discount_tax\";i:0;s:19:\"cart_contents_total\";s:6:\"796000\";s:17:\"cart_contents_tax\";i:0;s:19:\"cart_contents_taxes\";a:0:{}s:9:\"fee_total\";s:1:\"0\";s:7:\"fee_tax\";i:0;s:9:\"fee_taxes\";a:0:{}s:5:\"total\";s:6:\"816000\";s:9:\"total_tax\";d:0;}\";s:15:\"applied_coupons\";s:6:\"a:0:{}\";s:22:\"coupon_discount_totals\";s:6:\"a:0:{}\";s:26:\"coupon_discount_tax_totals\";s:6:\"a:0:{}\";s:21:\"removed_cart_contents\";s:6:\"a:0:{}\";s:22:\"shipping_for_package_0\";s:429:\"a:2:{s:12:\"package_hash\";s:40:\"wc_ship_655d41f2e413f3c9555c69fb4bf7a092\";s:5:\"rates\";a:1:{s:11:\"flat_rate:1\";O:16:\"WC_Shipping_Rate\":2:{s:7:\"\0*\0data\";a:6:{s:2:\"id\";s:11:\"flat_rate:1\";s:9:\"method_id\";s:9:\"flat_rate\";s:11:\"instance_id\";i:1;s:5:\"label\";s:9:\"Flat rate\";s:4:\"cost\";s:5:\"20000\";s:5:\"taxes\";a:0:{}}s:12:\"\0*\0meta_data\";a:1:{s:11:\"Mặt hàng\";s:65:\"Áo Thun Gân Cotton Dáng Ngắn Cổ Tròn Ngắn Tay &times; 4\";}}}}\";s:25:\"previous_shipping_methods\";s:39:\"a:1:{i:0;a:1:{i:0;s:11:\"flat_rate:1\";}}\";s:23:\"chosen_shipping_methods\";s:29:\"a:1:{i:0;s:11:\"flat_rate:1\";}\";s:22:\"shipping_method_counts\";s:14:\"a:1:{i:0;i:1;}\";s:8:\"customer\";s:758:\"a:27:{s:2:\"id\";s:1:\"1\";s:13:\"date_modified\";s:25:\"2021-12-06T16:32:30+00:00\";s:8:\"postcode\";s:0:\"\";s:4:\"city\";s:0:\"\";s:9:\"address_1\";s:0:\"\";s:7:\"address\";s:0:\"\";s:9:\"address_2\";s:0:\"\";s:5:\"state\";s:0:\"\";s:7:\"country\";s:2:\"VN\";s:17:\"shipping_postcode\";s:0:\"\";s:13:\"shipping_city\";s:0:\"\";s:18:\"shipping_address_1\";s:0:\"\";s:16:\"shipping_address\";s:0:\"\";s:18:\"shipping_address_2\";s:0:\"\";s:14:\"shipping_state\";s:0:\"\";s:16:\"shipping_country\";s:2:\"VN\";s:13:\"is_vat_exempt\";s:0:\"\";s:19:\"calculated_shipping\";s:0:\"\";s:10:\"first_name\";s:0:\"\";s:9:\"last_name\";s:0:\"\";s:7:\"company\";s:0:\"\";s:5:\"phone\";s:0:\"\";s:5:\"email\";s:15:\"admin@admin.com\";s:19:\"shipping_first_name\";s:0:\"\";s:18:\"shipping_last_name\";s:0:\"\";s:16:\"shipping_company\";s:0:\"\";s:14:\"shipping_phone\";s:0:\"\";}\";s:10:\"wc_notices\";N;}', 1639284145);
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_woocommerce_shipping_zones`
+-- Table structure for table `wp_woocommerce_shipping_zones`
 --
 
 CREATE TABLE `wp_woocommerce_shipping_zones` (
@@ -1956,7 +2009,7 @@ CREATE TABLE `wp_woocommerce_shipping_zones` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_woocommerce_shipping_zones`
+-- Dumping data for table `wp_woocommerce_shipping_zones`
 --
 
 INSERT INTO `wp_woocommerce_shipping_zones` (`zone_id`, `zone_name`, `zone_order`) VALUES
@@ -1965,7 +2018,7 @@ INSERT INTO `wp_woocommerce_shipping_zones` (`zone_id`, `zone_name`, `zone_order
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_woocommerce_shipping_zone_locations`
+-- Table structure for table `wp_woocommerce_shipping_zone_locations`
 --
 
 CREATE TABLE `wp_woocommerce_shipping_zone_locations` (
@@ -1976,7 +2029,7 @@ CREATE TABLE `wp_woocommerce_shipping_zone_locations` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_woocommerce_shipping_zone_locations`
+-- Dumping data for table `wp_woocommerce_shipping_zone_locations`
 --
 
 INSERT INTO `wp_woocommerce_shipping_zone_locations` (`location_id`, `zone_id`, `location_code`, `location_type`) VALUES
@@ -1985,7 +2038,7 @@ INSERT INTO `wp_woocommerce_shipping_zone_locations` (`location_id`, `zone_id`, 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_woocommerce_shipping_zone_methods`
+-- Table structure for table `wp_woocommerce_shipping_zone_methods`
 --
 
 CREATE TABLE `wp_woocommerce_shipping_zone_methods` (
@@ -1997,7 +2050,7 @@ CREATE TABLE `wp_woocommerce_shipping_zone_methods` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_woocommerce_shipping_zone_methods`
+-- Dumping data for table `wp_woocommerce_shipping_zone_methods`
 --
 
 INSERT INTO `wp_woocommerce_shipping_zone_methods` (`zone_id`, `instance_id`, `method_id`, `method_order`, `is_enabled`) VALUES
@@ -2006,7 +2059,7 @@ INSERT INTO `wp_woocommerce_shipping_zone_methods` (`zone_id`, `instance_id`, `m
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_woocommerce_tax_rates`
+-- Table structure for table `wp_woocommerce_tax_rates`
 --
 
 CREATE TABLE `wp_woocommerce_tax_rates` (
@@ -2025,7 +2078,7 @@ CREATE TABLE `wp_woocommerce_tax_rates` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_woocommerce_tax_rate_locations`
+-- Table structure for table `wp_woocommerce_tax_rate_locations`
 --
 
 CREATE TABLE `wp_woocommerce_tax_rate_locations` (
@@ -2036,11 +2089,11 @@ CREATE TABLE `wp_woocommerce_tax_rate_locations` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Chỉ mục cho các bảng đã đổ
+-- Indexes for dumped tables
 --
 
 --
--- Chỉ mục cho bảng `wp_actionscheduler_actions`
+-- Indexes for table `wp_actionscheduler_actions`
 --
 ALTER TABLE `wp_actionscheduler_actions`
   ADD PRIMARY KEY (`action_id`),
@@ -2054,21 +2107,21 @@ ALTER TABLE `wp_actionscheduler_actions`
   ADD KEY `claim_id_status_scheduled_date_gmt` (`claim_id`,`status`,`scheduled_date_gmt`);
 
 --
--- Chỉ mục cho bảng `wp_actionscheduler_claims`
+-- Indexes for table `wp_actionscheduler_claims`
 --
 ALTER TABLE `wp_actionscheduler_claims`
   ADD PRIMARY KEY (`claim_id`),
   ADD KEY `date_created_gmt` (`date_created_gmt`);
 
 --
--- Chỉ mục cho bảng `wp_actionscheduler_groups`
+-- Indexes for table `wp_actionscheduler_groups`
 --
 ALTER TABLE `wp_actionscheduler_groups`
   ADD PRIMARY KEY (`group_id`),
   ADD KEY `slug` (`slug`(191));
 
 --
--- Chỉ mục cho bảng `wp_actionscheduler_logs`
+-- Indexes for table `wp_actionscheduler_logs`
 --
 ALTER TABLE `wp_actionscheduler_logs`
   ADD PRIMARY KEY (`log_id`),
@@ -2076,7 +2129,7 @@ ALTER TABLE `wp_actionscheduler_logs`
   ADD KEY `log_date_gmt` (`log_date_gmt`);
 
 --
--- Chỉ mục cho bảng `wp_commentmeta`
+-- Indexes for table `wp_commentmeta`
 --
 ALTER TABLE `wp_commentmeta`
   ADD PRIMARY KEY (`meta_id`),
@@ -2084,7 +2137,7 @@ ALTER TABLE `wp_commentmeta`
   ADD KEY `meta_key` (`meta_key`(191));
 
 --
--- Chỉ mục cho bảng `wp_comments`
+-- Indexes for table `wp_comments`
 --
 ALTER TABLE `wp_comments`
   ADD PRIMARY KEY (`comment_ID`),
@@ -2096,14 +2149,14 @@ ALTER TABLE `wp_comments`
   ADD KEY `woo_idx_comment_type` (`comment_type`);
 
 --
--- Chỉ mục cho bảng `wp_links`
+-- Indexes for table `wp_links`
 --
 ALTER TABLE `wp_links`
   ADD PRIMARY KEY (`link_id`),
   ADD KEY `link_visible` (`link_visible`);
 
 --
--- Chỉ mục cho bảng `wp_options`
+-- Indexes for table `wp_options`
 --
 ALTER TABLE `wp_options`
   ADD PRIMARY KEY (`option_id`),
@@ -2111,7 +2164,7 @@ ALTER TABLE `wp_options`
   ADD KEY `autoload` (`autoload`);
 
 --
--- Chỉ mục cho bảng `wp_postmeta`
+-- Indexes for table `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
   ADD PRIMARY KEY (`meta_id`),
@@ -2119,7 +2172,7 @@ ALTER TABLE `wp_postmeta`
   ADD KEY `meta_key` (`meta_key`(191));
 
 --
--- Chỉ mục cho bảng `wp_posts`
+-- Indexes for table `wp_posts`
 --
 ALTER TABLE `wp_posts`
   ADD PRIMARY KEY (`ID`),
@@ -2129,7 +2182,7 @@ ALTER TABLE `wp_posts`
   ADD KEY `post_author` (`post_author`);
 
 --
--- Chỉ mục cho bảng `wp_termmeta`
+-- Indexes for table `wp_termmeta`
 --
 ALTER TABLE `wp_termmeta`
   ADD PRIMARY KEY (`meta_id`),
@@ -2137,7 +2190,7 @@ ALTER TABLE `wp_termmeta`
   ADD KEY `meta_key` (`meta_key`(191));
 
 --
--- Chỉ mục cho bảng `wp_terms`
+-- Indexes for table `wp_terms`
 --
 ALTER TABLE `wp_terms`
   ADD PRIMARY KEY (`term_id`),
@@ -2145,14 +2198,14 @@ ALTER TABLE `wp_terms`
   ADD KEY `name` (`name`(191));
 
 --
--- Chỉ mục cho bảng `wp_term_relationships`
+-- Indexes for table `wp_term_relationships`
 --
 ALTER TABLE `wp_term_relationships`
   ADD PRIMARY KEY (`object_id`,`term_taxonomy_id`),
   ADD KEY `term_taxonomy_id` (`term_taxonomy_id`);
 
 --
--- Chỉ mục cho bảng `wp_term_taxonomy`
+-- Indexes for table `wp_term_taxonomy`
 --
 ALTER TABLE `wp_term_taxonomy`
   ADD PRIMARY KEY (`term_taxonomy_id`),
@@ -2160,7 +2213,7 @@ ALTER TABLE `wp_term_taxonomy`
   ADD KEY `taxonomy` (`taxonomy`);
 
 --
--- Chỉ mục cho bảng `wp_usermeta`
+-- Indexes for table `wp_usermeta`
 --
 ALTER TABLE `wp_usermeta`
   ADD PRIMARY KEY (`umeta_id`),
@@ -2168,7 +2221,7 @@ ALTER TABLE `wp_usermeta`
   ADD KEY `meta_key` (`meta_key`(191));
 
 --
--- Chỉ mục cho bảng `wp_users`
+-- Indexes for table `wp_users`
 --
 ALTER TABLE `wp_users`
   ADD PRIMARY KEY (`ID`),
@@ -2177,26 +2230,26 @@ ALTER TABLE `wp_users`
   ADD KEY `user_email` (`user_email`);
 
 --
--- Chỉ mục cho bảng `wp_wc_admin_notes`
+-- Indexes for table `wp_wc_admin_notes`
 --
 ALTER TABLE `wp_wc_admin_notes`
   ADD PRIMARY KEY (`note_id`);
 
 --
--- Chỉ mục cho bảng `wp_wc_admin_note_actions`
+-- Indexes for table `wp_wc_admin_note_actions`
 --
 ALTER TABLE `wp_wc_admin_note_actions`
   ADD PRIMARY KEY (`action_id`),
   ADD KEY `note_id` (`note_id`);
 
 --
--- Chỉ mục cho bảng `wp_wc_category_lookup`
+-- Indexes for table `wp_wc_category_lookup`
 --
 ALTER TABLE `wp_wc_category_lookup`
   ADD PRIMARY KEY (`category_tree_id`,`category_id`);
 
 --
--- Chỉ mục cho bảng `wp_wc_customer_lookup`
+-- Indexes for table `wp_wc_customer_lookup`
 --
 ALTER TABLE `wp_wc_customer_lookup`
   ADD PRIMARY KEY (`customer_id`),
@@ -2204,7 +2257,7 @@ ALTER TABLE `wp_wc_customer_lookup`
   ADD KEY `email` (`email`);
 
 --
--- Chỉ mục cho bảng `wp_wc_download_log`
+-- Indexes for table `wp_wc_download_log`
 --
 ALTER TABLE `wp_wc_download_log`
   ADD PRIMARY KEY (`download_log_id`),
@@ -2212,7 +2265,7 @@ ALTER TABLE `wp_wc_download_log`
   ADD KEY `timestamp` (`timestamp`);
 
 --
--- Chỉ mục cho bảng `wp_wc_order_coupon_lookup`
+-- Indexes for table `wp_wc_order_coupon_lookup`
 --
 ALTER TABLE `wp_wc_order_coupon_lookup`
   ADD PRIMARY KEY (`order_id`,`coupon_id`),
@@ -2220,7 +2273,7 @@ ALTER TABLE `wp_wc_order_coupon_lookup`
   ADD KEY `date_created` (`date_created`);
 
 --
--- Chỉ mục cho bảng `wp_wc_order_product_lookup`
+-- Indexes for table `wp_wc_order_product_lookup`
 --
 ALTER TABLE `wp_wc_order_product_lookup`
   ADD PRIMARY KEY (`order_item_id`),
@@ -2230,7 +2283,7 @@ ALTER TABLE `wp_wc_order_product_lookup`
   ADD KEY `date_created` (`date_created`);
 
 --
--- Chỉ mục cho bảng `wp_wc_order_stats`
+-- Indexes for table `wp_wc_order_stats`
 --
 ALTER TABLE `wp_wc_order_stats`
   ADD PRIMARY KEY (`order_id`),
@@ -2239,7 +2292,7 @@ ALTER TABLE `wp_wc_order_stats`
   ADD KEY `status` (`status`(191));
 
 --
--- Chỉ mục cho bảng `wp_wc_order_tax_lookup`
+-- Indexes for table `wp_wc_order_tax_lookup`
 --
 ALTER TABLE `wp_wc_order_tax_lookup`
   ADD PRIMARY KEY (`order_id`,`tax_rate_id`),
@@ -2247,7 +2300,7 @@ ALTER TABLE `wp_wc_order_tax_lookup`
   ADD KEY `date_created` (`date_created`);
 
 --
--- Chỉ mục cho bảng `wp_wc_product_meta_lookup`
+-- Indexes for table `wp_wc_product_meta_lookup`
 --
 ALTER TABLE `wp_wc_product_meta_lookup`
   ADD PRIMARY KEY (`product_id`),
@@ -2259,27 +2312,27 @@ ALTER TABLE `wp_wc_product_meta_lookup`
   ADD KEY `min_max_price` (`min_price`,`max_price`);
 
 --
--- Chỉ mục cho bảng `wp_wc_reserved_stock`
+-- Indexes for table `wp_wc_reserved_stock`
 --
 ALTER TABLE `wp_wc_reserved_stock`
   ADD PRIMARY KEY (`order_id`,`product_id`);
 
 --
--- Chỉ mục cho bảng `wp_wc_tax_rate_classes`
+-- Indexes for table `wp_wc_tax_rate_classes`
 --
 ALTER TABLE `wp_wc_tax_rate_classes`
   ADD PRIMARY KEY (`tax_rate_class_id`),
   ADD UNIQUE KEY `slug` (`slug`(191));
 
 --
--- Chỉ mục cho bảng `wp_wc_webhooks`
+-- Indexes for table `wp_wc_webhooks`
 --
 ALTER TABLE `wp_wc_webhooks`
   ADD PRIMARY KEY (`webhook_id`),
   ADD KEY `user_id` (`user_id`);
 
 --
--- Chỉ mục cho bảng `wp_woocommerce_api_keys`
+-- Indexes for table `wp_woocommerce_api_keys`
 --
 ALTER TABLE `wp_woocommerce_api_keys`
   ADD PRIMARY KEY (`key_id`),
@@ -2287,14 +2340,14 @@ ALTER TABLE `wp_woocommerce_api_keys`
   ADD KEY `consumer_secret` (`consumer_secret`);
 
 --
--- Chỉ mục cho bảng `wp_woocommerce_attribute_taxonomies`
+-- Indexes for table `wp_woocommerce_attribute_taxonomies`
 --
 ALTER TABLE `wp_woocommerce_attribute_taxonomies`
   ADD PRIMARY KEY (`attribute_id`),
   ADD KEY `attribute_name` (`attribute_name`(20));
 
 --
--- Chỉ mục cho bảng `wp_woocommerce_downloadable_product_permissions`
+-- Indexes for table `wp_woocommerce_downloadable_product_permissions`
 --
 ALTER TABLE `wp_woocommerce_downloadable_product_permissions`
   ADD PRIMARY KEY (`permission_id`),
@@ -2304,14 +2357,14 @@ ALTER TABLE `wp_woocommerce_downloadable_product_permissions`
   ADD KEY `user_order_remaining_expires` (`user_id`,`order_id`,`downloads_remaining`,`access_expires`);
 
 --
--- Chỉ mục cho bảng `wp_woocommerce_log`
+-- Indexes for table `wp_woocommerce_log`
 --
 ALTER TABLE `wp_woocommerce_log`
   ADD PRIMARY KEY (`log_id`),
   ADD KEY `level` (`level`);
 
 --
--- Chỉ mục cho bảng `wp_woocommerce_order_itemmeta`
+-- Indexes for table `wp_woocommerce_order_itemmeta`
 --
 ALTER TABLE `wp_woocommerce_order_itemmeta`
   ADD PRIMARY KEY (`meta_id`),
@@ -2319,14 +2372,14 @@ ALTER TABLE `wp_woocommerce_order_itemmeta`
   ADD KEY `meta_key` (`meta_key`(32));
 
 --
--- Chỉ mục cho bảng `wp_woocommerce_order_items`
+-- Indexes for table `wp_woocommerce_order_items`
 --
 ALTER TABLE `wp_woocommerce_order_items`
   ADD PRIMARY KEY (`order_item_id`),
   ADD KEY `order_id` (`order_id`);
 
 --
--- Chỉ mục cho bảng `wp_woocommerce_payment_tokenmeta`
+-- Indexes for table `wp_woocommerce_payment_tokenmeta`
 --
 ALTER TABLE `wp_woocommerce_payment_tokenmeta`
   ADD PRIMARY KEY (`meta_id`),
@@ -2334,27 +2387,27 @@ ALTER TABLE `wp_woocommerce_payment_tokenmeta`
   ADD KEY `meta_key` (`meta_key`(32));
 
 --
--- Chỉ mục cho bảng `wp_woocommerce_payment_tokens`
+-- Indexes for table `wp_woocommerce_payment_tokens`
 --
 ALTER TABLE `wp_woocommerce_payment_tokens`
   ADD PRIMARY KEY (`token_id`),
   ADD KEY `user_id` (`user_id`);
 
 --
--- Chỉ mục cho bảng `wp_woocommerce_sessions`
+-- Indexes for table `wp_woocommerce_sessions`
 --
 ALTER TABLE `wp_woocommerce_sessions`
   ADD PRIMARY KEY (`session_id`),
   ADD UNIQUE KEY `session_key` (`session_key`);
 
 --
--- Chỉ mục cho bảng `wp_woocommerce_shipping_zones`
+-- Indexes for table `wp_woocommerce_shipping_zones`
 --
 ALTER TABLE `wp_woocommerce_shipping_zones`
   ADD PRIMARY KEY (`zone_id`);
 
 --
--- Chỉ mục cho bảng `wp_woocommerce_shipping_zone_locations`
+-- Indexes for table `wp_woocommerce_shipping_zone_locations`
 --
 ALTER TABLE `wp_woocommerce_shipping_zone_locations`
   ADD PRIMARY KEY (`location_id`),
@@ -2362,13 +2415,13 @@ ALTER TABLE `wp_woocommerce_shipping_zone_locations`
   ADD KEY `location_type_code` (`location_type`(10),`location_code`(20));
 
 --
--- Chỉ mục cho bảng `wp_woocommerce_shipping_zone_methods`
+-- Indexes for table `wp_woocommerce_shipping_zone_methods`
 --
 ALTER TABLE `wp_woocommerce_shipping_zone_methods`
   ADD PRIMARY KEY (`instance_id`);
 
 --
--- Chỉ mục cho bảng `wp_woocommerce_tax_rates`
+-- Indexes for table `wp_woocommerce_tax_rates`
 --
 ALTER TABLE `wp_woocommerce_tax_rates`
   ADD PRIMARY KEY (`tax_rate_id`),
@@ -2378,7 +2431,7 @@ ALTER TABLE `wp_woocommerce_tax_rates`
   ADD KEY `tax_rate_priority` (`tax_rate_priority`);
 
 --
--- Chỉ mục cho bảng `wp_woocommerce_tax_rate_locations`
+-- Indexes for table `wp_woocommerce_tax_rate_locations`
 --
 ALTER TABLE `wp_woocommerce_tax_rate_locations`
   ADD PRIMARY KEY (`location_id`),
@@ -2386,225 +2439,225 @@ ALTER TABLE `wp_woocommerce_tax_rate_locations`
   ADD KEY `location_type_code` (`location_type`(10),`location_code`(20));
 
 --
--- AUTO_INCREMENT cho các bảng đã đổ
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT cho bảng `wp_actionscheduler_actions`
+-- AUTO_INCREMENT for table `wp_actionscheduler_actions`
 --
 ALTER TABLE `wp_actionscheduler_actions`
-  MODIFY `action_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=43;
+  MODIFY `action_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=50;
 
 --
--- AUTO_INCREMENT cho bảng `wp_actionscheduler_claims`
+-- AUTO_INCREMENT for table `wp_actionscheduler_claims`
 --
 ALTER TABLE `wp_actionscheduler_claims`
-  MODIFY `claim_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=242;
+  MODIFY `claim_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=261;
 
 --
--- AUTO_INCREMENT cho bảng `wp_actionscheduler_groups`
+-- AUTO_INCREMENT for table `wp_actionscheduler_groups`
 --
 ALTER TABLE `wp_actionscheduler_groups`
   MODIFY `group_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
--- AUTO_INCREMENT cho bảng `wp_actionscheduler_logs`
+-- AUTO_INCREMENT for table `wp_actionscheduler_logs`
 --
 ALTER TABLE `wp_actionscheduler_logs`
-  MODIFY `log_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=109;
+  MODIFY `log_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=130;
 
 --
--- AUTO_INCREMENT cho bảng `wp_commentmeta`
+-- AUTO_INCREMENT for table `wp_commentmeta`
 --
 ALTER TABLE `wp_commentmeta`
   MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `wp_comments`
+-- AUTO_INCREMENT for table `wp_comments`
 --
 ALTER TABLE `wp_comments`
   MODIFY `comment_ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT cho bảng `wp_links`
+-- AUTO_INCREMENT for table `wp_links`
 --
 ALTER TABLE `wp_links`
   MODIFY `link_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `wp_options`
+-- AUTO_INCREMENT for table `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=897;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=955;
 
 --
--- AUTO_INCREMENT cho bảng `wp_postmeta`
+-- AUTO_INCREMENT for table `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=694;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=723;
 
 --
--- AUTO_INCREMENT cho bảng `wp_posts`
+-- AUTO_INCREMENT for table `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=120;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=124;
 
 --
--- AUTO_INCREMENT cho bảng `wp_termmeta`
+-- AUTO_INCREMENT for table `wp_termmeta`
 --
 ALTER TABLE `wp_termmeta`
   MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
--- AUTO_INCREMENT cho bảng `wp_terms`
+-- AUTO_INCREMENT for table `wp_terms`
 --
 ALTER TABLE `wp_terms`
   MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
--- AUTO_INCREMENT cho bảng `wp_term_taxonomy`
+-- AUTO_INCREMENT for table `wp_term_taxonomy`
 --
 ALTER TABLE `wp_term_taxonomy`
   MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
--- AUTO_INCREMENT cho bảng `wp_usermeta`
+-- AUTO_INCREMENT for table `wp_usermeta`
 --
 ALTER TABLE `wp_usermeta`
-  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
+  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
 
 --
--- AUTO_INCREMENT cho bảng `wp_users`
+-- AUTO_INCREMENT for table `wp_users`
 --
 ALTER TABLE `wp_users`
   MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT cho bảng `wp_wc_admin_notes`
+-- AUTO_INCREMENT for table `wp_wc_admin_notes`
 --
 ALTER TABLE `wp_wc_admin_notes`
   MODIFY `note_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
 
 --
--- AUTO_INCREMENT cho bảng `wp_wc_admin_note_actions`
+-- AUTO_INCREMENT for table `wp_wc_admin_note_actions`
 --
 ALTER TABLE `wp_wc_admin_note_actions`
   MODIFY `action_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=244;
 
 --
--- AUTO_INCREMENT cho bảng `wp_wc_customer_lookup`
+-- AUTO_INCREMENT for table `wp_wc_customer_lookup`
 --
 ALTER TABLE `wp_wc_customer_lookup`
   MODIFY `customer_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `wp_wc_download_log`
+-- AUTO_INCREMENT for table `wp_wc_download_log`
 --
 ALTER TABLE `wp_wc_download_log`
   MODIFY `download_log_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `wp_wc_tax_rate_classes`
+-- AUTO_INCREMENT for table `wp_wc_tax_rate_classes`
 --
 ALTER TABLE `wp_wc_tax_rate_classes`
   MODIFY `tax_rate_class_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
--- AUTO_INCREMENT cho bảng `wp_wc_webhooks`
+-- AUTO_INCREMENT for table `wp_wc_webhooks`
 --
 ALTER TABLE `wp_wc_webhooks`
   MODIFY `webhook_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `wp_woocommerce_api_keys`
+-- AUTO_INCREMENT for table `wp_woocommerce_api_keys`
 --
 ALTER TABLE `wp_woocommerce_api_keys`
   MODIFY `key_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `wp_woocommerce_attribute_taxonomies`
+-- AUTO_INCREMENT for table `wp_woocommerce_attribute_taxonomies`
 --
 ALTER TABLE `wp_woocommerce_attribute_taxonomies`
   MODIFY `attribute_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `wp_woocommerce_downloadable_product_permissions`
+-- AUTO_INCREMENT for table `wp_woocommerce_downloadable_product_permissions`
 --
 ALTER TABLE `wp_woocommerce_downloadable_product_permissions`
   MODIFY `permission_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `wp_woocommerce_log`
+-- AUTO_INCREMENT for table `wp_woocommerce_log`
 --
 ALTER TABLE `wp_woocommerce_log`
   MODIFY `log_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `wp_woocommerce_order_itemmeta`
+-- AUTO_INCREMENT for table `wp_woocommerce_order_itemmeta`
 --
 ALTER TABLE `wp_woocommerce_order_itemmeta`
   MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `wp_woocommerce_order_items`
+-- AUTO_INCREMENT for table `wp_woocommerce_order_items`
 --
 ALTER TABLE `wp_woocommerce_order_items`
   MODIFY `order_item_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `wp_woocommerce_payment_tokenmeta`
+-- AUTO_INCREMENT for table `wp_woocommerce_payment_tokenmeta`
 --
 ALTER TABLE `wp_woocommerce_payment_tokenmeta`
   MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `wp_woocommerce_payment_tokens`
+-- AUTO_INCREMENT for table `wp_woocommerce_payment_tokens`
 --
 ALTER TABLE `wp_woocommerce_payment_tokens`
   MODIFY `token_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `wp_woocommerce_sessions`
+-- AUTO_INCREMENT for table `wp_woocommerce_sessions`
 --
 ALTER TABLE `wp_woocommerce_sessions`
-  MODIFY `session_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
+  MODIFY `session_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 
 --
--- AUTO_INCREMENT cho bảng `wp_woocommerce_shipping_zones`
+-- AUTO_INCREMENT for table `wp_woocommerce_shipping_zones`
 --
 ALTER TABLE `wp_woocommerce_shipping_zones`
   MODIFY `zone_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT cho bảng `wp_woocommerce_shipping_zone_locations`
+-- AUTO_INCREMENT for table `wp_woocommerce_shipping_zone_locations`
 --
 ALTER TABLE `wp_woocommerce_shipping_zone_locations`
   MODIFY `location_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT cho bảng `wp_woocommerce_shipping_zone_methods`
+-- AUTO_INCREMENT for table `wp_woocommerce_shipping_zone_methods`
 --
 ALTER TABLE `wp_woocommerce_shipping_zone_methods`
   MODIFY `instance_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT cho bảng `wp_woocommerce_tax_rates`
+-- AUTO_INCREMENT for table `wp_woocommerce_tax_rates`
 --
 ALTER TABLE `wp_woocommerce_tax_rates`
   MODIFY `tax_rate_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `wp_woocommerce_tax_rate_locations`
+-- AUTO_INCREMENT for table `wp_woocommerce_tax_rate_locations`
 --
 ALTER TABLE `wp_woocommerce_tax_rate_locations`
   MODIFY `location_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- Các ràng buộc cho các bảng đã đổ
+-- Constraints for dumped tables
 --
 
 --
--- Các ràng buộc cho bảng `wp_wc_download_log`
+-- Constraints for table `wp_wc_download_log`
 --
 ALTER TABLE `wp_wc_download_log`
   ADD CONSTRAINT `fk_wp_wc_download_log_permission_id` FOREIGN KEY (`permission_id`) REFERENCES `wp_woocommerce_downloadable_product_permissions` (`permission_id`) ON DELETE CASCADE;
